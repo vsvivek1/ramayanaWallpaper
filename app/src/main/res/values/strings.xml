@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Ramayanam Wallpapers</string>
+    <string name="today">Today\'s incident</string>
+    <string name="set_now">Set as wallpaper</string>
+    <string name="previous">‹ Previous</string>
+    <string name="next">Next ›</string>
+    <string name="back_to_today">Back to today</string>
+    <string name="browse_all">All incidents</string>
+    <string name="settings">Settings</string>
+    <string name="daily_change">Change wallpaper every day</string>
+    <string name="show_text">Show the story on the wallpaper</string>
+    <string name="apply_to">Apply to</string>
+    <string name="target_both">Home and lock screen</string>
+    <string name="target_home">Home screen only</string>
+    <string name="target_lock">Lock screen only</string>
+    <string name="restart">Start again from the first incident</string>
+    <string name="about">The story moves forward one incident a day, kanda by kanda, from Valmiki\'s first verse to Sita\'s return to the Earth, then starts again. Paintings are by Raja Ravi Varma (1848–1906) and the Ravi Varma Press, now in the public domain, loaded from Wikimedia Commons. Incidents without a painting use the app\'s own artwork.</string>
+</resources>

@@ -1,0 +1,262 @@
+{
+  "series": "Ramayanam",
+  "imageNote": "Images load on the phone from Wikimedia Commons (Special:FilePath). Raja Ravi Varma died in 1906, so his paintings and the Ravi Varma Press prints are public domain. Each entry links to its Commons file page for full source and licence details. Entries with no image use the app's built-in artwork.",
+  "incidents": [
+    {
+      "id": 1,
+      "kanda": "Bala Kanda",
+      "title": "Valmiki and the Krauncha Birds",
+      "story": "By the Tamasa river, the sage Valmiki saw a hunter shoot one of a pair of mating krauncha birds. His grief burst out as a perfect verse, the first shloka. Brahma then asked him to use this new metre to tell the story of Rama.",
+      "image": null,
+      "artist": null
+    },
+    {
+      "id": 2,
+      "kanda": "Bala Kanda",
+      "title": "The Birth of Rama",
+      "story": "Childless King Dasharatha of Ayodhya performed the Putrakameshti sacrifice. From the fire rose a divine being carrying payasam, which the king shared among his three queens. Kausalya bore Rama, Kaikeyi bore Bharata, and Sumitra bore the twins Lakshmana and Shatrughna.",
+      "image": null,
+      "artist": null
+    },
+    {
+      "id": 3,
+      "kanda": "Bala Kanda",
+      "title": "Vishwamitra Asks for Rama",
+      "story": "The sage Vishwamitra came to Ayodhya and asked for young Rama to protect his sacrifice from demons. Dasharatha was afraid to let his son go, but Vasishtha persuaded him. Rama and Lakshmana followed the sage into the forest, where he taught them the secret mantras Bala and Atibala.",
+      "image": "Varma_-_Vishvamitra_Meditation.jpg",
+      "artist": "Raja Ravi Varma"
+    },
+    {
+      "id": 4,
+      "kanda": "Bala Kanda",
+      "title": "Ahalya is Freed",
+      "story": "On the way to Mithila they reached the empty hermitage of Gautama, whose wife Ahalya had lived there unseen for ages under her husband's curse. When Rama entered, the curse ended and Ahalya was restored. Gautama returned and the couple were reunited.",
+      "image": "Ahalya_rama.jpg",
+      "artist": null
+    },
+    {
+      "id": 5,
+      "kanda": "Bala Kanda",
+      "title": "Rama Breaks Shiva's Bow",
+      "story": "King Janaka had promised his daughter Sita to whoever could string the mighty bow of Shiva. Kings had failed even to lift it. Rama lifted it with ease, and as he drew the string the bow snapped with a sound like thunder.",
+      "image": "Ravi_Varma-Rama-breaking-bow.jpg",
+      "artist": "Raja Ravi Varma"
+    },
+    {
+      "id": 6,
+      "kanda": "Bala Kanda",
+      "title": "The Wedding of Rama and Sita",
+      "story": "Dasharatha came to Mithila with his court, and the four brothers married four princesses: Rama married Sita, Lakshmana married Urmila, Bharata married Mandavi and Shatrughna married Shrutakirti. On the way home, Rama faced the angry Parashurama and humbled him by stringing Vishnu's bow.",
+      "image": "Rama_breaking_the_bow.jpg",
+      "artist": null
+    },
+    {
+      "id": 7,
+      "kanda": "Ayodhya Kanda",
+      "title": "Kaikeyi's Two Boons",
+      "story": "Ayodhya prepared to crown Rama. But the maid Manthara poisoned Queen Kaikeyi's mind, and Kaikeyi claimed the two boons Dasharatha once owed her: Bharata must be crowned, and Rama must live in the forest for fourteen years. Bound by his word, the king collapsed in grief.",
+      "image": null,
+      "artist": null
+    },
+    {
+      "id": 8,
+      "kanda": "Ayodhya Kanda",
+      "title": "Rama Goes into Exile",
+      "story": "Rama accepted the exile calmly, to keep his father's word. Sita refused to stay behind, and Lakshmana insisted on serving them. The three left Ayodhya in bark garments as the whole city wept, and the boatman Guha ferried them across the Ganga.",
+      "image": "Rama_in_forest.jpg",
+      "artist": null
+    },
+    {
+      "id": 9,
+      "kanda": "Ayodhya Kanda",
+      "title": "Dasharatha and Shravana's Curse",
+      "story": "Grieving for Rama, Dasharatha remembered a sin of his youth. Hunting by sound at night, he had shot Shravana Kumara, who was fetching water for his blind parents. The dying father cursed him to die of grief for a son, and now the curse came true.",
+      "image": "Dashrath_Raja_and_Shravan.jpg",
+      "artist": null
+    },
+    {
+      "id": 10,
+      "kanda": "Ayodhya Kanda",
+      "title": "Bharata Carries Rama's Sandals",
+      "story": "Bharata returned, refused the throne, and went to Chitrakuta to beg Rama to come back. Rama would not break his father's word. So Bharata took Rama's sandals, placed them on the throne, and ruled from the village of Nandigrama as Rama's servant.",
+      "image": "Raja_Ravi_Varma,_Bharat_Milap_(Lithographic_Print).jpg",
+      "artist": "Raja Ravi Varma"
+    },
+    {
+      "id": 11,
+      "kanda": "Aranya Kanda",
+      "title": "Shurpanakha at Panchavati",
+      "story": "At Panchavati, Ravana's sister Shurpanakha desired Rama and then Lakshmana. Rejected and mocked, she attacked Sita, and Lakshmana cut off her nose and ears. She fled to her brothers Khara and Dushana, and then to Ravana, setting the war in motion.",
+      "image": null,
+      "artist": null
+    },
+    {
+      "id": 12,
+      "kanda": "Aranya Kanda",
+      "title": "The Golden Deer",
+      "story": "Ravana sent the demon Maricha disguised as a dazzling golden deer. Sita longed for it, and Rama chased it deep into the forest. Struck by Rama's arrow, Maricha cried out in Rama's voice, and Sita sent a reluctant Lakshmana to help.",
+      "image": "Sita_longs_for_the_golden_deer,_in_a_print_from_the_Ravi_Varma_Press,_c.1910's.jpg",
+      "artist": "Ravi Varma Press"
+    },
+    {
+      "id": 13,
+      "kanda": "Aranya Kanda",
+      "title": "Ravana Carries Off Sita",
+      "story": "Alone in the hut, Sita welcomed a wandering holy man, who was Ravana in disguise. He revealed himself, seized her, and flew towards Lanka in his chariot. The old vulture king Jatayu flew up to stop him.",
+      "image": "Ravi_Varma-Ravana_Sita_Jathayu.jpg",
+      "artist": "Raja Ravi Varma"
+    },
+    {
+      "id": 14,
+      "kanda": "Aranya Kanda",
+      "title": "The Fall of Jatayu",
+      "story": "Jatayu fought bravely and shattered Ravana's chariot, but Ravana cut off his wings. Rama and Lakshmana found the dying bird, who told them Sita had been taken south. Rama performed Jatayu's funeral rites as he would for his own father.",
+      "image": "Raja_Ravi_Varma,_Jatayu_vadha,_1906.jpg",
+      "artist": "Raja Ravi Varma"
+    },
+    {
+      "id": 15,
+      "kanda": "Aranya Kanda",
+      "title": "Shabari's Devotion",
+      "story": "The old ascetic Shabari had waited all her life for Rama's visit. She welcomed the brothers with berries and worship, and in later tellings she tasted each berry to give Rama only the sweet ones. She told them to seek Sugriva at Lake Pampa, then left her body in peace.",
+      "image": null,
+      "artist": null
+    },
+    {
+      "id": 16,
+      "kanda": "Kishkindha Kanda",
+      "title": "Rama Meets Hanuman",
+      "story": "Near Rishyamuka hill, Sugriva sent Hanuman, disguised as a brahmin, to find out who the two archers were. Rama was struck by his perfect speech. Hanuman revealed himself and carried both brothers on his shoulders to Sugriva, beginning a lifelong devotion.",
+      "image": null,
+      "artist": null
+    },
+    {
+      "id": 17,
+      "kanda": "Kishkindha Kanda",
+      "title": "Vali and Sugriva",
+      "story": "Rama and Sugriva swore friendship before a fire. Sugriva had been driven out by his mighty brother Vali, who also took his wife. In their second duel, Rama shot Vali from behind a tree, and Sugriva became king of Kishkindha.",
+      "image": null,
+      "artist": null
+    },
+    {
+      "id": 18,
+      "kanda": "Kishkindha Kanda",
+      "title": "Hanuman Leaps the Ocean",
+      "story": "The search parties reached the southern sea and learned from the vulture Sampati that Sita was in Lanka. Jambavan reminded Hanuman of his forgotten powers. Hanuman grew to a giant size and leapt across the ocean from Mount Mahendra.",
+      "image": null,
+      "artist": null
+    },
+    {
+      "id": 19,
+      "kanda": "Sundara Kanda",
+      "title": "Hanuman Finds Sita",
+      "story": "Hanuman searched Lanka by night and found Sita in the Ashoka grove, surrounded by demon guards and refusing Ravana. Hidden in a tree, he sang Rama's story softly, then came down and gave her Rama's ring. She gave him her hair jewel to take back as proof.",
+      "image": "Hanuman_finds_Sita_in_the_ashoka_grove,_and_shows_her_Rama's_ring.jpg",
+      "artist": "Ravi Varma Press"
+    },
+    {
+      "id": 20,
+      "kanda": "Sundara Kanda",
+      "title": "Lanka Burns",
+      "story": "Hanuman wrecked the Ashoka grove and let himself be captured by Indrajit to meet Ravana. When the demons set his tail on fire, he leapt from roof to roof and set Lanka ablaze. Then he cooled his tail in the sea and flew home with the news.",
+      "image": null,
+      "artist": null
+    },
+    {
+      "id": 21,
+      "kanda": "Yuddha Kanda",
+      "title": "Vibhishana Seeks Refuge",
+      "story": "Ravana's brother Vibhishana urged him to return Sita and was kicked out of court for it. He crossed the sea to Rama's camp. Though the monkeys doubted him, Rama said he would protect anyone who comes for refuge, and crowned Vibhishana future king of Lanka.",
+      "image": null,
+      "artist": null
+    },
+    {
+      "id": 22,
+      "kanda": "Yuddha Kanda",
+      "title": "Rama and the Ocean God",
+      "story": "Rama prayed to the ocean for three days to let his army pass, but there was no answer. Angry, he aimed a divine arrow to dry up the sea. The ocean god Varuna rose with folded hands and told him the monkey Nala could build a bridge that the waters would hold up.",
+      "image": "Rama-Varuna.jpg",
+      "artist": "Raja Ravi Varma"
+    },
+    {
+      "id": 23,
+      "kanda": "Yuddha Kanda",
+      "title": "Building the Setu",
+      "story": "Led by Nala, the monkeys threw trees and rocks into the sea, and the stones floated. In five days a bridge stretched a hundred yojanas to Lanka. In later tellings even a little squirrel helped, and Rama stroked its back, leaving three stripes.",
+      "image": null,
+      "artist": null
+    },
+    {
+      "id": 24,
+      "kanda": "Yuddha Kanda",
+      "title": "Kumbhakarna Awakens",
+      "story": "As his generals fell, Ravana had his giant brother Kumbhakarna woken from his months-long sleep with drums, elephants and mountains of food. Kumbhakarna told Ravana he was wrong, but went to fight out of loyalty. He crushed thousands of monkeys before Rama's arrows brought him down.",
+      "image": "Kumbhakarna,_the_giant_brother_of_Ravana.jpg",
+      "artist": null
+    },
+    {
+      "id": 25,
+      "kanda": "Yuddha Kanda",
+      "title": "Indrajit's Serpent Arrows",
+      "story": "Ravana's son Indrajit fought invisibly from the clouds and bound Rama and Lakshmana with arrows that turned into serpents. The brothers lay as if dead. Then Garuda, the king of birds and enemy of snakes, swooped down and the serpents fled.",
+      "image": "Ravana's_son_Indrajit_is_attacking_Rama_and_Lakshmana_with_arrows_that_transform_into_snakes.jpg",
+      "artist": null
+    },
+    {
+      "id": 26,
+      "kanda": "Yuddha Kanda",
+      "title": "Hanuman Brings the Mountain",
+      "story": "Lakshmana was struck down and only herbs from a Himalayan peak could save him. Hanuman flew north but could not tell which herb was which. So he lifted the whole mountain and carried it back to Lanka before dawn, and Lakshmana revived.",
+      "image": "Hanuman_fetches_the_herb-bearing_mountain,_in_a_print_from_the_Ravi_Varma_Press,_1910's.jpg",
+      "artist": "Ravi Varma Press"
+    },
+    {
+      "id": 27,
+      "kanda": "Yuddha Kanda",
+      "title": "Hanuman and Ahiravana",
+      "story": "In a story from later tradition, the sorcerer Ahiravana carried Rama and Lakshmana to the underworld to sacrifice them. Hanuman followed, defeated the guard Makardhwaja, and killed Ahiravana by blowing out five lamps at once. He returned with the brothers on his shoulders.",
+      "image": "Ahimahi_Vadh,_Ravi_Varma_Press.jpg",
+      "artist": "Ravi Varma Press"
+    },
+    {
+      "id": 28,
+      "kanda": "Yuddha Kanda",
+      "title": "The Fall of Ravana",
+      "story": "Indra sent his chariot and charioteer Matali to help Rama. Every head Rama cut from Ravana grew back. On Matali's advice, Rama used the Brahmastra, which pierced Ravana's heart. Rama then had Ravana's funeral rites performed with honour.",
+      "image": null,
+      "artist": null
+    },
+    {
+      "id": 29,
+      "kanda": "Yuddha Kanda",
+      "title": "Return to Ayodhya",
+      "story": "After Sita proved her purity through the fire, the companions flew home in the Pushpaka chariot. Bharata came out with Rama's sandals and the whole city to welcome them. Ayodhya was lit with lamps, a memory still celebrated as Deepavali.",
+      "image": "Bharata_welcoming_Rama,_Sita,_Lakshmana_and_Hanuman_to_Ayodhya_by_Raja_Ravi_Varma.jpg",
+      "artist": "Raja Ravi Varma"
+    },
+    {
+      "id": 30,
+      "kanda": "Yuddha Kanda",
+      "title": "Rama's Coronation",
+      "story": "Vasishtha crowned Rama king of Ayodhya with Sita beside him, Lakshmana and Bharata at his sides and Hanuman at his feet. Rama gave Sita a pearl necklace and she gave it to Hanuman. His reign, Rama Rajya, became a byword for just and happy rule.",
+      "image": "Ramapanchayan,_Ravi_Varma_Press.jpg",
+      "artist": "Ravi Varma Press"
+    },
+    {
+      "id": 31,
+      "kanda": "Uttara Kanda",
+      "title": "Lava and Kusha",
+      "story": "Sita, sent away by Rama because of gossip in the city, gave birth to twins in Valmiki's hermitage. The sage taught Lava and Kusha the Ramayana. They sang it in Rama's own court, and they stopped his sacrificial horse, holding off his army.",
+      "image": null,
+      "artist": null
+    },
+    {
+      "id": 32,
+      "kanda": "Uttara Kanda",
+      "title": "Sita Returns to the Earth",
+      "story": "Rama recognised his sons and asked Sita to prove her purity once more before the assembly. Sita called on her mother, the Earth, to take her if she had been true. The ground opened, the goddess Bhumi rose on a throne and took Sita into her arms.",
+      "image": "Sita_Bhum_Pravesh.jpg",
+      "artist": null
+    }
+  ]
+}

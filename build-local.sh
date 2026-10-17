@@ -1,0 +1,64 @@
+#!/usr/bin/env bash
+# Builds the APK without Gradle, using only the Android SDK build tools, a JDK and the
+# Kotlin compiler jars. This is how the APK was built in an environment with no access
+# to Google's Maven repository. In Android Studio, just use Gradle instead.
+#
+# Needs: ANDROID_HOME (with platforms/android-35 and build-tools/37.0.0),
+#        KOTLIN_LIB (folder holding kotlin-compiler-embeddable and its dependency jars).
+set -euo pipefail
+cd "$(dirname "$0")"
+
+SDK="${ANDROID_HOME:?set ANDROID_HOME}"
+BT="$SDK/build-tools/${BUILD_TOOLS:-37.0.0}"
+JAR="$SDK/platforms/android-35/android.jar"
+KLIB="${KOTLIN_LIB:?set KOTLIN_LIB}"
+STDLIB=$(ls "$KLIB"/kotlin-stdlib-2*.jar | head -1)
+OUT=build-local
+VERSION_CODE=1
+VERSION_NAME=1.0
+
+rm -rf "$OUT"; mkdir -p "$OUT"/{gen,classes,dex}
+
+echo "1/6 Compiling resources"
+"$BT/aapt2" compile --dir app/src/main/res -o "$OUT/res.zip"
+
+echo "2/6 Linking resources and manifest"
+# Gradle takes the package name from build.gradle.kts; aapt2 needs it in the manifest.
+sed 's|<manifest xmlns:android="http://schemas.android.com/apk/res/android">|<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.epicwallpapers.ramayana">|' \
+  app/src/main/AndroidManifest.xml > "$OUT/AndroidManifest.xml"
+"$BT/aapt2" link -I "$JAR" \
+  --manifest "$OUT/AndroidManifest.xml" \
+  --min-sdk-version 26 --target-sdk-version 35 \
+  --version-code $VERSION_CODE --version-name $VERSION_NAME \
+  -A app/src/main/assets \
+  --java "$OUT/gen" --custom-package com.epicwallpapers.ramayana \
+  -o "$OUT/base.apk" "$OUT/res.zip"
+
+echo "3/6 Compiling R.java"
+javac -nowarn -source 11 -target 11 -cp "$JAR" -d "$OUT/classes" $(find "$OUT/gen" -name '*.java') 2>&1 | grep -v "bootstrap classpath" || true
+
+echo "4/6 Compiling Kotlin"
+java -cp "$(ls "$KLIB"/*.jar | tr '\n' ':')" org.jetbrains.kotlin.cli.jvm.K2JVMCompiler \
+  -no-stdlib -no-reflect -jvm-target 11 \
+  -cp "$JAR:$STDLIB:$OUT/classes" \
+  -d "$OUT/classes" $(find app/src/main/java -name '*.kt')
+
+echo "5/6 Converting to dex"
+"$BT/d8" --release --min-api 26 --lib "$JAR" --output "$OUT/dex" \
+  $(find "$OUT/classes" -name '*.class') "$STDLIB"
+
+echo "6/6 Packaging and signing"
+cp "$OUT/base.apk" "$OUT/unsigned.apk"
+(cd "$OUT/dex" && zip -q -j ../unsigned.apk classes*.dex)
+"$BT/zipalign" -f -p 4 "$OUT/unsigned.apk" "$OUT/aligned.apk"
+KS="${KEYSTORE:-$HOME/.android/debug.keystore}"
+if [ ! -f "$KS" ]; then
+  mkdir -p "$(dirname "$KS")"
+  keytool -genkeypair -keystore "$KS" -storepass android -keypass android \
+    -alias androiddebugkey -dname "CN=Android Debug,O=Android,C=US" \
+    -keyalg RSA -keysize 2048 -validity 10000 >/dev/null 2>&1
+fi
+"$BT/apksigner" sign --ks "$KS" --ks-pass pass:android --key-pass pass:android \
+  --ks-key-alias androiddebugkey --out "$OUT/ramayanam-wallpapers.apk" "$OUT/aligned.apk"
+"$BT/apksigner" verify "$OUT/ramayanam-wallpapers.apk"
+echo "Built $OUT/ramayanam-wallpapers.apk"

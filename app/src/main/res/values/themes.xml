@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="@android:style/Theme.Material.Light.NoActionBar">
+        <item name="android:colorPrimary">@color/maroon</item>
+        <item name="android:colorPrimaryDark">@color/maroon_dark</item>
+        <item name="android:colorAccent">@color/saffron</item>
+        <item name="android:windowBackground">@color/parchment</item>
+        <item name="android:statusBarColor">@color/maroon_dark</item>
+        <item name="android:navigationBarColor">@color/parchment</item>
+    </style>
+</resources>

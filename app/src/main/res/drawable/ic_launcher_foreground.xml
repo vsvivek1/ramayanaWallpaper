@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- A drawn bow with an arrow, in gold, on the maroon launcher background. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp" android:height="108dp"
+    android:viewportWidth="108" android:viewportHeight="108">
+    <path android:strokeColor="#FFE8C27A" android:strokeWidth="4" android:strokeLineCap="round"
+        android:fillColor="#00000000"
+        android:pathData="M40,28 Q72,54 40,80" />
+    <path android:strokeColor="#FFFBF4E6" android:strokeWidth="1.6"
+        android:fillColor="#00000000"
+        android:pathData="M40,28 L40,80" />
+    <path android:strokeColor="#FFF29A2E" android:strokeWidth="2.6" android:strokeLineCap="round"
+        android:fillColor="#00000000"
+        android:pathData="M34,54 L80,54" />
+    <path android:fillColor="#FFF29A2E" android:pathData="M80,49 L88,54 L80,59 Z" />
+    <path android:fillColor="#FFE8C27A" android:pathData="M34,54 L28,49 L31,54 L28,59 Z" />
+</vector>
