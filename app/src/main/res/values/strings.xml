@@ -16,4 +16,19 @@
     <string name="target_lock">Lock screen only</string>
     <string name="restart">Start again from the first incident</string>
     <string name="about">The story moves forward one incident a day, kanda by kanda, from Valmiki\'s first verse to Sita\'s return to the Earth, then starts again. Paintings are by Raja Ravi Varma (1848–1906) and the Ravi Varma Press, now in the public domain, loaded from Wikimedia Commons. Incidents without a painting use the app\'s own artwork.</string>
+    <string name="today_label">Today · %1$s · Incident %2$d of %3$d</string>
+    <string name="incident_label">Incident %1$d of %2$d</string>
+    <string name="download_failed">Couldn\'t download the painting. Showing the built-in artwork.</string>
+    <string name="wallpaper_set">Wallpaper set: %1$s</string>
+    <string name="wallpaper_failed">Couldn\'t set the wallpaper</string>
+    <string name="restart_message">Today will show the first incident, and the story will move forward one incident a day from here.</string>
+    <string name="restart_confirm">Restart</string>
+    <string name="language_title">Story language</string>
+    <string name="language_phone">Same as phone</string>
+    <string name="language_auto">Same as phone (%1$s)</string>
+    <string name="language_button">Language: %1$s</string>
+    <string name="source">source</string>
+    <string name="credit_drawn">Artwork: drawn by the app</string>
+    <string name="credit_artist">Painting: %1$s · public domain · Wikimedia Commons</string>
+    <string name="credit_commons">Image: Wikimedia Commons (public domain)</string>
 </resources>

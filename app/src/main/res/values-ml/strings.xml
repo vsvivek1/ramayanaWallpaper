@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">രാമായണം വാൾപേപ്പറുകൾ</string>
+    <string name="today">ഇന്നത്തെ സംഭവം</string>
+    <string name="set_now">വാൾപേപ്പറായി വയ്ക്കുക</string>
+    <string name="previous">‹ മുമ്പത്തേത്</string>
+    <string name="next">അടുത്തത് ›</string>
+    <string name="back_to_today">ഇന്നത്തേതിലേക്ക്</string>
+    <string name="browse_all">എല്ലാ സംഭവങ്ങളും</string>
+    <string name="settings">ക്രമീകരണങ്ങൾ</string>
+    <string name="daily_change">എല്ലാ ദിവസവും വാൾപേപ്പർ മാറ്റുക</string>
+    <string name="show_text">കഥ വാൾപേപ്പറിൽ കാണിക്കുക</string>
+    <string name="apply_to">എവിടെ വയ്ക്കണം</string>
+    <string name="target_both">ഹോം, ലോക്ക് സ്ക്രീനുകൾ</string>
+    <string name="target_home">ഹോം സ്ക്രീൻ മാത്രം</string>
+    <string name="target_lock">ലോക്ക് സ്ക്രീൻ മാത്രം</string>
+    <string name="restart">ആദ്യ സംഭവത്തിൽ നിന്ന് വീണ്ടും തുടങ്ങുക</string>
+    <string name="about">കാണ്ഡം കാണ്ഡമായി, വാല്മീകിയുടെ ആദ്യ ശ്ലോകം മുതൽ സീത ഭൂമിയിലേക്ക് മടങ്ങുന്നതുവരെ, ദിവസവും ഒരു സംഭവം വീതം കഥ മുന്നോട്ട് പോകുന്നു; പിന്നീട് വീണ്ടും തുടങ്ങുന്നു. ചിത്രങ്ങൾ രാജാ രവിവർമ്മയുടെയും (1848–1906) രവിവർമ്മ പ്രസ്സിന്റെയും ആണ്; ഇപ്പോൾ പൊതുസഞ്ചയത്തിലുള്ള ഇവ വിക്കിമീഡിയ കോമൺസിൽ നിന്ന് എടുക്കുന്നു. ചിത്രമില്ലാത്ത സംഭവങ്ങൾക്ക് ആപ്പ് സ്വന്തമായി വരച്ച ചിത്രം ഉപയോഗിക്കുന്നു.</string>
+    <string name="today_label">ഇന്ന് · %1$s · സംഭവം %2$d / %3$d</string>
+    <string name="incident_label">സംഭവം %1$d / %2$d</string>
+    <string name="download_failed">ചിത്രം ഡൗൺലോഡ് ചെയ്യാനായില്ല. ആപ്പിലെ ചിത്രം കാണിക്കുന്നു.</string>
+    <string name="wallpaper_set">വാൾപേപ്പർ വച്ചു: %1$s</string>
+    <string name="wallpaper_failed">വാൾപേപ്പർ വയ്ക്കാനായില്ല</string>
+    <string name="restart_message">ഇന്ന് ആദ്യ സംഭവം കാണിക്കും; ഇനി മുതൽ ദിവസവും ഒരു സംഭവം വീതം കഥ മുന്നോട്ട് പോകും.</string>
+    <string name="restart_confirm">വീണ്ടും തുടങ്ങുക</string>
+    <string name="language_title">കഥയുടെ ഭാഷ</string>
+    <string name="language_phone">ഫോണിലെ ഭാഷ</string>
+    <string name="language_auto">ഫോണിലെ ഭാഷ (%1$s)</string>
+    <string name="language_button">ഭാഷ: %1$s</string>
+    <string name="source">ഉറവിടം</string>
+    <string name="credit_drawn">ചിത്രം: ആപ്പ് വരച്ചത്</string>
+    <string name="credit_artist">ചിത്രം: %1$s · പൊതുസഞ്ചയം · വിക്കിമീഡിയ കോമൺസ്</string>
+    <string name="credit_commons">ചിത്രം: വിക്കിമീഡിയ കോമൺസ് (പൊതുസഞ്ചയം)</string>
+</resources>

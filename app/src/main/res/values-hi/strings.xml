@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">रामायण वॉलपेपर</string>
+    <string name="today">आज का प्रसंग</string>
+    <string name="set_now">वॉलपेपर बनाएँ</string>
+    <string name="previous">‹ पिछला</string>
+    <string name="next">अगला ›</string>
+    <string name="back_to_today">आज पर लौटें</string>
+    <string name="browse_all">सभी प्रसंग</string>
+    <string name="settings">सेटिंग्स</string>
+    <string name="daily_change">हर दिन वॉलपेपर बदलें</string>
+    <string name="show_text">वॉलपेपर पर कथा दिखाएँ</string>
+    <string name="apply_to">कहाँ लगाएँ</string>
+    <string name="target_both">होम और लॉक स्क्रीन</string>
+    <string name="target_home">केवल होम स्क्रीन</string>
+    <string name="target_lock">केवल लॉक स्क्रीन</string>
+    <string name="restart">पहले प्रसंग से फिर शुरू करें</string>
+    <string name="about">कांड-दर-कांड, वाल्मीकि के पहले श्लोक से लेकर सीता के धरती में लौटने तक, कथा हर दिन एक प्रसंग आगे बढ़ती है, फिर दोबारा शुरू होती है। चित्र राजा रवि वर्मा (1848–1906) और रवि वर्मा प्रेस के हैं, जो अब सार्वजनिक क्षेत्र में हैं और विकिमीडिया कॉमन्स से लिए जाते हैं। जिन प्रसंगों का चित्र नहीं है, उनके लिए ऐप का अपना बनाया चित्र दिखता है।</string>
+    <string name="today_label">आज · %1$s · प्रसंग %2$d / %3$d</string>
+    <string name="incident_label">प्रसंग %1$d / %2$d</string>
+    <string name="download_failed">चित्र डाउनलोड नहीं हो सका। ऐप का चित्र दिखाया जा रहा है।</string>
+    <string name="wallpaper_set">वॉलपेपर लगाया गया: %1$s</string>
+    <string name="wallpaper_failed">वॉलपेपर नहीं लग सका</string>
+    <string name="restart_message">आज पहला प्रसंग दिखेगा, और यहाँ से कथा हर दिन एक प्रसंग आगे बढ़ेगी।</string>
+    <string name="restart_confirm">फिर शुरू करें</string>
+    <string name="language_title">कथा की भाषा</string>
+    <string name="language_phone">फ़ोन की भाषा</string>
+    <string name="language_auto">फ़ोन की भाषा (%1$s)</string>
+    <string name="language_button">भाषा: %1$s</string>
+    <string name="source">स्रोत</string>
+    <string name="credit_drawn">चित्र: ऐप द्वारा बनाया गया</string>
+    <string name="credit_artist">चित्र: %1$s · सार्वजनिक क्षेत्र · विकिमीडिया कॉमन्स</string>
+    <string name="credit_commons">चित्र: विकिमीडिया कॉमन्स (सार्वजनिक क्षेत्र)</string>
+</resources>

@@ -28,24 +28,46 @@ object WallpaperRenderer {
     private val SAFFRON = Color.rgb(0xF2, 0x9A, 0x2E)
     private val PARCHMENT = Color.rgb(0xFB, 0xF4, 0xE6)
 
-    fun render(width: Int, height: Int, incident: Incident, painting: Bitmap?, showText: Boolean): Bitmap {
+    /** Background colours (top, middle, bottom) and glow colour of the drawn artwork, one set per kanda. */
+    private class Palette(val top: Int, val mid: Int, val bottom: Int, val glow: Int)
+
+    private val PALETTES = mapOf(
+        "Bala Kanda" to Palette(0xFF3A0B0B.toInt(), 0xFF7A1C12.toInt(), 0xFF2A0806.toInt(), 0xFFF29A2E.toInt()),
+        "Ayodhya Kanda" to Palette(0xFF12123A.toInt(), 0xFF3E2A6E.toInt(), 0xFF0D0B26.toInt(), 0xFFE8C27A.toInt()),
+        "Aranya Kanda" to Palette(0xFF0A2214.toInt(), 0xFF2C5A30.toInt(), 0xFF07170D.toInt(), 0xFFC9D46A.toInt()),
+        "Kishkindha Kanda" to Palette(0xFF261606.toInt(), 0xFF7A5418.toInt(), 0xFF1A0E04.toInt(), 0xFFF2C14E.toInt()),
+        "Sundara Kanda" to Palette(0xFF04141F.toInt(), 0xFF0F4C5C.toInt(), 0xFF030D14.toInt(), 0xFF7FD1C7.toInt()),
+        "Yuddha Kanda" to Palette(0xFF1A0505.toInt(), 0xFF8A1E10.toInt(), 0xFF120303.toInt(), 0xFFFF7A2E.toInt()),
+        "Uttara Kanda" to Palette(0xFF221832.toInt(), 0xFF5E4475.toInt(), 0xFF150F20.toInt(), 0xFFF0C9A0.toInt()),
+    )
+
+    /**
+     * @param centreText the words written in the middle of the drawn artwork ("Sri Rama" in the chosen script).
+     */
+    fun render(
+        width: Int, height: Int, incident: Incident, painting: Bitmap?, showText: Boolean,
+        centreText: String = "श्री राम",
+    ): Bitmap {
         val out = Bitmap.createBitmap(width, height, Bitmap.Config.ARGB_8888)
         val canvas = Canvas(out)
         val w = width.toFloat()
         val h = height.toFloat()
 
-        // Area the picture may use.
-        val box = if (showText) RectF(w * 0.05f, h * 0.07f, w * 0.95f, h * 0.60f)
+        // Text sits just above the dock and gesture bar; the picture gets the space above it.
+        val maxBottom = h * 0.87f
+        val block = if (showText) measureText(incident, w, maxBottom - h * 0.46f) else null
+        val textTop = block?.let { maxBottom - it.height } ?: h
+        val box = if (block != null) RectF(w * 0.05f, h * 0.07f, w * 0.95f, minOf(h * 0.62f, textTop - h * 0.04f))
         else RectF(w * 0.04f, h * 0.08f, w * 0.96f, h * 0.90f)
 
         if (painting != null) {
             drawSoftBackground(canvas, painting, w, h)
             drawFramedPainting(canvas, painting, box, w)
         } else {
-            drawFallbackArt(canvas, w, h, box)
+            drawFallbackArt(canvas, w, h, box, incident, centreText)
         }
 
-        if (showText) drawStory(canvas, incident, w, h)
+        if (block != null) drawStory(canvas, block, textTop, w, h)
         return out
     }
 
@@ -87,11 +109,12 @@ object WallpaperRenderer {
         canvas.drawRect(RectF(dst).apply { inset(inset, inset) }, frame)
     }
 
-    private fun drawFallbackArt(canvas: Canvas, w: Float, h: Float, box: RectF) {
+    private fun drawFallbackArt(canvas: Canvas, w: Float, h: Float, box: RectF, incident: Incident, centreText: String) {
+        val pal = PALETTES[incident.kandaKey] ?: PALETTES.getValue("Bala Kanda")
         val bg = Paint().apply {
             shader = LinearGradient(
                 0f, 0f, 0f, h,
-                intArrayOf(Color.rgb(0x3A, 0x0B, 0x0B), Color.rgb(0x7A, 0x1C, 0x12), Color.rgb(0x2A, 0x08, 0x06)),
+                intArrayOf(pal.top, pal.mid, pal.bottom),
                 floatArrayOf(0f, 0.45f, 1f), Shader.TileMode.CLAMP,
             )
         }
@@ -103,7 +126,7 @@ object WallpaperRenderer {
 
         // Warm glow behind the mandala.
         canvas.drawCircle(cx, cy, r * 1.4f, Paint(Paint.ANTI_ALIAS_FLAG).apply {
-            shader = RadialGradient(cx, cy, r * 1.4f, Color.argb(120, 0xF2, 0x9A, 0x2E), Color.TRANSPARENT, Shader.TileMode.CLAMP)
+            shader = RadialGradient(cx, cy, r * 1.4f, (pal.glow and 0x00FFFFFF) or (120 shl 24), Color.TRANSPARENT, Shader.TileMode.CLAMP)
         })
 
         val line = Paint(Paint.ANTI_ALIAS_FLAG).apply {
@@ -116,9 +139,10 @@ object WallpaperRenderer {
             line.alpha = 70 + k * 30
             canvas.drawCircle(cx, cy, r * (0.25f + 0.25f * k) * 0.8f, line)
         }
-        // Lotus petals, two layers.
+        // Lotus petals, two layers. The petal count changes from day to day so the art varies.
+        val outerPetals = intArrayOf(16, 12, 20, 8)[incident.id % 4]
         for (layer in 0..1) {
-            val petals = if (layer == 0) 16 else 8
+            val petals = if (layer == 0) outerPetals else outerPetals / 2
             val outer = r * (if (layer == 0) 1.0f else 0.7f)
             val inner = r * (if (layer == 0) 0.62f else 0.32f)
             line.alpha = if (layer == 0) 150 else 220
@@ -140,61 +164,79 @@ object WallpaperRenderer {
             textSize = r * 0.30f
             typeface = Typeface.create(Typeface.SERIF, Typeface.BOLD)
         }
-        val text = "श्री राम"
+        val text = centreText
         val bounds = Rect()
         name.getTextBounds(text, 0, text.length, bounds)
         canvas.drawText(text, cx, cy - bounds.exactCenterY(), name)
     }
 
-    private fun drawStory(canvas: Canvas, incident: Incident, w: Float, h: Float) {
-        // Dark band so the text reads on any picture.
-        val bandTop = h * 0.60f
-        canvas.drawRect(0f, bandTop, w, h, Paint().apply {
-            shader = LinearGradient(
-                0f, bandTop, 0f, h,
-                intArrayOf(Color.TRANSPARENT, Color.argb(215, 12, 4, 2), Color.argb(235, 8, 2, 1)),
-                floatArrayOf(0f, 0.22f, 1f), Shader.TileMode.CLAMP,
-            )
-        })
+    /** The kanda, title and story laid out for a given width, ready to draw. */
+    private class TextBlock(
+        val kanda: String, val kandaPaint: TextPaint,
+        val title: StaticLayout, val story: StaticLayout,
+        val gapAfterKanda: Float, val gapAfterTitle: Float,
+    ) {
+        val height get() = kandaPaint.textSize + gapAfterKanda + title.height + gapAfterTitle + story.height
+    }
 
+    /**
+     * Lays out the text so it fits in [maxHeight], shrinking the story text (and then the
+     * title) when needed. Scripts like Malayalam and Tamil need more room than English.
+     */
+    private fun measureText(incident: Incident, w: Float, maxHeight: Float): TextBlock {
         val margin = w * 0.07f
         val textWidth = (w - 2 * margin).toInt()
-        val maxBottom = h * 0.87f // keep clear of the dock and gesture bar
-        var y = h * 0.635f
-
+        val latin = incident.story.firstOrNull { it.isLetter() }?.let { it.code < 0x250 } ?: true
         val kandaPaint = TextPaint(Paint.ANTI_ALIAS_FLAG).apply {
             color = SAFFRON
             textSize = w * 0.030f
-            letterSpacing = 0.14f
+            letterSpacing = if (latin) 0.14f else 0f
             typeface = Typeface.create(Typeface.SANS_SERIF, Typeface.BOLD)
         }
-        y += kandaPaint.textSize
-        canvas.drawText(incident.kanda.uppercase(), margin, y, kandaPaint)
-        y += w * 0.02f
-
+        val kanda = if (latin) incident.kanda.uppercase() else incident.kanda
         val titlePaint = TextPaint(Paint.ANTI_ALIAS_FLAG).apply {
             color = GOLD
-            textSize = w * 0.062f
             typeface = Typeface.create(Typeface.SERIF, Typeface.BOLD)
         }
-        val titleLayout = layout(incident.title, titlePaint, textWidth, 1.05f)
-        canvas.save(); canvas.translate(margin, y); titleLayout.draw(canvas); canvas.restore()
-        y += titleLayout.height + w * 0.025f
-
-        // Shrink the story text until it fits above the dock area.
         val storyPaint = TextPaint(Paint.ANTI_ALIAS_FLAG).apply {
             color = PARCHMENT
             typeface = Typeface.create(Typeface.SERIF, Typeface.NORMAL)
         }
-        var size = w * 0.038f
-        var storyLayout: StaticLayout
+        var titleSize = w * 0.062f
+        var storySize = w * (if (latin) 0.038f else 0.040f)
+        val minStory = w * 0.030f
         while (true) {
-            storyPaint.textSize = size
-            storyLayout = layout(incident.story, storyPaint, textWidth, 1.25f)
-            if (y + storyLayout.height <= maxBottom || size <= w * 0.026f) break
-            size *= 0.94f
+            titlePaint.textSize = titleSize
+            storyPaint.textSize = storySize
+            val block = TextBlock(
+                kanda, kandaPaint,
+                layout(incident.title, titlePaint, textWidth, 1.05f),
+                layout(incident.story, storyPaint, textWidth, if (latin) 1.25f else 1.35f),
+                w * 0.02f, w * 0.025f,
+            )
+            if (block.height <= maxHeight || storySize <= minStory) return block
+            storySize *= 0.96f
+            titleSize = maxOf(w * 0.050f, titleSize * 0.98f)
         }
-        canvas.save(); canvas.translate(margin, y); storyLayout.draw(canvas); canvas.restore()
+    }
+
+    private fun drawStory(canvas: Canvas, block: TextBlock, top: Float, w: Float, h: Float) {
+        // Dark band so the text reads on any picture.
+        val bandTop = top - h * 0.05f
+        canvas.drawRect(0f, bandTop, w, h, Paint().apply {
+            shader = LinearGradient(
+                0f, bandTop, 0f, h,
+                intArrayOf(Color.TRANSPARENT, Color.argb(215, 12, 4, 2), Color.argb(235, 8, 2, 1)),
+                floatArrayOf(0f, 0.18f, 1f), Shader.TileMode.CLAMP,
+            )
+        })
+        val margin = w * 0.07f
+        var y = top + block.kandaPaint.textSize
+        canvas.drawText(block.kanda, margin, y, block.kandaPaint)
+        y += block.gapAfterKanda
+        canvas.save(); canvas.translate(margin, y); block.title.draw(canvas); canvas.restore()
+        y += block.title.height + block.gapAfterTitle
+        canvas.save(); canvas.translate(margin, y); block.story.draw(canvas); canvas.restore()
     }
 
     private fun layout(text: String, paint: TextPaint, width: Int, spacing: Float): StaticLayout =

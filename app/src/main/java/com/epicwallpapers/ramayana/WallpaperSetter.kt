@@ -27,7 +27,7 @@ object WallpaperSetter {
     fun apply(c: Context, incident: Incident, allowNetwork: Boolean = true): Boolean {
         val (w, h) = screenSize(c)
         val painting = ImageStore.load(c, incident, allowNetwork)
-        val bitmap = WallpaperRenderer.render(w, h, incident, painting, Prefs.showText(c))
+        val bitmap = WallpaperRenderer.render(w, h, incident, painting, Prefs.showText(c), Lang.info(Lang.current(c)).sriRama)
         val flags = when (Prefs.target(c)) {
             Target.BOTH -> WallpaperManager.FLAG_SYSTEM or WallpaperManager.FLAG_LOCK
             Target.HOME -> WallpaperManager.FLAG_SYSTEM

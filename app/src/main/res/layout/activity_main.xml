@@ -210,6 +210,18 @@
             android:orientation="vertical"
             android:padding="14dp">
 
+            <Button
+                android:id="@+id/language"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="start|center_vertical"
+                android:minHeight="44dp"
+                android:paddingStart="0dp"
+                android:textAllCaps="false"
+                android:textColor="@color/maroon"
+                android:textSize="15sp" />
+
             <Switch
                 android:id="@+id/dailySwitch"
                 android:layout_width="match_parent"

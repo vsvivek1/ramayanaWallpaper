@@ -33,6 +33,10 @@ object Prefs {
     fun showText(c: Context) = p(c).getBoolean("show_text", true)
     fun setShowText(c: Context, v: Boolean) = p(c).edit().putBoolean("show_text", v).apply()
 
+    /** Story language code, or "auto" to follow the phone. */
+    fun language(c: Context): String = p(c).getString("language", Lang.AUTO) ?: Lang.AUTO
+    fun setLanguage(c: Context, code: String) = p(c).edit().putString("language", code).apply()
+
     fun target(c: Context): Target =
         runCatching { Target.valueOf(p(c).getString("target", Target.BOTH.name)!!) }
             .getOrDefault(Target.BOTH)

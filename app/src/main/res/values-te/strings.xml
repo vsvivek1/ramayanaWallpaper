@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">రామాయణం వాల్‌పేపర్లు</string>
+    <string name="today">నేటి ఘట్టం</string>
+    <string name="set_now">వాల్‌పేపర్‌గా పెట్టు</string>
+    <string name="previous">‹ మునుపటిది</string>
+    <string name="next">తరువాతిది ›</string>
+    <string name="back_to_today">ఈరోజుకు తిరిగి</string>
+    <string name="browse_all">అన్ని ఘట్టాలు</string>
+    <string name="settings">సెట్టింగ్‌లు</string>
+    <string name="daily_change">ప్రతిరోజూ వాల్‌పేపర్ మార్చు</string>
+    <string name="show_text">కథను వాల్‌పేపర్‌పై చూపించు</string>
+    <string name="apply_to">ఎక్కడ పెట్టాలి</string>
+    <string name="target_both">హోమ్ మరియు లాక్ స్క్రీన్</string>
+    <string name="target_home">హోమ్ స్క్రీన్ మాత్రమే</string>
+    <string name="target_lock">లాక్ స్క్రీన్ మాత్రమే</string>
+    <string name="restart">మొదటి ఘట్టం నుండి మళ్ళీ మొదలుపెట్టు</string>
+    <string name="about">కాండం కాండంగా, వాల్మీకి మొదటి శ్లోకం నుండి సీత భూమిలోకి తిరిగి వెళ్ళే వరకు, రోజుకు ఒక ఘట్టం చొప్పున కథ ముందుకు సాగుతుంది; ఆ తరువాత మళ్ళీ మొదలవుతుంది. చిత్రాలు రాజా రవివర్మ (1848–1906) మరియు రవివర్మ ప్రెస్ వారివి; ఇప్పుడు పబ్లిక్ డొమైన్‌లో ఉన్న ఇవి వికీమీడియా కామన్స్ నుండి తీసుకోబడతాయి. చిత్రం లేని ఘట్టాలకు యాప్ స్వయంగా గీసిన చిత్రం వాడబడుతుంది.</string>
+    <string name="today_label">ఈరోజు · %1$s · ఘట్టం %2$d / %3$d</string>
+    <string name="incident_label">ఘట్టం %1$d / %2$d</string>
+    <string name="download_failed">చిత్రాన్ని డౌన్‌లోడ్ చేయలేకపోయాము. యాప్ చిత్రం చూపిస్తున్నాము.</string>
+    <string name="wallpaper_set">వాల్‌పేపర్ పెట్టబడింది: %1$s</string>
+    <string name="wallpaper_failed">వాల్‌పేపర్ పెట్టలేకపోయాము</string>
+    <string name="restart_message">ఈరోజు మొదటి ఘట్టం చూపబడుతుంది; ఇక నుండి రోజుకు ఒక ఘట్టం చొప్పున కథ ముందుకు సాగుతుంది.</string>
+    <string name="restart_confirm">మళ్ళీ మొదలుపెట్టు</string>
+    <string name="language_title">కథ భాష</string>
+    <string name="language_phone">ఫోన్ భాష</string>
+    <string name="language_auto">ఫోన్ భాష (%1$s)</string>
+    <string name="language_button">భాష: %1$s</string>
+    <string name="source">మూలం</string>
+    <string name="credit_drawn">చిత్రం: యాప్ గీసినది</string>
+    <string name="credit_artist">చిత్రం: %1$s · పబ్లిక్ డొమైన్ · వికీమీడియా కామన్స్</string>
+    <string name="credit_commons">చిత్రం: వికీమీడియా కామన్స్ (పబ్లిక్ డొమైన్)</string>
+</resources>

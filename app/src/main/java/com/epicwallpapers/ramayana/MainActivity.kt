@@ -2,6 +2,7 @@ package com.epicwallpapers.ramayana
 
 import android.app.Activity
 import android.app.AlertDialog
+import android.content.Context
 import android.graphics.Bitmap
 import android.os.Bundle
 import android.os.Handler
@@ -39,6 +40,10 @@ class MainActivity : Activity() {
     private lateinit var dayLabel: TextView
     private lateinit var todayButton: Button
 
+    override fun attachBaseContext(newBase: Context) {
+        super.attachBaseContext(Lang.wrap(newBase))
+    }
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
@@ -64,6 +69,7 @@ class MainActivity : Activity() {
         todayButton.setOnClickListener { show(todayIndex) }
         findViewById<Button>(R.id.setNow).setOnClickListener { setShownAsWallpaper() }
         findViewById<Button>(R.id.restart).setOnClickListener { confirmRestart() }
+        findViewById<Button>(R.id.language).setOnClickListener { pickLanguage() }
 
         setupSettings()
 
@@ -96,6 +102,8 @@ class MainActivity : Activity() {
     }
 
     private fun setupSettings() {
+        findViewById<Button>(R.id.language).text = languageButtonText()
+
         val daily = findViewById<Switch>(R.id.dailySwitch)
         daily.isChecked = Prefs.dailyEnabled(this)
         daily.setOnCheckedChangeListener { _, on ->
@@ -144,17 +152,17 @@ class MainActivity : Activity() {
 
         val source = incident.sourcePageUrl()
         credit.text = if (source != null) {
-            Html.fromHtml("${incident.creditLine()} · <a href=\"$source\">source</a>", Html.FROM_HTML_MODE_COMPACT)
+            Html.fromHtml("${incident.creditLine(this)} · <a href=\"$source\">${getString(R.string.source)}</a>", Html.FROM_HTML_MODE_COMPACT)
         } else {
-            incident.creditLine()
+            incident.creditLine(this)
         }
 
         val isToday = shownIndex == todayIndex
         val dayNumber = shownIndex + 1
         val date = LocalDate.now().plusDays((shownIndex - todayIndex).toLong())
-        val dateText = date.format(DateTimeFormatter.ofPattern("EEEE, d MMMM"))
-        dayLabel.text = if (isToday) "Today · ${dateText} · Incident $dayNumber of ${incidents.size}"
-        else "Incident $dayNumber of ${incidents.size}"
+        val dateText = date.format(DateTimeFormatter.ofPattern("EEEE, d MMMM", resources.configuration.locales[0]))
+        dayLabel.text = if (isToday) getString(R.string.today_label, dateText, dayNumber, incidents.size)
+        else getString(R.string.incident_label, dayNumber, incidents.size)
         todayButton.visibility = if (isToday) View.GONE else View.VISIBLE
 
         renderPreview()
@@ -166,12 +174,13 @@ class MainActivity : Activity() {
         val token = ++renderToken
         progress.visibility = View.VISIBLE
         val showText = Prefs.showText(this)
+        val centreText = Lang.info(Lang.current(this)).sriRama
         worker.execute {
             val (sw, sh) = WallpaperSetter.screenSize(applicationContext)
             val w = 720
             val h = (w.toLong() * sh / sw).toInt()
             val painting = runCatching { ImageStore.load(applicationContext, incident) }.getOrNull()
-            val bmp = WallpaperRenderer.render(w, h, incident, painting, showText)
+            val bmp = WallpaperRenderer.render(w, h, incident, painting, showText, centreText)
             painting?.recycle()
             main.post {
                 if (isDestroyed || token != renderToken) {
@@ -182,7 +191,7 @@ class MainActivity : Activity() {
                 previewBitmap = bmp
                 progress.visibility = View.GONE
                 if (painting == null && incident.image != null) {
-                    Toast.makeText(this, "Couldn't download the painting. Showing the built-in artwork.", Toast.LENGTH_SHORT).show()
+                    Toast.makeText(this, R.string.download_failed, Toast.LENGTH_SHORT).show()
                 }
             }
         }
@@ -201,7 +210,7 @@ class MainActivity : Activity() {
             main.post {
                 if (isDestroyed) return@post
                 progress.visibility = View.GONE
-                val msg = if (result.isSuccess) "Wallpaper set: ${incident.title}" else "Couldn't set the wallpaper"
+                val msg = if (result.isSuccess) getString(R.string.wallpaper_set, incident.title) else getString(R.string.wallpaper_failed)
                 Toast.makeText(this, msg, Toast.LENGTH_SHORT).show()
             }
         }
@@ -215,11 +224,37 @@ class MainActivity : Activity() {
             .show()
     }
 
+    private fun languageButtonText(): String {
+        val chosen = Prefs.language(this)
+        val name = if (chosen == Lang.AUTO) getString(R.string.language_auto, Lang.info(Lang.current(this)).nativeName)
+        else Lang.info(chosen).nativeName
+        return getString(R.string.language_button, name)
+    }
+
+    private fun pickLanguage() {
+        val codes = listOf(Lang.AUTO) + Lang.SUPPORTED.map { it.code }
+        val labels = codes.map {
+            if (it == Lang.AUTO) getString(R.string.language_phone) else Lang.info(it).nativeName
+        }.toTypedArray()
+        val checked = codes.indexOf(Prefs.language(this)).coerceAtLeast(0)
+        AlertDialog.Builder(this)
+            .setTitle(R.string.language_title)
+            .setSingleChoiceItems(labels, checked) { dialog, which ->
+                dialog.dismiss()
+                if (codes[which] == Prefs.language(this)) return@setSingleChoiceItems
+                Prefs.setLanguage(this, codes[which])
+                // Redraw today's wallpaper in the new language, then reload the screen.
+                worker.execute { runCatching { WallpaperSetter.applyTodayIfNeeded(applicationContext, force = Prefs.dailyEnabled(applicationContext)) } }
+                recreate()
+            }
+            .show()
+    }
+
     private fun confirmRestart() {
         AlertDialog.Builder(this)
             .setTitle(R.string.restart)
-            .setMessage("Today will show the first incident, and the story will move forward one incident a day from here.")
-            .setPositiveButton("Restart") { _, _ ->
+            .setMessage(R.string.restart_message)
+            .setPositiveButton(R.string.restart_confirm) { _, _ ->
                 Prefs.restartFromToday(this)
                 todayIndex = Incidents.indexFor(this)
                 show(todayIndex)
