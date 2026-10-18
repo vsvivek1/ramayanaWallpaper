@@ -6,3 +6,6 @@ local.properties
 *.iml
 captures/
 .DS_Store
+*.jks
+*.keystore
+release-key/

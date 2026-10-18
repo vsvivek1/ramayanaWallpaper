@@ -5,14 +5,14 @@ plugins {
 
 android {
     namespace = "com.calecutech.ramayanam"
-    compileSdk = 35
+    compileSdk = 36
 
     defaultConfig {
         applicationId = "com.calecutech.ramayanam"
         minSdk = 26
-        targetSdk = 35
-        versionCode = 4
-        versionName = "1.3"
+        targetSdk = 36
+        versionCode = 5
+        versionName = "1.4"
     }
 
     buildTypes {

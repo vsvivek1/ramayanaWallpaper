@@ -17,7 +17,12 @@ data class Incident(
     /** Wikimedia Commons file name (without "File:"), or null to use the built-in artwork. */
     val image: String?,
     val artist: String?,
+    /** Licence short name from Commons, e.g. "Public domain" or "CC BY-SA 4.0". */
+    val license: String? = null,
 ) {
+    /** Path of the painting bundled inside the app, if there is one. */
+    val assetPath: String get() = "paintings/$id.jpg"
+
     /** Direct image URL. Special:FilePath redirects to a resized copy on upload.wikimedia.org. */
     fun imageUrl(widthPx: Int): String? = image?.let {
         "https://commons.wikimedia.org/wiki/Special:FilePath/${encode(it)}?width=$widthPx"
@@ -30,9 +35,14 @@ data class Incident(
 
     fun creditLine(c: Context): String = when {
         image == null -> c.getString(R.string.credit_drawn)
+        license != null && !isPublicDomain(license) ->
+            c.getString(R.string.credit_licensed, artist ?: "Wikimedia Commons", license)
         artist != null -> c.getString(R.string.credit_artist, artist)
         else -> c.getString(R.string.credit_commons)
     }
+
+    private fun isPublicDomain(l: String) =
+        l.contains("public domain", true) || l.startsWith("PD", true) || l.contains("CC0", true)
 
     private fun encode(name: String) =
         URLEncoder.encode(name.replace(' ', '_'), "UTF-8").replace("+", "%20")
@@ -69,6 +79,7 @@ object Incidents {
                 story = t?.optString("story")?.takeIf { it.isNotBlank() } ?: o.getString("story"),
                 image = o.optString("image").takeIf { !o.isNull("image") && it.isNotBlank() },
                 artist = o.optString("artist").takeIf { !o.isNull("artist") && it.isNotBlank() },
+                license = o.optString("license").takeIf { !o.isNull("license") && it.isNotBlank() },
             )
         }
         cache = lang to list

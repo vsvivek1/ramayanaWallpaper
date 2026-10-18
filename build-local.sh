@@ -3,19 +3,24 @@
 # Kotlin compiler jars. This is how the APK was built in an environment with no access
 # to Google's Maven repository. In Android Studio, just use Gradle instead.
 #
-# Needs: ANDROID_HOME (with platforms/android-35 and build-tools/37.0.0),
+# Needs: ANDROID_HOME (with platforms/android-36 and build-tools/37.0.0),
 #        KOTLIN_LIB (folder holding kotlin-compiler-embeddable and its dependency jars).
+#
+# Release bundle for Google Play (also needs bundletool and your upload key):
+#   BUNDLETOOL=/path/bundletool.jar UPLOAD_KEYSTORE=upload.jks UPLOAD_ALIAS=upload \
+#   UPLOAD_PASS=... ./build-local.sh
+#   -> build-local/ramayanam-wallpapers.aab
 set -euo pipefail
 cd "$(dirname "$0")"
 
 SDK="${ANDROID_HOME:?set ANDROID_HOME}"
 BT="$SDK/build-tools/${BUILD_TOOLS:-37.0.0}"
-JAR="$SDK/platforms/android-35/android.jar"
+JAR="$SDK/platforms/android-36/android.jar"
 KLIB="${KOTLIN_LIB:?set KOTLIN_LIB}"
 STDLIB=$(ls "$KLIB"/kotlin-stdlib-2*.jar | head -1)
 OUT=build-local
-VERSION_CODE=4
-VERSION_NAME=1.3
+VERSION_CODE=5
+VERSION_NAME=1.4
 
 rm -rf "$OUT"; mkdir -p "$OUT"/{gen,classes,dex}
 
@@ -28,7 +33,7 @@ sed 's|<manifest xmlns:android="http://schemas.android.com/apk/res/android">|<ma
   app/src/main/AndroidManifest.xml > "$OUT/AndroidManifest.xml"
 "$BT/aapt2" link -I "$JAR" \
   --manifest "$OUT/AndroidManifest.xml" \
-  --min-sdk-version 26 --target-sdk-version 35 \
+  --min-sdk-version 26 --target-sdk-version 36 \
   --version-code $VERSION_CODE --version-name $VERSION_NAME \
   -A app/src/main/assets \
   --java "$OUT/gen" --custom-package com.calecutech.ramayanam \
@@ -62,3 +67,26 @@ fi
   --ks-key-alias androiddebugkey --out "$OUT/ramayanam-wallpapers.apk" "$OUT/aligned.apk"
 "$BT/apksigner" verify "$OUT/ramayanam-wallpapers.apk"
 echo "Built $OUT/ramayanam-wallpapers.apk"
+
+if [ -n "${BUNDLETOOL:-}" ]; then
+  echo "Release bundle"
+  # Same resources linked in protobuf format, laid out as a bundle module.
+  "$BT/aapt2" link --proto-format -I "$JAR" \
+    --manifest "$OUT/AndroidManifest.xml" \
+    --min-sdk-version 26 --target-sdk-version 36 \
+    --version-code $VERSION_CODE --version-name $VERSION_NAME \
+    -A app/src/main/assets -o "$OUT/proto.apk" "$OUT/res.zip"
+  rm -rf "$OUT/module" "$OUT/proto"; mkdir -p "$OUT/module/manifest" "$OUT/module/dex" "$OUT/proto"
+  (cd "$OUT/proto" && unzip -q ../proto.apk)
+  mv "$OUT/proto/AndroidManifest.xml" "$OUT/module/manifest/"
+  mv "$OUT/proto/resources.pb" "$OUT/proto/res" "$OUT/proto/assets" "$OUT/module/"
+  cp "$OUT"/dex/classes*.dex "$OUT/module/dex/"
+  (cd "$OUT/module" && zip -q -r ../base.zip .)
+  rm -f "$OUT/ramayanam-wallpapers.aab"
+  java -jar "$BUNDLETOOL" build-bundle --modules="$OUT/base.zip" --output="$OUT/unsigned.aab"
+  jarsigner -keystore "${UPLOAD_KEYSTORE:?set UPLOAD_KEYSTORE}" -storepass "${UPLOAD_PASS:?set UPLOAD_PASS}" \
+    -sigalg SHA256withRSA -digestalg SHA-256 \
+    -signedjar "$OUT/ramayanam-wallpapers.aab" "$OUT/unsigned.aab" "${UPLOAD_ALIAS:-upload}" >/dev/null
+  java -jar "$BUNDLETOOL" validate --bundle="$OUT/ramayanam-wallpapers.aab" >/dev/null
+  echo "Built $OUT/ramayanam-wallpapers.aab"
+fi

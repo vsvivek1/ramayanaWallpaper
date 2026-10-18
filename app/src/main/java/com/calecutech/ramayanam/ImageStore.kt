@@ -20,10 +20,20 @@ object ImageStore {
     private fun file(c: Context, incident: Incident) = File(dir(c), "${incident.id}.jpg")
 
     fun isCached(c: Context, incident: Incident) =
-        incident.image == null || file(c, incident).let { it.exists() && it.length() > 0 }
+        incident.image == null || hasAsset(c, incident) || file(c, incident).let { it.exists() && it.length() > 0 }
+
+    private fun hasAsset(c: Context, incident: Incident) =
+        runCatching { c.assets.open(incident.assetPath).close(); true }.getOrDefault(false)
+
+    /** Paintings shipped inside the app, so they show even with no internet. */
+    private fun loadAsset(c: Context, incident: Incident): Bitmap? = runCatching {
+        c.assets.open(incident.assetPath).use { BitmapFactory.decodeStream(it) }
+    }.getOrNull()
 
     /** Returns the painting, downloading it if needed. Null if there is none or it can't be fetched. */
     fun load(c: Context, incident: Incident, allowNetwork: Boolean = true): Bitmap? {
+        if (incident.image == null) return null
+        loadAsset(c, incident)?.let { return it }
         val url = incident.imageUrl(WIDTH) ?: return null
         val f = file(c, incident)
         if (!f.exists() || f.length() == 0L) {

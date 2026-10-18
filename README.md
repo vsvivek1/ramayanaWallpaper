@@ -17,11 +17,11 @@ An Android app that changes your wallpaper every day to the next incident of the
 
 ## Images and attribution
 
-Paintings come from Wikimedia Commons and are loaded on the phone the first time they are needed (`Special:FilePath`, resized to 1600 px wide). Raja Ravi Varma died in 1906, so his paintings and the Ravi Varma Press prints are in the public domain. Every entry in `app/src/main/assets/incidents.json` names its Commons file, and the app links to the file page under each story.
+Every incident has a painting, bundled in the app at `app/src/main/assets/paintings/<id>.jpg` (1000 px wide), so the app works offline. They come from Wikimedia Commons: Raja Ravi Varma and the Ravi Varma Press, the Mewar Ramayana, Pahari, Kangra and Mughal folios, Gita Press prints and others. 293 are public domain or CC0; 17 are CC BY or CC BY-SA, and the app shows their licence in the credit line.
 
-26 of the 310 incidents have an image. The rest use the built-in artwork until a suitable public-domain image is added: set `"image"` to the Commons file name (without `File:`) and `"artist"` if known. The Mewar (Jagat Singh) Ramayana at the British Library and other pre-1900 Pahari paintings on Commons are good sources.
+`tools/find_images.py` picked them. It runs on GitHub Actions (push to the `image-research` branch), searches Commons for each incident by the names in its title and story, keeps only free licences, and downloads the result. Every pick was then checked by eye: photos, sculptures, puppets, blank pages and paintings from other epics were replaced. 25 incidents had no good match and reuse a painting from a nearby incident in the same kanda, so there are 285 different paintings. The match is by characters and scene, so some paintings show a neighbouring moment of the story rather than the exact incident. `tools/out/images.json` records each pick with its Commons page.
 
-The file names were found through web search, because Wikimedia was not reachable from the build machine. Before publishing on the Play Store, open each Commons link once to confirm the image loads and its licence page says public domain. Images to check first: `Sita_in_the_Garden_of_Lanka.jpg` (thought to be the Cleveland Museum of Art Pahari painting) and the LACMA Ramayana folio were added from search results without seeing their Commons pages. Several images have no confirmed artist, so the app credits them only as "Wikimedia Commons (public domain)".
+To change a painting, replace `paintings/<id>.jpg` and update `image`, `artist` and `license` for that incident in `incidents.json`.
 
 ## Project layout
 
@@ -34,7 +34,7 @@ app/src/main/
     WallpaperRenderer.kt     draws the wallpaper bitmap
     WallpaperSetter.kt       applies it, once per day
     DailyWallpaperJob.kt     background job + reboot receiver
-    ImageStore.kt            downloads and caches paintings
+    ImageStore.kt            loads bundled paintings (downloads any missing one)
     Incidents.kt, Prefs.kt   data and settings
     Lang.kt                  language choice
   res/                       layout, colours, launcher icon (a bow and arrow)
@@ -48,7 +48,7 @@ The English stories were written from Valmiki's Ramayana, and the five translati
 
 ## Building
 
-**Android Studio:** open this folder and run it. It uses the Gradle wrapper (Gradle 8.14.3, Android Gradle Plugin 8.11.1, Kotlin 2.2.21, compile/target SDK 35, min SDK 26). This Gradle setup was not run on the build machine (Google's Maven repository was blocked there), so if Android Studio suggests a different AGP version, accept it.
+**Android Studio:** open this folder and run it. It uses the Gradle wrapper (Gradle 8.14.3, Android Gradle Plugin 8.11.1, Kotlin 2.2.21, compile/target SDK 36, min SDK 26). This Gradle setup was not run on the build machine (Google's Maven repository was blocked there), so if Android Studio suggests a different AGP version, accept it.
 
 **Without Gradle:** `build-local.sh` builds the APK with just the SDK build tools, a JDK and the Kotlin compiler jars. This is how the attached APK was built:
 
@@ -56,7 +56,13 @@ The English stories were written from Valmiki's Ramayana, and the five translati
 ANDROID_HOME=/path/to/sdk KOTLIN_LIB=/path/to/kotlin-compiler-jars ./build-local.sh
 ```
 
-For a Play Store release, create your own signing key and build a signed release bundle in Android Studio.
+**Release bundle for Google Play:** `build-local.sh` also builds a signed `.aab` when given bundletool and the upload key:
+
+```
+BUNDLETOOL=bundletool.jar UPLOAD_KEYSTORE=upload.jks UPLOAD_ALIAS=upload UPLOAD_PASS=... ./build-local.sh
+```
+
+Raise `VERSION_CODE` in `build-local.sh` (and `versionCode` in `app/build.gradle.kts`) for every upload. The upload key is not in this repository; keep it backed up. Store graphics and listing text are in `store/`, the privacy policy in `PRIVACY.md`, and the website pages for calecutech.com in `website/ramayanam/`.
 
 ## Next apps in the series
 
