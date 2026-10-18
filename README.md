@@ -2,6 +2,10 @@
 
 An Android app that changes your wallpaper every day to the next incident of the Ramayana, with a short story of that incident. It walks through 310 incidents in order, kanda by kanda (Bala 40, Ayodhya 55, Aranya 40, Kishkindha 35, Sundara 40, Yuddha 70, Uttara 30), from Narada's summary to Rama's last journey into the Sarayu, then starts again. Stories are available in English, Malayalam, Tamil, Telugu, Kannada and Hindi. It is the first app in a planned series (Ramayanam, Bhagavatham, Mahabharatham).
 
+## Code shrinking
+
+Release builds run R8 (`app/proguard-rules.pro`; in build-local.sh it comes from build-tools' d8.jar) and write `build-local/mapping.txt`. Upload that mapping with every bundle (tools/play_publish.py does it) so Play can de-obfuscate crash reports.
+
 ## Install
 
 `ramayanam-wallpapers.apk` in this folder is a debug-signed APK. Copy it to an Android 8.0+ phone, open it, and allow "install unknown apps" when asked.

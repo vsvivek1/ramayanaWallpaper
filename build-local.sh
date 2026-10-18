@@ -19,8 +19,8 @@ JAR="$SDK/platforms/android-36/android.jar"
 KLIB="${KOTLIN_LIB:?set KOTLIN_LIB}"
 STDLIB=$(ls "$KLIB"/kotlin-stdlib-2*.jar | head -1)
 OUT=build-local
-VERSION_CODE=8
-VERSION_NAME=1.7
+VERSION_CODE=9
+VERSION_NAME=1.8
 
 rm -rf "$OUT"; mkdir -p "$OUT"/{gen,classes,dex}
 
@@ -48,9 +48,13 @@ java -cp "$(ls "$KLIB"/*.jar | tr '\n' ':')" org.jetbrains.kotlin.cli.jvm.K2JVMC
   -cp "$JAR:$STDLIB:$OUT/classes" \
   -d "$OUT/classes" $(find app/src/main/java -name '*.kt')
 
-echo "5/6 Converting to dex"
-"$BT/d8" --release --min-api 26 --lib "$JAR" --output "$OUT/dex" \
-  $(find "$OUT/classes" -name '*.class') "$STDLIB"
+echo "5/6 Shrinking and converting to dex (R8)"
+# R8 ships inside build-tools' d8.jar. It shrinks and obfuscates the code and writes
+# mapping.txt, which is uploaded to Play with the bundle so crash reports stay readable.
+(cd "$OUT/classes" && zip -q -r ../classes.jar .)
+java -cp "$BT/lib/d8.jar" com.android.tools.r8.R8 --release --min-api 26 --lib "$JAR" \
+  --pg-conf app/proguard-rules.pro --pg-map-output "$OUT/mapping.txt" \
+  --output "$OUT/dex" "$OUT/classes.jar" "$STDLIB"
 
 echo "6/6 Packaging and signing"
 cp "$OUT/base.apk" "$OUT/unsigned.apk"
@@ -88,5 +92,5 @@ if [ -n "${BUNDLETOOL:-}" ]; then
     -sigalg SHA256withRSA -digestalg SHA-256 \
     -signedjar "$OUT/ramayanam-wallpapers.aab" "$OUT/unsigned.aab" "${UPLOAD_ALIAS:-upload}" >/dev/null
   java -jar "$BUNDLETOOL" validate --bundle="$OUT/ramayanam-wallpapers.aab" >/dev/null
-  echo "Built $OUT/ramayanam-wallpapers.aab"
+  echo "Built $OUT/ramayanam-wallpapers.aab (mapping: $OUT/mapping.txt)"
 fi
