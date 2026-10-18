@@ -70,6 +70,7 @@
 
         <!-- Incident text -->
         <LinearLayout
+            android:id="@+id/storyCard"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"

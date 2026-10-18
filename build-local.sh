@@ -14,8 +14,8 @@ JAR="$SDK/platforms/android-35/android.jar"
 KLIB="${KOTLIN_LIB:?set KOTLIN_LIB}"
 STDLIB=$(ls "$KLIB"/kotlin-stdlib-2*.jar | head -1)
 OUT=build-local
-VERSION_CODE=2
-VERSION_NAME=1.1
+VERSION_CODE=3
+VERSION_NAME=1.2
 
 rm -rf "$OUT"; mkdir -p "$OUT"/{gen,classes,dex}
 

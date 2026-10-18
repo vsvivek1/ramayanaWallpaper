@@ -9,6 +9,8 @@ import android.os.Handler
 import android.os.Looper
 import android.text.Html
 import android.text.method.LinkMovementMethod
+import android.view.GestureDetector
+import android.view.MotionEvent
 import android.view.View
 import android.widget.Button
 import android.widget.ImageView
@@ -65,6 +67,7 @@ class MainActivity : Activity() {
 
         findViewById<Button>(R.id.prev).setOnClickListener { show(shownIndex - 1) }
         findViewById<Button>(R.id.next).setOnClickListener { show(shownIndex + 1) }
+        setupSwipe(preview, findViewById(R.id.storyCard))
         findViewById<Button>(R.id.browse).setOnClickListener { pickIncident() }
         todayButton.setOnClickListener { show(todayIndex) }
         findViewById<Button>(R.id.setNow).setOnClickListener { setShownAsWallpaper() }
@@ -141,6 +144,42 @@ class MainActivity : Activity() {
                 }
             )
         }
+    }
+
+    /** Swipe left for the next incident and right for the previous one, on the picture or the story. */
+    private fun setupSwipe(vararg views: View) {
+        val detector = GestureDetector(this, object : GestureDetector.SimpleOnGestureListener() {
+            override fun onDown(e: MotionEvent) = true
+            override fun onFling(e1: MotionEvent?, e2: MotionEvent, vx: Float, vy: Float): Boolean {
+                val dx = e2.x - (e1?.x ?: e2.x)
+                val dy = e2.y - (e1?.y ?: e2.y)
+                if (Math.abs(dx) < 80 * resources.displayMetrics.density / 2 || Math.abs(dx) < Math.abs(dy) * 1.3f) return false
+                slideTo(if (dx < 0) shownIndex + 1 else shownIndex - 1, forward = dx < 0)
+                return true
+            }
+        })
+        for (v in views) {
+            v.setOnTouchListener { view, ev ->
+                // Let the page scroll up and down; only claim clearly sideways gestures.
+                if (ev.actionMasked == MotionEvent.ACTION_MOVE) view.parent.requestDisallowInterceptTouchEvent(false)
+                detector.onTouchEvent(ev)
+                if (ev.actionMasked == MotionEvent.ACTION_UP) view.performClick()
+                true
+            }
+        }
+    }
+
+    /** Slides the current incident out and the new one in. */
+    private fun slideTo(index: Int, forward: Boolean) {
+        val distance = preview.width.toFloat().coerceAtLeast(1f) * (if (forward) -1 else 1)
+        val card = findViewById<View>(R.id.storyCard)
+        preview.animate().translationX(distance).alpha(0f).setDuration(140).withEndAction {
+            show(index)
+            preview.translationX = -distance
+            card.translationX = -distance / 3
+            preview.animate().translationX(0f).alpha(1f).setDuration(180).start()
+            card.animate().translationX(0f).setDuration(180).start()
+        }.start()
     }
 
     private fun show(index: Int) {
