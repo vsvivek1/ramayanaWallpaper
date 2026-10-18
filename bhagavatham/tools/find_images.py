@@ -88,7 +88,23 @@ OUT = os.path.join(ROOT, "tools/out")
 MODE = os.environ.get("MODE", "candidates")
 ONLY = [int(x) for x in os.environ.get("ONLY", "").split(",") if x]
 
-if MODE == "candidates":
+if MODE == "pool":
+    # Numbered contact sheets of tools/pool.json (unused candidates), 30 per sheet, for a last review pass.
+    pool = json.load(open(os.path.join(ROOT, "tools/pool.json")))
+    os.makedirs(OUT + "/pool", exist_ok=True)
+    try: font = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf", 22)
+    except Exception: font = ImageFont.load_default()
+    for n in range(0, len(pool), 30):
+        sheet = Image.new("RGB", (6 * 250, 5 * 250), "white"); d = ImageDraw.Draw(sheet)
+        for k, c in enumerate(pool[n:n + 30]):
+            try:
+                im = fetch_img(c["thumb"], 360); im.thumbnail((240, 220))
+                sheet.paste(im, ((k % 6) * 250 + 5, (k // 6) * 250 + 26))
+            except Exception as e:
+                print("pool thumb failed", n + k, e, file=sys.stderr)
+            d.text(((k % 6) * 250 + 6, (k // 6) * 250 + 2), str(n + k), fill="red", font=font)
+        sheet.save(f"{OUT}/pool/{n}-{min(n + 29, len(pool) - 1)}.jpg", quality=72)
+elif MODE == "candidates":
     os.makedirs(OUT + "/cand", exist_ok=True); os.makedirs(OUT + "/sheets", exist_ok=True)
     path = OUT + "/candidates.json"
     result = json.load(open(path)) if (ONLY and os.path.exists(path)) else {}

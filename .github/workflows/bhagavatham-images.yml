@@ -2,7 +2,7 @@ name: bhagavatham-images
 on:
   push:
     branches: [claude/bhagavatham-wallpaper-app-6130kz]
-    paths: [bhagavatham/tools/find_images.py, bhagavatham/tools/run.env, bhagavatham/tools/picks.json, .github/workflows/bhagavatham-images.yml]
+    paths: [bhagavatham/tools/pool.json, bhagavatham/tools/find_images.py, bhagavatham/tools/run.env, bhagavatham/tools/picks.json, .github/workflows/bhagavatham-images.yml]
 permissions:
   contents: write
 jobs:
