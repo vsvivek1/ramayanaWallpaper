@@ -29,7 +29,7 @@ The file names were found through web search, because Wikimedia was not reachabl
 app/src/main/
   assets/incidents.json      the 310 incidents in English: kanda, title, story, Commons file, artist
   assets/i18n/<lang>.json    translations (ml, ta, te, kn, hi) keyed by incident id
-  java/com/epicwallpapers/ramayana/
+  java/com/calecutech/ramayanam/
     MainActivity.kt          the screen: preview, story, browse, settings
     WallpaperRenderer.kt     draws the wallpaper bitmap
     WallpaperSetter.kt       applies it, once per day

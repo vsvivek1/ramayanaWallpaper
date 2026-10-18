@@ -14,8 +14,8 @@ JAR="$SDK/platforms/android-35/android.jar"
 KLIB="${KOTLIN_LIB:?set KOTLIN_LIB}"
 STDLIB=$(ls "$KLIB"/kotlin-stdlib-2*.jar | head -1)
 OUT=build-local
-VERSION_CODE=3
-VERSION_NAME=1.2
+VERSION_CODE=4
+VERSION_NAME=1.3
 
 rm -rf "$OUT"; mkdir -p "$OUT"/{gen,classes,dex}
 
@@ -24,14 +24,14 @@ echo "1/6 Compiling resources"
 
 echo "2/6 Linking resources and manifest"
 # Gradle takes the package name from build.gradle.kts; aapt2 needs it in the manifest.
-sed 's|<manifest xmlns:android="http://schemas.android.com/apk/res/android">|<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.epicwallpapers.ramayana">|' \
+sed 's|<manifest xmlns:android="http://schemas.android.com/apk/res/android">|<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.calecutech.ramayanam">|' \
   app/src/main/AndroidManifest.xml > "$OUT/AndroidManifest.xml"
 "$BT/aapt2" link -I "$JAR" \
   --manifest "$OUT/AndroidManifest.xml" \
   --min-sdk-version 26 --target-sdk-version 35 \
   --version-code $VERSION_CODE --version-name $VERSION_NAME \
   -A app/src/main/assets \
-  --java "$OUT/gen" --custom-package com.epicwallpapers.ramayana \
+  --java "$OUT/gen" --custom-package com.calecutech.ramayanam \
   -o "$OUT/base.apk" "$OUT/res.zip"
 
 echo "3/6 Compiling R.java"

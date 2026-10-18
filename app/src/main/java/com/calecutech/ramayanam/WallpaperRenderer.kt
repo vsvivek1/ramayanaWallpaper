@@ -1,4 +1,4 @@
-package com.epicwallpapers.ramayana
+package com.calecutech.ramayanam
 
 import android.graphics.Bitmap
 import android.graphics.Canvas

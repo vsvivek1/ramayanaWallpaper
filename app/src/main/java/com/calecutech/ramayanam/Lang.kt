@@ -1,4 +1,4 @@
-package com.epicwallpapers.ramayana
+package com.calecutech.ramayanam
 
 import android.content.Context
 import android.content.res.Configuration
