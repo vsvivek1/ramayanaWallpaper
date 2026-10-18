@@ -32,4 +32,6 @@
     <string name="credit_artist">ಚಿತ್ರ: %1$s · ಸಾರ್ವಜನಿಕ ಸ್ವತ್ತು · ವಿಕಿಮೀಡಿಯಾ ಕಾಮನ್ಸ್</string>
     <string name="credit_licensed">ಚಿತ್ರ: %1$s · %2$s · ವಿಕಿಮೀಡಿಯಾ ಕಾಮನ್ಸ್</string>
     <string name="credit_commons">ಚಿತ್ರ: ವಿಕಿಮೀಡಿಯಾ ಕಾಮನ್ಸ್ (ಸಾರ್ವಜನಿಕ ಸ್ವತ್ತು)</string>
+    <string name="link_home">Calecutech ಮುಖಪುಟ</string>
+    <string name="link_privacy">ಗೌಪ್ಯತಾ ನೀತಿ</string>
 </resources>

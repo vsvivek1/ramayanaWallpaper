@@ -32,4 +32,6 @@
     <string name="credit_artist">చిత్రం: %1$s · పబ్లిక్ డొమైన్ · వికీమీడియా కామన్స్</string>
     <string name="credit_licensed">చిత్రం: %1$s · %2$s · వికీమీడియా కామన్స్</string>
     <string name="credit_commons">చిత్రం: వికీమీడియా కామన్స్ (పబ్లిక్ డొమైన్)</string>
+    <string name="link_home">Calecutech హోమ్ పేజీ</string>
+    <string name="link_privacy">గోప్యతా విధానం</string>
 </resources>

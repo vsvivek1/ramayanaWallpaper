@@ -32,4 +32,6 @@
     <string name="credit_artist">ചിത്രം: %1$s · പൊതുസഞ്ചയം · വിക്കിമീഡിയ കോമൺസ്</string>
     <string name="credit_licensed">ചിത്രം: %1$s · %2$s · വിക്കിമീഡിയ കോമൺസ്</string>
     <string name="credit_commons">ചിത്രം: വിക്കിമീഡിയ കോമൺസ് (പൊതുസഞ്ചയം)</string>
+    <string name="link_home">Calecutech ഹോം പേജ്</string>
+    <string name="link_privacy">സ്വകാര്യതാ നയം</string>
 </resources>

@@ -32,4 +32,6 @@
     <string name="credit_artist">चित्र: %1$s · सार्वजनिक क्षेत्र · विकिमीडिया कॉमन्स</string>
     <string name="credit_licensed">चित्र: %1$s · %2$s · विकिमीडिया कॉमन्स</string>
     <string name="credit_commons">चित्र: विकिमीडिया कॉमन्स (सार्वजनिक क्षेत्र)</string>
+    <string name="link_home">Calecutech होम पेज</string>
+    <string name="link_privacy">गोपनीयता नीति</string>
 </resources>

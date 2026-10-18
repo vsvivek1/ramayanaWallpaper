@@ -301,5 +301,16 @@
             android:text="@string/about"
             android:textColor="@color/ink_soft"
             android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/links"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="20dp"
+            android:textColor="@color/ink_soft"
+            android:textColorLink="@color/maroon_dark"
+            android:textSize="14sp" />
     </LinearLayout>
 </ScrollView>

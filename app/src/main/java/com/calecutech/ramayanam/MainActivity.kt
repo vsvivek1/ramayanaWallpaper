@@ -75,6 +75,7 @@ class MainActivity : Activity() {
         findViewById<Button>(R.id.language).setOnClickListener { pickLanguage() }
 
         setupSettings()
+        setupLinks()
 
         if (Prefs.dailyEnabled(this)) {
             DailyWallpaperJob.schedule(this)
@@ -102,6 +103,17 @@ class MainActivity : Activity() {
             root.setPadding(0, 0, 0, insets.systemWindowInsetBottom)
             insets
         }
+    }
+
+    /** Links to the Calecutech home page and the privacy policy, under the about text. */
+    private fun setupLinks() {
+        val links = findViewById<TextView>(R.id.links)
+        links.text = Html.fromHtml(
+            "<a href=\"$HOME_URL\">${getString(R.string.link_home)}</a> &nbsp;·&nbsp; " +
+                "<a href=\"$PRIVACY_URL\">${getString(R.string.link_privacy)}</a>",
+            Html.FROM_HTML_MODE_COMPACT,
+        )
+        links.movementMethod = LinkMovementMethod.getInstance()
     }
 
     private fun setupSettings() {
@@ -301,5 +313,10 @@ class MainActivity : Activity() {
             }
             .setNegativeButton(android.R.string.cancel, null)
             .show()
+    }
+
+    companion object {
+        const val HOME_URL = "https://calecutech.com"
+        const val PRIVACY_URL = "https://calecutech.com/ramayanam/privacy.html"
     }
 }

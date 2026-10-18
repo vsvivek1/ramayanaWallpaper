@@ -32,4 +32,6 @@
     <string name="credit_artist">ஓவியம்: %1$s · பொதுக் களம் · விக்கிமீடியா காமன்ஸ்</string>
     <string name="credit_licensed">ஓவியம்: %1$s · %2$s · விக்கிமீடியா காமன்ஸ்</string>
     <string name="credit_commons">படம்: விக்கிமீடியா காமன்ஸ் (பொதுக் களம்)</string>
+    <string name="link_home">Calecutech முகப்புப் பக்கம்</string>
+    <string name="link_privacy">தனியுரிமைக் கொள்கை</string>
 </resources>

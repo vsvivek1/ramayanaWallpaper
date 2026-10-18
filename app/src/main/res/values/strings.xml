@@ -32,4 +32,6 @@
     <string name="credit_artist">Painting: %1$s · public domain · Wikimedia Commons</string>
     <string name="credit_licensed">Painting: %1$s · %2$s · Wikimedia Commons</string>
     <string name="credit_commons">Image: Wikimedia Commons (public domain)</string>
+    <string name="link_home">Calecutech home page</string>
+    <string name="link_privacy">Privacy policy</string>
 </resources>
