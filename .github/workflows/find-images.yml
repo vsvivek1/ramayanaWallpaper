@@ -1,0 +1,19 @@
+name: find-images
+on:
+  push:
+    branches: [image-research]
+    paths: [tools/find_images.py, .github/workflows/find-images.yml]
+permissions:
+  contents: write
+jobs:
+  find:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: pip install pillow
+      - run: python3 tools/find_images.py
+      - run: |
+          git config user.name "image-research-bot"
+          git config user.email "actions@github.com"
+          git add tools/out
+          git commit -m "Image research results" && git push
