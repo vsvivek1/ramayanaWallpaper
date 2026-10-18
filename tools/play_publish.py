@@ -42,7 +42,7 @@ if cmd in('all','bundle'):
     vc=b['versionCode']
     mp=os.environ.get('MAPPING','build-local/mapping.txt')
     if os.path.exists(mp):
-        print('mapping',call('POST',EU+f'/bundles/{vc}/deobfuscationFiles/proguard?uploadType=media',open(mp,'rb').read(),'application/octet-stream',raw=True))
+        print('mapping',call('POST',EU+f'/apks/{vc}/deobfuscationFiles/proguard?uploadType=media',open(mp,'rb').read(),'application/octet-stream',raw=True))
     vn=re.search(r'VERSION_NAME=(\S+)',open('build-local.sh').read()).group(1)
     notes=os.environ.get('NOTES','A new Ramayana painting and its story as your wallpaper every day. 310 incidents, six languages, all paintings bundled.')
     print('track',call('PUT',E+'/tracks/production',{'track':'production','releases':[{'name':f'{vn} ({vc})','versionCodes':[str(vc)],'status':'draft','releaseNotes':[{'language':'en-US','text':notes}]}]}))
