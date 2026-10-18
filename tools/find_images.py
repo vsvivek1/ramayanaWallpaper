@@ -81,7 +81,7 @@ def score(c, names):
     if BAD.search(c["cats"]): s -= 6
     return s
 
-incidents = json.load(open("app/src/main/assets/incidents.json"))
+incidents = json.load(open("app/src/main/assets/incidents.json"))["incidents"]
 used, result = {}, {}
 for inc in incidents:
     words = re.findall(r"[A-Z][a-z]+", inc["title"] + " " + inc["story"][:160])
