@@ -4,7 +4,7 @@
 # 'bundle' uploads the .aab and its R8 mapping file and sets a DRAFT release on the production track;
 # 'listing' uploads store text, icon, feature graphic and the screenshots in store/. Needs: pip install pyjwt cryptography
 import json, time, sys, re, os, glob, jwt, urllib.request, urllib.error, urllib.parse
-K=json.load(open('__import__('os').environ['PLAY_KEY']')); PKG='com.calecutech.ramayanam'
+K=json.load(open(os.environ['PLAY_KEY'])); PKG='com.calecutech.ramayanam'
 BASE=f'https://androidpublisher.googleapis.com/androidpublisher/v3/applications/{PKG}'
 UP=f'https://androidpublisher.googleapis.com/upload/androidpublisher/v3/applications/{PKG}'
 now=int(time.time())
