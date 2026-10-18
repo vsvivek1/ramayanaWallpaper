@@ -1,5 +1,5 @@
 # Uploads a release to Google Play through the Play Developer API.
-#   PLAY_KEY=service-account.json AAB=build-local/ramayanam-wallpapers.aab MAPPING=build-local/mapping.txt \
+#   PLAY_KEY=service-account.json AAB=build-local/bhagavatham-wallpapers.aab MAPPING=build-local/mapping.txt \
 #   python3 tools/play_publish.py all|listing|bundle|whoami
 # 'bundle' uploads the .aab and its R8 mapping file and sets a DRAFT release on the production track;
 # 'listing' uploads store text, icon, feature graphic and the screenshots in store/. Needs: pip install pyjwt cryptography
@@ -28,23 +28,23 @@ md=open('store/listing.md').read()
 full=md.split('**Full description:**')[1].split('**Category:**')[0].strip()
 short=re.search(r'\*\*Short description\*\* \(80 max\):\n(.+)',md).group(1).strip()
 if cmd in('all','listing'):
-    print('listing',call('PUT',E+'/listings/en-US',{'language':'en-US','title':'Ramayanam Wallpapers','shortDescription':short,'fullDescription':full,'video':''}).get('title'))
+    print('listing',call('PUT',E+'/listings/en-US',{'language':'en-US','title':'Bhagavatham Wallpapers','shortDescription':short,'fullDescription':full,'video':''}).get('title'))
     S='store/'
     imgs=[('icon','icon-512.png'),('featureGraphic','feature-graphic-1024x500.png')]+[('phoneScreenshots',f) for f in sorted(glob.glob(S+'screenshot-*.png'))]
     for t,_ in {'icon':0,'featureGraphic':0,'phoneScreenshots':0}.items(): call('DELETE',E+f'/listings/en-US/{t}')
     for t,f in imgs:
         p=f if f.startswith('/') else S+f
         r=call('POST',EU+f'/listings/en-US/{t}?uploadType=media',open(p,'rb').read(),'image/png',raw=True); print(t,p.split('/')[-1],r.get('image',{}).get('id'))
-    print('details',call('PATCH',E+'/details',{'contactEmail':'info@calecutech.com','contactWebsite':'https://calecutech.com/ramayanam/','defaultLanguage':'en-US'}))
+    print('details',call('PATCH',E+'/details',{'contactEmail':'info@calecutech.com','contactWebsite':'https://calecutech.com/bhagavatham/','defaultLanguage':'en-US'}))
 if cmd in('all','bundle'):
-    aab=open(os.environ.get('AAB','build-local/ramayanam-wallpapers.aab'),'rb').read()
+    aab=open(os.environ.get('AAB','build-local/bhagavatham-wallpapers.aab'),'rb').read()
     b=call('POST',EU+'/bundles?uploadType=media',aab,'application/octet-stream',raw=True); print('bundle',b)
     vc=b['versionCode']
     mp=os.environ.get('MAPPING','build-local/mapping.txt')
     if os.path.exists(mp):
         print('mapping',call('POST',EU+f'/apks/{vc}/deobfuscationFiles/proguard?uploadType=media',open(mp,'rb').read(),'application/octet-stream',raw=True))
     vn=re.search(r'VERSION_NAME=(\S+)',open('build-local.sh').read()).group(1)
-    notes=os.environ.get('NOTES','A new Ramayana painting and its story as your wallpaper every day. 310 incidents, six languages, all paintings bundled.')
+    notes=os.environ.get('NOTES','First release: a Bhagavatam painting and its story as your wallpaper every day. 318 incidents across the twelve skandhas, six languages, all paintings bundled.')
     print('track',call('PUT',E+'/tracks/production',{'track':'production','releases':[{'name':f'{vn} ({vc})','versionCodes':[str(vc)],'status':'draft','releaseNotes':[{'language':'en-US','text':notes}]}]}))
 print('validate',call('POST',E+':validate'))
 print('commit',call('POST',E+':commit'))

@@ -1,4 +1,4 @@
-# R8 rules for Ramayanam Wallpapers. The app uses no reflection, so only the
+# R8 rules for Bhagavatham Wallpapers. The app uses no reflection, so only the
 # components Android instantiates by name need to keep their names.
 -keep public class * extends android.app.Activity
 -keep public class * extends android.app.Service

@@ -1,10 +1,10 @@
-# Privacy policy: Ramayanam Wallpapers
+# Privacy policy: Bhagavatham Wallpapers
 
 App: com.calecutech.bhagavatham, published by Calecutech.
 
 *Last updated: 18 October 2026*
 
-This policy explains what the Ramayanam Wallpapers Android app ("the app"), published by Calecutech, does with your information. In short: **the app does not collect, store on any server, or share any personal data.**
+This policy explains what the Bhagavatham Wallpapers Android app ("the app"), published by Calecutech, does with your information. In short: **the app does not collect, store on any server, or share any personal data.**
 
 ## Information we collect
 

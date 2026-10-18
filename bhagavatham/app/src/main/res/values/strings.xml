@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Ramayanam Wallpapers</string>
+    <string name="app_name">Bhagavatham Wallpapers</string>
     <string name="today">Today\'s incident</string>
     <string name="set_now">Set as wallpaper</string>
     <string name="previous">‹ Previous</string>
@@ -15,7 +15,7 @@
     <string name="target_home">Home screen only</string>
     <string name="target_lock">Lock screen only</string>
     <string name="restart">Start again from the first incident</string>
-    <string name="about">The story moves forward one incident a day, kanda by kanda, from Narada\'s story of the perfect man to Rama\'s last journey, then starts again. Every incident has a classical painting, included in the app: works by Raja Ravi Varma, the Mewar Ramayana, Pahari and Mughal folios and more, from Wikimedia Commons. Each painting\'s artist, licence and source are shown under its story.</string>
+    <string name="about">The story moves forward one incident a day, skandha by skandha, from the sages of Naimisharanya to Markandeya\'s vision and the glory of the Bhagavatam, then starts again. Every incident has a classical painting, included in the app: Bhagavata Purana folios from the Pahari, Kangra and Rajasthani schools, works by Raja Ravi Varma and more, from Wikimedia Commons. Each painting\'s artist, licence and source are shown under its story.</string>
     <string name="today_label">Today · %1$s · Incident %2$d of %3$d</string>
     <string name="incident_label">Incident %1$d of %2$d</string>
     <string name="download_failed">Couldn\'t download the painting. Showing the built-in artwork.</string>

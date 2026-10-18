@@ -28,25 +28,30 @@ object WallpaperRenderer {
     private val SAFFRON = Color.rgb(0xF2, 0x9A, 0x2E)
     private val PARCHMENT = Color.rgb(0xFB, 0xF4, 0xE6)
 
-    /** Background colours (top, middle, bottom) and glow colour of the drawn artwork, one set per kanda. */
+    /** Background colours (top, middle, bottom) and glow colour of the drawn artwork, one set per skandha. */
     private class Palette(val top: Int, val mid: Int, val bottom: Int, val glow: Int)
 
     private val PALETTES = mapOf(
-        "Bala Kanda" to Palette(0xFF3A0B0B.toInt(), 0xFF7A1C12.toInt(), 0xFF2A0806.toInt(), 0xFFF29A2E.toInt()),
-        "Ayodhya Kanda" to Palette(0xFF12123A.toInt(), 0xFF3E2A6E.toInt(), 0xFF0D0B26.toInt(), 0xFFE8C27A.toInt()),
-        "Aranya Kanda" to Palette(0xFF0A2214.toInt(), 0xFF2C5A30.toInt(), 0xFF07170D.toInt(), 0xFFC9D46A.toInt()),
-        "Kishkindha Kanda" to Palette(0xFF261606.toInt(), 0xFF7A5418.toInt(), 0xFF1A0E04.toInt(), 0xFFF2C14E.toInt()),
-        "Sundara Kanda" to Palette(0xFF04141F.toInt(), 0xFF0F4C5C.toInt(), 0xFF030D14.toInt(), 0xFF7FD1C7.toInt()),
-        "Yuddha Kanda" to Palette(0xFF1A0505.toInt(), 0xFF8A1E10.toInt(), 0xFF120303.toInt(), 0xFFFF7A2E.toInt()),
-        "Uttara Kanda" to Palette(0xFF221832.toInt(), 0xFF5E4475.toInt(), 0xFF150F20.toInt(), 0xFFF0C9A0.toInt()),
+        "First Skandha" to Palette(0xFF0B1A3A.toInt(), 0xFF1E3F7A.toInt(), 0xFF070F26.toInt(), 0xFFE8C27A.toInt()),
+        "Second Skandha" to Palette(0xFF14103A.toInt(), 0xFF3B2E7A.toInt(), 0xFF0B0826.toInt(), 0xFFC9B8F2.toInt()),
+        "Third Skandha" to Palette(0xFF0A2222.toInt(), 0xFF1F5A5A.toInt(), 0xFF061616.toInt(), 0xFF7FD1C7.toInt()),
+        "Fourth Skandha" to Palette(0xFF261606.toInt(), 0xFF7A5418.toInt(), 0xFF1A0E04.toInt(), 0xFFF2C14E.toInt()),
+        "Fifth Skandha" to Palette(0xFF0A2214.toInt(), 0xFF2C5A30.toInt(), 0xFF07170D.toInt(), 0xFFC9D46A.toInt()),
+        "Sixth Skandha" to Palette(0xFF221832.toInt(), 0xFF5E4475.toInt(), 0xFF150F20.toInt(), 0xFFF0C9A0.toInt()),
+        "Seventh Skandha" to Palette(0xFF1A0505.toInt(), 0xFF8A1E10.toInt(), 0xFF120303.toInt(), 0xFFFF7A2E.toInt()),
+        "Eighth Skandha" to Palette(0xFF04141F.toInt(), 0xFF0F4C5C.toInt(), 0xFF030D14.toInt(), 0xFF8FE0F0.toInt()),
+        "Ninth Skandha" to Palette(0xFF3A0B0B.toInt(), 0xFF7A1C12.toInt(), 0xFF2A0806.toInt(), 0xFFF29A2E.toInt()),
+        "Tenth Skandha" to Palette(0xFF061238.toInt(), 0xFF0E3A6E.toInt(), 0xFF040A22.toInt(), 0xFF6FD3B0.toInt()),
+        "Eleventh Skandha" to Palette(0xFF12123A.toInt(), 0xFF3E2A6E.toInt(), 0xFF0D0B26.toInt(), 0xFFE8C27A.toInt()),
+        "Twelfth Skandha" to Palette(0xFF1A1A1A.toInt(), 0xFF3A3550.toInt(), 0xFF0E0E14.toInt(), 0xFFF0E0B0.toInt()),
     )
 
     /**
-     * @param centreText the words written in the middle of the drawn artwork ("Sri Rama" in the chosen script).
+     * @param centreText the words written in the middle of the drawn artwork ("Sri Krishna" in the chosen script).
      */
     fun render(
         width: Int, height: Int, incident: Incident, painting: Bitmap?, showText: Boolean,
-        centreText: String = "श्री राम",
+        centreText: String = "श्री कृष्ण",
     ): Bitmap {
         val out = Bitmap.createBitmap(width, height, Bitmap.Config.ARGB_8888)
         val canvas = Canvas(out)
@@ -110,7 +115,7 @@ object WallpaperRenderer {
     }
 
     private fun drawFallbackArt(canvas: Canvas, w: Float, h: Float, box: RectF, incident: Incident, centreText: String) {
-        val pal = PALETTES[incident.kandaKey] ?: PALETTES.getValue("Bala Kanda")
+        val pal = PALETTES[incident.kandaKey] ?: PALETTES.getValue("Tenth Skandha")
         val bg = Paint().apply {
             shader = LinearGradient(
                 0f, 0f, 0f, h,

@@ -14,7 +14,7 @@ import java.net.URL
 object ImageStore {
     private const val WIDTH = 1600
     private const val USER_AGENT =
-        "RamayanamWallpapers/1.0 (Android; daily wallpaper app; public-domain art from Wikimedia Commons)"
+        "BhagavathamWallpapers/1.0 (Android; daily wallpaper app; public-domain art from Wikimedia Commons)"
 
     private fun dir(c: Context) = File(c.filesDir, "images").apply { mkdirs() }
     private fun file(c: Context, incident: Incident) = File(dir(c), "${incident.id}.jpg")

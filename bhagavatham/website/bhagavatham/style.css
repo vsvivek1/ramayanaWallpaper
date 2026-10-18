@@ -1,0 +1,9 @@
+:root{--bg:#f6f3ea;--ink:#16182a;--muted:#55586e;--indigo:#0b1438;--gold:#e8c27a;--peacock:#1f7a64;--card:#fff}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.6 Georgia,"Noto Serif",serif}
+header{background:var(--indigo);color:var(--gold);padding:28px 16px}header .in,main{max-width:760px;margin:0 auto}
+header h1{margin:0;font-size:30px}header p{margin:4px 0 0;color:#e4e6f3}
+nav a{color:var(--gold);margin-right:16px;font-family:system-ui,sans-serif;font-size:15px}
+main{padding:24px 16px 48px}h2{color:var(--peacock);font-size:21px;margin-top:32px}
+.card{background:var(--card);border:1px solid #dcd8c8;border-radius:14px;padding:18px 20px;margin:16px 0}
+.shots{display:flex;gap:12px;overflow-x:auto}.shots img{height:420px;border-radius:12px;border:1px solid #dcd8c8}
+footer{color:var(--muted);font-size:14px;text-align:center;padding:24px 16px}a{color:#1d4f8a}

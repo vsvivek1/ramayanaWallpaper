@@ -11,8 +11,8 @@ android {
         applicationId = "com.calecutech.bhagavatham"
         minSdk = 26
         targetSdk = 36
-        versionCode = 9
-        versionName = "1.8"
+        versionCode = 1
+        versionName = "1.0"
     }
 
     buildTypes {

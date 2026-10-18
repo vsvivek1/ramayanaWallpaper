@@ -9,7 +9,7 @@
 # Release bundle for Google Play (also needs bundletool and your upload key):
 #   BUNDLETOOL=/path/bundletool.jar UPLOAD_KEYSTORE=upload.jks UPLOAD_ALIAS=upload \
 #   UPLOAD_PASS=... ./build-local.sh
-#   -> build-local/ramayanam-wallpapers.aab
+#   -> build-local/bhagavatham-wallpapers.aab
 set -euo pipefail
 cd "$(dirname "$0")"
 
@@ -19,8 +19,8 @@ JAR="$SDK/platforms/android-36/android.jar"
 KLIB="${KOTLIN_LIB:?set KOTLIN_LIB}"
 STDLIB=$(ls "$KLIB"/kotlin-stdlib-2*.jar | head -1)
 OUT=build-local
-VERSION_CODE=9
-VERSION_NAME=1.8
+VERSION_CODE=1
+VERSION_NAME=1.0
 
 rm -rf "$OUT"; mkdir -p "$OUT"/{gen,classes,dex}
 
@@ -68,9 +68,9 @@ if [ ! -f "$KS" ]; then
     -keyalg RSA -keysize 2048 -validity 10000 >/dev/null 2>&1
 fi
 "$BT/apksigner" sign --ks "$KS" --ks-pass pass:android --key-pass pass:android \
-  --ks-key-alias androiddebugkey --out "$OUT/ramayanam-wallpapers.apk" "$OUT/aligned.apk"
-"$BT/apksigner" verify "$OUT/ramayanam-wallpapers.apk"
-echo "Built $OUT/ramayanam-wallpapers.apk"
+  --ks-key-alias androiddebugkey --out "$OUT/bhagavatham-wallpapers.apk" "$OUT/aligned.apk"
+"$BT/apksigner" verify "$OUT/bhagavatham-wallpapers.apk"
+echo "Built $OUT/bhagavatham-wallpapers.apk"
 
 if [ -n "${BUNDLETOOL:-}" ]; then
   echo "Release bundle"
@@ -86,11 +86,11 @@ if [ -n "${BUNDLETOOL:-}" ]; then
   mv "$OUT/proto/resources.pb" "$OUT/proto/res" "$OUT/proto/assets" "$OUT/module/"
   cp "$OUT"/dex/classes*.dex "$OUT/module/dex/"
   (cd "$OUT/module" && zip -q -r ../base.zip .)
-  rm -f "$OUT/ramayanam-wallpapers.aab"
+  rm -f "$OUT/bhagavatham-wallpapers.aab"
   java -jar "$BUNDLETOOL" build-bundle --modules="$OUT/base.zip" --output="$OUT/unsigned.aab"
   jarsigner -keystore "${UPLOAD_KEYSTORE:?set UPLOAD_KEYSTORE}" -storepass "${UPLOAD_PASS:?set UPLOAD_PASS}" \
     -sigalg SHA256withRSA -digestalg SHA-256 \
-    -signedjar "$OUT/ramayanam-wallpapers.aab" "$OUT/unsigned.aab" "${UPLOAD_ALIAS:-upload}" >/dev/null
-  java -jar "$BUNDLETOOL" validate --bundle="$OUT/ramayanam-wallpapers.aab" >/dev/null
-  echo "Built $OUT/ramayanam-wallpapers.aab (mapping: $OUT/mapping.txt)"
+    -signedjar "$OUT/bhagavatham-wallpapers.aab" "$OUT/unsigned.aab" "${UPLOAD_ALIAS:-upload}" >/dev/null
+  java -jar "$BUNDLETOOL" validate --bundle="$OUT/bhagavatham-wallpapers.aab" >/dev/null
+  echo "Built $OUT/bhagavatham-wallpapers.aab (mapping: $OUT/mapping.txt)"
 fi

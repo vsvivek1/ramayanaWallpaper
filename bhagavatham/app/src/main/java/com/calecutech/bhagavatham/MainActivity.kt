@@ -225,7 +225,7 @@ class MainActivity : Activity() {
         val token = ++renderToken
         progress.visibility = View.VISIBLE
         val showText = Prefs.showText(this)
-        val centreText = Lang.info(Lang.current(this)).sriRama
+        val centreText = Lang.info(Lang.current(this)).centreName
         worker.execute {
             val (sw, sh) = WallpaperSetter.screenSize(applicationContext)
             val w = 720
@@ -317,6 +317,6 @@ class MainActivity : Activity() {
 
     companion object {
         const val HOME_URL = "https://calecutech.com"
-        const val PRIVACY_URL = "https://calecutech.com/ramayanam/privacy.html"
+        const val PRIVACY_URL = "https://calecutech.com/bhagavatham/privacy.html"
     }
 }

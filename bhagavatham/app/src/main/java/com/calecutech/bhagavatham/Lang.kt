@@ -9,15 +9,15 @@ import java.util.Locale
  * falling back to English when the phone's language isn't one of these.
  */
 object Lang {
-    data class Language(val code: String, val nativeName: String, val sriRama: String)
+    data class Language(val code: String, val nativeName: String, val centreName: String)
 
     val SUPPORTED = listOf(
-        Language("en", "English", "श्री राम"),
-        Language("ml", "മലയാളം", "ശ്രീ രാമ"),
-        Language("ta", "தமிழ்", "ஸ்ரீ ராம"),
-        Language("te", "తెలుగు", "శ్రీ రామ"),
-        Language("kn", "ಕನ್ನಡ", "ಶ್ರೀ ರಾಮ"),
-        Language("hi", "हिन्दी", "श्री राम"),
+        Language("en", "English", "श्री कृष्ण"),
+        Language("ml", "മലയാളം", "ശ്രീ കൃഷ്ണ"),
+        Language("ta", "தமிழ்", "ஸ்ரீ கிருஷ்ண"),
+        Language("te", "తెలుగు", "శ్రీ కృష్ణ"),
+        Language("kn", "ಕನ್ನಡ", "ಶ್ರೀ ಕೃಷ್ಣ"),
+        Language("hi", "हिन्दी", "श्री कृष्ण"),
     )
 
     const val AUTO = "auto"
