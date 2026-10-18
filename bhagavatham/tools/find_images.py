@@ -93,6 +93,9 @@ if MODE == "candidates":
     path = OUT + "/candidates.json"
     result = json.load(open(path)) if (ONLY and os.path.exists(path)) else {}
     used = {}
+    pk = os.path.join(ROOT, "tools/picks.json")
+    if ONLY and os.path.exists(pk):
+        for t in json.load(open(pk)).values(): used[t] = used.get(t, 0) + 1
     for inc in incidents:
         if ONLY and inc["id"] not in ONLY: continue
         names, scene = inc.get("names", []), inc.get("scene", "")
