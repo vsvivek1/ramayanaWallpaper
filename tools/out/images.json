@@ -374,14 +374,14 @@
   "file": "34.jpg"
  },
  "35": {
-  "image": "Shakuntala-birth 0.jpg",
-  "artist": "Paper Jewels",
-  "license": "CC BY 4.0",
-  "page": "https://commons.wikimedia.org/wiki/File:Shakuntala-birth_0.jpg",
-  "thumb": "https://upload.wikimedia.org/wikipedia/commons/2/22/Shakuntala-birth_0.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-  "score": 25.8,
-  "query": "Vishvamitra Indra painting",
-  "desc": "Raja Ravi Varma\nThe Ravi Varma Press\nMumbai Bombay\nc. 1905\nHalftone\nDivided back\n13.85x8.90cm\nVishvamitra was a revered sage in ancient India; this postcard fro",
+  "image": "Crossing the Ganges - Ramayana, Bala Kanda (1712), f.97 - BL Add MS 15295.jpg",
+  "artist": "",
+  "license": "CC0",
+  "page": "https://commons.wikimedia.org/wiki/File:Crossing_the_Ganges_-_Ramayana,_Bala_Kanda_(1712),_f.97_-_BL_Add_MS_15295.jpg",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Crossing_the_Ganges_-_Ramayana%2C_Bala_Kanda_%281712%29%2C_f.97_-_BL_Add_MS_15295.jpg/1280px-Crossing_the_Ganges_-_Ramayana%2C_Bala_Kanda_%281712%29%2C_f.97_-_BL_Add_MS_15295.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "score": 0.8,
+  "query": "Bala Kanda Ramayana",
+  "desc": "Crossing the Ganges\n\nRama and Lakshmana bathe in the river Ganges and recite their sacred verses before proceeding on their journey with Visvamitra.",
   "file": "35.jpg"
  },
  "36": {
@@ -770,14 +770,14 @@
   "file": "70.jpg"
  },
  "71": {
-  "image": "Ganga and Bhishma.jpg",
-  "artist": "Raja Ravi Varma",
+  "image": "The Kewat Pleads With Rama Not to Step on His Boat.jpg",
+  "artist": "anonymous",
   "license": "Public domain",
-  "page": "https://commons.wikimedia.org/wiki/File:Ganga_and_Bhishma.jpg",
-  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Ganga_and_Bhishma.jpg/1280px-Ganga_and_Bhishma.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-  "score": 18.2,
+  "page": "https://commons.wikimedia.org/wiki/File:The_Kewat_Pleads_With_Rama_Not_to_Step_on_His_Boat.jpg",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/The_Kewat_Pleads_With_Rama_Not_to_Step_on_His_Boat.jpg/1280px-The_Kewat_Pleads_With_Rama_Not_to_Step_on_His_Boat.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "score": 11.8,
   "query": "Ganga Ramayana painting",
-  "desc": "Shantanu, the son of a king from the lunar dynasty, fell in love with Ganga. He courted her and Ganga agreed to become his wife on the condition that he should ",
+  "desc": "The Kewat Pleads With Rama Not to Step on His Boat. Paper, natural colour. 18 x 25.5 cm. Malwa, Mid 17th century. National Museum, New Delhi 51.65/5",
   "file": "71.jpg"
  },
  "72": {
@@ -830,7 +830,7 @@
   "license": "CC0",
   "page": "https://commons.wikimedia.org/wiki/File:%22The_Death_of_King_Dasharatha,_the_Father_of_Rama%22,_Folio_from_a_Ramayana_MET_sf2002-506b.jpg",
   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/%22The_Death_of_King_Dasharatha%2C_the_Father_of_Rama%22%2C_Folio_from_a_Ramayana_MET_sf2002-506b.jpg/1280px-%22The_Death_of_King_Dasharatha%2C_the_Father_of_Rama%22%2C_Folio_from_a_Ramayana_MET_sf2002-506b.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-  "score": 31.6,
+  "score": 32.0,
   "query": "Dasharatha Rama Ramayana",
   "desc": "Folio from an illustrated manuscript; Codices",
   "file": "76.jpg"
@@ -911,17 +911,6 @@
   "query": "Bharata Ramayana painting",
   "desc": "Bharata and Shatrughana paying homage to Sage Bharadwaja at his hermitage by Guman, based on Adhyatma Ramayana. Paper, natural colour. 31.5 x 42.8 cm. Jaipur - ",
   "file": "83.jpg"
- },
- "84": {
-  "image": "Street Painting Depicting Bharata Receiving Rama's Padukas.jpg",
-  "artist": "Anshuman.rai.1004",
-  "license": "CC BY-SA 4.0",
-  "page": "https://commons.wikimedia.org/wiki/File:Street_Painting_Depicting_Bharata_Receiving_Rama%27s_Padukas.jpg",
-  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Street_Painting_Depicting_Bharata_Receiving_Rama%27s_Padukas.jpg/1280px-Street_Painting_Depicting_Bharata_Receiving_Rama%27s_Padukas.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-  "score": 3.4,
-  "query": "Bharata Rama painting",
-  "desc": "A street mural depicting the Ramayana scene in which Bharata reverently receives Lord Rama's Charan Padukas (wooden sandals), symbolizing devotion and righteous",
-  "file": "84.jpg"
  },
  "85": {
   "image": "Rama, Sita, and Lakshmana at the Hermitage of Bharadvaja Page from a dispersed Ramayana (Story of King Rama), ca. 1780.jpg",
@@ -1100,14 +1089,14 @@
   "file": "100.jpg"
  },
  "101": {
-  "image": "Ramayana Ballet Prambanan objek Perbincangan Rama dan Shinta.jpg",
-  "artist": "Tulis Tsabit",
-  "license": "CC BY-SA 4.0",
-  "page": "https://commons.wikimedia.org/wiki/File:Ramayana_Ballet_Prambanan_objek_Perbincangan_Rama_dan_Shinta.jpg",
-  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Ramayana_Ballet_Prambanan_objek_Perbincangan_Rama_dan_Shinta.jpg/1280px-Ramayana_Ballet_Prambanan_objek_Perbincangan_Rama_dan_Shinta.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-  "score": 23.2,
+  "image": "The Adventures of Rama.jpg",
+  "artist": "LACMA",
+  "license": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:The_Adventures_of_Rama.jpg",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/The_Adventures_of_Rama.jpg/1280px-The_Adventures_of_Rama.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "score": 22.4,
   "query": "Rama Ramayana",
-  "desc": "Ramayana Ballet atau Sendratari Ramayana Prambanan merupakan karya seni drama yang ditarikan. Karya seni tersebut dilakukan di panggung terbuka yang menyatu den",
+  "desc": "Hanuman Carrying the Mountain of Medicinal Herbs (left); Rama Battles Ravana (right), Architectural Panel with Ramayana (Adventures of Rama) Scenes",
   "file": "101.jpg"
  },
  "102": {
@@ -1284,6 +1273,7 @@
   "score": 38.2,
   "query": "Lanka Ravana Rama Ramayana",
   "desc": "\"Rendering himself invisible by virtue of the boon he received from Brahma, [Indrajit, the son of Ravana] . . . loosened sharp arrows bright as lightening on Ra",
+  "faint": true,
   "file": "117.jpg"
  },
  "118": {
@@ -1309,14 +1299,14 @@
   "file": "119.jpg"
  },
  "120": {
-  "image": "Ramayana Prambanan 7.jpg",
-  "artist": "Philip Nalangan",
+  "image": "Kkmenonmarichanpainting.png",
+  "artist": "Tabsdoxtator",
   "license": "CC BY-SA 4.0",
-  "page": "https://commons.wikimedia.org/wiki/File:Ramayana_Prambanan_7.jpg",
-  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Ramayana_Prambanan_7.jpg/1280px-Ramayana_Prambanan_7.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-  "score": 29.8,
-  "query": "Maricha Ravana Rama Ramayana",
-  "desc": "The Ramayana ballet in Prambanan is performed on an open stage. This photo shows Maricha taking the form of a beautiful golden deer to distract Rama away from S",
+  "page": "https://commons.wikimedia.org/wiki/File:Kkmenonmarichanpainting.png",
+  "thumb": "https://upload.wikimedia.org/wikipedia/commons/9/91/Kkmenonmarichanpainting.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "score": 21.6,
+  "query": "Maricha Ramayana painting",
+  "desc": "Indian artist K. K. Menon's painting titled \"Death of Maricha\" from the Hindu epic the Ramayana",
   "file": "120.jpg"
  },
  "121": {
@@ -1562,36 +1552,36 @@
   "file": "142.jpg"
  },
  "143": {
-  "image": "Vali and Sugriva Fighting 1.jpg",
-  "artist": "Punjab Hills",
-  "license": "Public domain",
-  "page": "https://commons.wikimedia.org/wiki/File:Vali_and_Sugriva_Fighting_1.jpg",
-  "thumb": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Vali_and_Sugriva_Fighting_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-  "score": 31.8,
-  "query": "Vali Sugriva Ramayana",
-  "desc": "Vali and Sugriva Fighting, Folio from the Dispersed 'Shangri Ramayana', Indian, Opaque watercolor on paper, Punjab Hills, India, ca. 1700-1710, sheet: 8 x 12 1/",
-  "file": "143.jpg"
- },
- "144": {
   "image": "Sugriva challenge Vali verso.jpg",
   "artist": "anonymous",
   "license": "Public domain",
   "page": "https://commons.wikimedia.org/wiki/File:Sugriva_challenge_Vali_verso.jpg",
   "thumb": "https://upload.wikimedia.org/wikipedia/commons/6/62/Sugriva_challenge_Vali_verso.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
   "score": 31.2,
-  "query": "Sugriva Vali Ramayana",
+  "query": "Vali Sugriva Ramayana",
   "desc": "From Basholi Ramayana series dated 1720",
+  "file": "143.jpg"
+ },
+ "144": {
+  "image": "Linteau Ramayana Musée Guimet 9974.jpg",
+  "artist": "Vassil",
+  "license": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Linteau_Ramayana_Mus%C3%A9e_Guimet_9974.jpg",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Linteau_Ramayana_Mus%C3%A9e_Guimet_9974.jpg/1280px-Linteau_Ramayana_Mus%C3%A9e_Guimet_9974.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "score": 21.4,
+  "query": "Sugriva Vali Ramayana",
+  "desc": "Linteau représentant un épisode du Ramayana: ici, le combat des singes Valin et Sugriva. Cambodge, province de Battambang, Vat Baset, style du Baphuon, 11ème si",
   "file": "144.jpg"
  },
  "145": {
-  "image": "Valin Fights Sugriva Banteay Srei 1214.jpg",
-  "artist": "Michael Gunther",
-  "license": "CC BY-SA 4.0",
-  "page": "https://commons.wikimedia.org/wiki/File:Valin_Fights_Sugriva_Banteay_Srei_1214.jpg",
-  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/Valin_Fights_Sugriva_Banteay_Srei_1214.jpg/1280px-Valin_Fights_Sugriva_Banteay_Srei_1214.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-  "score": 34.2,
-  "query": "Sugriva Rama Vali Ramayana",
-  "desc": "The western gopura of the second enclosure displays, on its east pediment, the fight to become King of the Monkeys between Valin and his brother Sugriva. The st",
+  "image": "\"Rama Receives Sugriva and Jambavat, the Monkey and Bear Kings\", Folio from a Ramayana MET sf2002-503b.jpg",
+  "artist": "",
+  "license": "CC0",
+  "page": "https://commons.wikimedia.org/wiki/File:%22Rama_Receives_Sugriva_and_Jambavat,_the_Monkey_and_Bear_Kings%22,_Folio_from_a_Ramayana_MET_sf2002-503b.jpg",
+  "thumb": "https://upload.wikimedia.org/wikipedia/commons/8/82/%22Rama_Receives_Sugriva_and_Jambavat%2C_the_Monkey_and_Bear_Kings%22%2C_Folio_from_a_Ramayana_MET_sf2002-503b.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "score": 27.0,
+  "query": "Sugriva Rama painting",
+  "desc": "Folio from an illustrated manuscript; Codices",
   "file": "145.jpg"
  },
  "146": {
@@ -1639,14 +1629,14 @@
   "file": "149.jpg"
  },
  "150": {
-  "image": "Linteau Ramayana Musée Guimet 9974.jpg",
-  "artist": "Vassil",
-  "license": "Public domain",
-  "page": "https://commons.wikimedia.org/wiki/File:Linteau_Ramayana_Mus%C3%A9e_Guimet_9974.jpg",
-  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Linteau_Ramayana_Mus%C3%A9e_Guimet_9974.jpg/1280px-Linteau_Ramayana_Mus%C3%A9e_Guimet_9974.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-  "score": 21.4,
+  "image": "Bali and Sugriba.jpg",
+  "artist": "Nayan j Nath",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Bali_and_Sugriba.jpg",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/Bali_and_Sugriba.jpg/1280px-Bali_and_Sugriba.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "score": 17.0,
   "query": "Vali Sugriva Ramayana",
-  "desc": "Linteau représentant un épisode du Ramayana: ici, le combat des singes Valin et Sugriva. Cambodge, province de Battambang, Vat Baset, style du Baphuon, 11ème si",
+  "desc": "ভাওনাত  বালি আৰু সুগ্ৰীৱৰ  বেশত দুগৰাকী ভাৱৰীয়া",
   "file": "150.jpg"
  },
  "151": {
@@ -1793,12 +1783,12 @@
   "file": "163.jpg"
  },
  "164": {
-  "image": "\"Rama Receives Sugriva and Jambavat, the Monkey and Bear Kings\", Folio from a Ramayana MET sf2002-503b.jpg",
+  "image": "\"Rama Receives Sugriva and Jambavat, the Monkey and Bear Kings\", Folio from a Ramayana MET sf2002-503-a.jpg",
   "artist": "",
   "license": "CC0",
-  "page": "https://commons.wikimedia.org/wiki/File:%22Rama_Receives_Sugriva_and_Jambavat,_the_Monkey_and_Bear_Kings%22,_Folio_from_a_Ramayana_MET_sf2002-503b.jpg",
-  "thumb": "https://upload.wikimedia.org/wikipedia/commons/8/82/%22Rama_Receives_Sugriva_and_Jambavat%2C_the_Monkey_and_Bear_Kings%22%2C_Folio_from_a_Ramayana_MET_sf2002-503b.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-  "score": 15.0,
+  "page": "https://commons.wikimedia.org/wiki/File:%22Rama_Receives_Sugriva_and_Jambavat,_the_Monkey_and_Bear_Kings%22,_Folio_from_a_Ramayana_MET_sf2002-503-a.jpg",
+  "thumb": "https://upload.wikimedia.org/wikipedia/commons/7/79/%22Rama_Receives_Sugriva_and_Jambavat%2C_the_Monkey_and_Bear_Kings%22%2C_Folio_from_a_Ramayana_MET_sf2002-503-a.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "score": 14.8,
   "query": "Sugriva Rama painting",
   "desc": "Folio from an illustrated manuscript; Codices",
   "file": "164.jpg"
@@ -1903,14 +1893,14 @@
   "file": "173.jpg"
  },
  "174": {
-  "image": "Ravi Varma-Draupadi and Simhika.jpg",
-  "artist": "Raja Ravi Varma",
+  "image": "Monkeys and Bears fighting in the Madhuvana-Grove.jpg",
+  "artist": "Pandit Seu",
   "license": "Public domain",
-  "page": "https://commons.wikimedia.org/wiki/File:Ravi_Varma-Draupadi_and_Simhika.jpg",
-  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/Ravi_Varma-Draupadi_and_Simhika.jpg/1280px-Ravi_Varma-Draupadi_and_Simhika.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-  "score": 18.8,
-  "query": "Simhika Ramayana painting",
-  "desc": "Draupadi taken to forest by Simhika, who plans to kill her.",
+  "page": "https://commons.wikimedia.org/wiki/File:Monkeys_and_Bears_fighting_in_the_Madhuvana-Grove.jpg",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Monkeys_and_Bears_fighting_in_the_Madhuvana-Grove.jpg/1280px-Monkeys_and_Bears_fighting_in_the_Madhuvana-Grove.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "score": 8.8,
+  "query": "Sundara Kanda Ramayana folio",
+  "desc": "Monkeys and Bears fighting in the Madhuvana-Grove. Folio from a \"Small Guler\" Ramayana series by Pandit Seu, No. 86. 21.5 x 30.5 cm. On verso, inscribed with te",
   "file": "174.jpg"
  },
  "175": {
@@ -1947,14 +1937,14 @@
   "file": "177.jpg"
  },
  "178": {
-  "image": "West Pediment, Phnom Rung 0434.jpg",
-  "artist": "Michael Gunther",
-  "license": "CC BY-SA 4.0",
-  "page": "https://commons.wikimedia.org/wiki/File:West_Pediment,_Phnom_Rung_0434.jpg",
-  "thumb": "https://upload.wikimedia.org/wikipedia/commons/0/05/West_Pediment%2C_Phnom_Rung_0434.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-  "score": 35.6,
-  "query": "Pushpaka Ravana Hanuman Ramayana",
-  "desc": "Above the west lintel of the sanctuary is a scene from the Ramayana. The temple shown here is a miniature of Phnom Rung itself, being drawn through the air and ",
+  "image": "Painting of Maratha troops marching into battle toward Alwar troops, fresco section on the interior of the dome of Mohabat Singh's chatri, circa 18th century.jpg",
+  "artist": "Unknown authorUnknown author",
+  "license": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Painting_of_Maratha_troops_marching_into_battle_toward_Alwar_troops,_fresco_section_on_the_interior_of_the_dome_of_Mohabat_Singh%27s_chatri,_circa_18th_century.jpg",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Painting_of_Maratha_troops_marching_into_battle_toward_Alwar_troops%2C_fresco_section_on_the_interior_of_the_dome_of_Mohabat_Singh%27s_chatri%2C_circa_18th_century.jpg/1280px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "score": 8.0,
+  "query": "Hanuman Lanka painting",
+  "desc": "Painting of Maratha troops marching into battle toward Alwar troops, fresco section on the interior of the dome of Mohabat Singh's (of Alwar) chatri, circa 18th",
   "file": "178.jpg"
  },
  "179": {
@@ -2145,25 +2135,25 @@
   "file": "195.jpg"
  },
  "196": {
-  "image": "The Adventures of Rama.jpg",
-  "artist": "LACMA",
-  "license": "Public domain",
-  "page": "https://commons.wikimedia.org/wiki/File:The_Adventures_of_Rama.jpg",
-  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/The_Adventures_of_Rama.jpg/1280px-The_Adventures_of_Rama.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-  "score": 37.4,
+  "image": "Templo del Dios Mono.jpg",
+  "artist": "Antonio García",
+  "license": "CC BY 2.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Templo_del_Dios_Mono.jpg",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Templo_del_Dios_Mono.jpg/1280px-Templo_del_Dios_Mono.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "score": 25.4,
   "query": "Ravana Hanuman Rama Ramayana",
-  "desc": "Hanuman Carrying the Mountain of Medicinal Herbs (left); Rama Battles Ravana (right), Architectural Panel with Ramayana (Adventures of Rama) Scenes",
+  "desc": "Hanuman en la mitología hindú es el dios mono venerado por los hindúes, quienes creen que es uno de los diez avatares (encarnaciones) de Vishnú. Es el fiel comp",
   "file": "196.jpg"
  },
  "197": {
-  "image": "COLLECTIE TROPENMUSEUM Houten wajangpop voorstellende Prahasta TMnr 4283-40.jpg",
-  "artist": "Tropenmuseum",
-  "license": "CC BY-SA 3.0",
-  "page": "https://commons.wikimedia.org/wiki/File:COLLECTIE_TROPENMUSEUM_Houten_wajangpop_voorstellende_Prahasta_TMnr_4283-40.jpg",
-  "thumb": "https://upload.wikimedia.org/wikipedia/commons/9/9d/COLLECTIE_TROPENMUSEUM_Houten_wajangpop_voorstellende_Prahasta_TMnr_4283-40.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-  "score": 23.8,
-  "query": "Prahasta Hanuman Ramayana",
-  "desc": "Stokpop. Houten wajangpop voorstellende Prahasta. Prahasta is een karakter in de verhalen van de Ramayana. Hij is rijksbestuurder en oom van de demonenvorst Rah",
+  "image": "Sree Raghunandan - Ram Laxman Sita and Hanuman, M V Dhurandar.jpg",
+  "artist": "M. V. Dhurandhar (1867- 1944)",
+  "license": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Sree_Raghunandan_-_Ram_Laxman_Sita_and_Hanuman,_M_V_Dhurandar.jpg",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Sree_Raghunandan_-_Ram_Laxman_Sita_and_Hanuman%2C_M_V_Dhurandar.jpg/1280px-Sree_Raghunandan_-_Ram_Laxman_Sita_and_Hanuman%2C_M_V_Dhurandar.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "score": 6.8,
+  "query": "Hanuman Sita painting",
+  "desc": "Sree Raghunandan - Ram Laxman Sita and Hanuman, M V Dhurandar",
   "file": "197.jpg"
  },
  "198": {
@@ -2230,6 +2220,7 @@
   "score": 28.6,
   "query": "Vibhishana Ravana painting",
   "desc": "This scene is described in Valmiki's Ramayana: \"Then [Angada] the powerful son of Bali, scaled [Ravana's] palace up to its roof . . . the impact of his bounds c",
+  "faint": true,
   "file": "203.jpg"
  },
  "204": {
@@ -2255,14 +2246,14 @@
   "file": "205.jpg"
  },
  "206": {
-  "image": "Balinese Ramayan-Sita and Hanuman.jpg",
-  "artist": "casey yancey",
-  "license": "CC BY 2.0",
-  "page": "https://commons.wikimedia.org/wiki/File:Balinese_Ramayan-Sita_and_Hanuman.jpg",
-  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Balinese_Ramayan-Sita_and_Hanuman.jpg/1280px-Balinese_Ramayan-Sita_and_Hanuman.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-  "score": 28.6,
+  "image": "Indrajita taunts Hanuman as he slays an illusory image of Sita.jpg",
+  "artist": "Mughal Painters",
+  "license": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Indrajita_taunts_Hanuman_as_he_slays_an_illusory_image_of_Sita.jpg",
+  "thumb": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Indrajita_taunts_Hanuman_as_he_slays_an_illusory_image_of_Sita.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "score": 28.2,
   "query": "Sita Hanuman Ramayana",
-  "desc": "Balinese dance performance of Ramayana.\n\nHanoman, king of monkeys comes on a mission from Rama bringing her into a ring to make sure she is alive and tells her ",
+  "desc": "Ramayana By Akbar",
   "file": "206.jpg"
  },
  "207": {
@@ -2409,14 +2400,15 @@
   "file": "219.jpg"
  },
  "220": {
-  "image": "Damayanti listens to the message of her beloved Nala brought by the Swan - Raja Ravi Varma.jpg",
-  "artist": "Raja Ravi Varma",
+  "image": "BEARS AND MONKEYS BATTLE RAKSASAS.jpg",
+  "artist": "Manaku of guler",
   "license": "Public domain",
-  "page": "https://commons.wikimedia.org/wiki/File:Damayanti_listens_to_the_message_of_her_beloved_Nala_brought_by_the_Swan_-_Raja_Ravi_Varma.jpg",
-  "thumb": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Damayanti_listens_to_the_message_of_her_beloved_Nala_brought_by_the_Swan_-_Raja_Ravi_Varma.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-  "score": 20.2,
-  "query": "Nala painting",
-  "desc": "A painting by Raja Ravi Varma, from the Modern Review, March 1908",
+  "page": "https://commons.wikimedia.org/wiki/File:BEARS_AND_MONKEYS_BATTLE_RAKSASAS.jpg",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/BEARS_AND_MONKEYS_BATTLE_RAKSASAS.jpg/1280px-BEARS_AND_MONKEYS_BATTLE_RAKSASAS.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "score": 0.2,
+  "query": "Lanka battle Ramayana painting",
+  "desc": "Ramayana Series",
+  "faint": true,
   "file": "220.jpg"
  },
  "221": {
@@ -2483,6 +2475,7 @@
   "score": 32.4,
   "query": "Rama Lanka Ramayana",
   "desc": "India, Guler, Himachal Pradesh; Paintings; Drawing",
+  "faint": true,
   "file": "226.jpg"
  },
  "227": {
@@ -2527,6 +2520,7 @@
   "score": 28.8,
   "query": "Angada Indrajit painting",
   "desc": "Ramayana scene",
+  "faint": true,
   "file": "230.jpg"
  },
  "231": {
@@ -2538,17 +2532,18 @@
   "score": 34.4,
   "query": "Indrajit Ravana painting",
   "desc": "This preparatory drawing was for a painting intended for a Siege of Lanka series produced in the court studio at Guler (Rama Releases the Demon Spies Shuka and ",
+  "faint": true,
   "file": "231.jpg"
  },
  "232": {
-  "image": "Ramayana Prambanan 10.jpg",
-  "artist": "Philip Nalangan",
-  "license": "CC BY-SA 4.0",
-  "page": "https://commons.wikimedia.org/wiki/File:Ramayana_Prambanan_10.jpg",
-  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Ramayana_Prambanan_10.jpg/1280px-Ramayana_Prambanan_10.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-  "score": 27.4,
-  "query": "Sita Ravana Rama Ramayana",
-  "desc": "The Ramayana ballet in Prambanan is performed on an open stage. This photo shows the scene when Rama (left) found the wounded eagle-king Jatayu (on the floor), ",
+  "image": "Ravana with his Ministers; Sita in the Asoka Grove.jpg",
+  "artist": "Manaku of Guler",
+  "license": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Ravana_with_his_Ministers;_Sita_in_the_Asoka_Grove.jpg",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Ravana_with_his_Ministers%3B_Sita_in_the_Asoka_Grove.jpg/1280px-Ravana_with_his_Ministers%3B_Sita_in_the_Asoka_Grove.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "score": 33.8,
+  "query": "Sita Ravana painting",
+  "desc": "Sarama talk with sita about trick of ravana",
   "file": "232.jpg"
  },
  "233": {
@@ -2618,14 +2613,14 @@
   "file": "238.jpg"
  },
  "239": {
-  "image": "Hanuman Carrying the Mountain of Medicinal Herbs (left); Rama Battles Ravana (right), Architectural Panel with Ramayana (Adventures of Rama) Scenes LACMA M.89.159.1 (6 of 6).jpg",
-  "artist": "",
+  "image": "Brooklyn Museum - Ravana Challenges Rama's Army.jpg",
+  "artist": "Unknown authorUnknown author",
   "license": "Public domain",
-  "page": "https://commons.wikimedia.org/wiki/File:Hanuman_Carrying_the_Mountain_of_Medicinal_Herbs_(left);_Rama_Battles_Ravana_(right),_Architectural_Panel_with_Ramayana_(Adventures_of_Rama)_Scenes_LACMA_M.89.159.1_(6_of_6).jpg",
-  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Hanuman_Carrying_the_Mountain_of_Medicinal_Herbs_%28left%29%3B_Rama_Battles_Ravana_%28right%29%2C_Architectural_Panel_with_Ramayana_%28Adventures_of_Rama%29_Scenes_LACMA_M.89.159.1_%286_of_6%29.jpg/1280px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-  "score": 32.2,
-  "query": "Rama Ravana Hanuman Ramayana",
-  "desc": "India, Madhya Pradesh, 10th century\nArchitecture; Architectural Elements\nSandstone\nAnonymous gift (M.89.159.1)\nSouth and Southeast Asian Art",
+  "page": "https://commons.wikimedia.org/wiki/File:Brooklyn_Museum_-_Ravana_Challenges_Rama%27s_Army.jpg",
+  "thumb": "https://upload.wikimedia.org/wikipedia/commons/6/64/Brooklyn_Museum_-_Ravana_Challenges_Rama%27s_Army.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "score": 28.2,
+  "query": "Rama Ravana painting",
+  "desc": "",
   "file": "239.jpg"
  },
  "240": {
@@ -2772,14 +2767,14 @@
   "file": "252.jpg"
  },
  "253": {
-  "image": "Right side of Main Entrance wall, Guru Ram Rai Darbar, Dehradun.jpg",
-  "artist": "Kuldeepburjbhalaike",
-  "license": "CC BY-SA 4.0",
-  "page": "https://commons.wikimedia.org/wiki/File:Right_side_of_Main_Entrance_wall,_Guru_Ram_Rai_Darbar,_Dehradun.jpg",
-  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Right_side_of_Main_Entrance_wall%2C_Guru_Ram_Rai_Darbar%2C_Dehradun.jpg/1280px-Right_side_of_Main_Entrance_wall%2C_Guru_Ram_Rai_Darbar%2C_Dehradun.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-  "score": 31.8,
-  "query": "Sita Indrajit painting",
-  "desc": "Right side of Main Entrance wall, Guru Ram Rai Darbar, Dehradun, Uttrakhand, India in December 2025. Wall has various murals and paintings.",
+  "image": "Sita in Valmiki's hermitage.jpg",
+  "artist": "Chhajju (attribution)",
+  "license": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Sita_in_Valmiki%27s_hermitage.jpg",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Sita_in_Valmiki%27s_hermitage.jpg/1280px-Sita_in_Valmiki%27s_hermitage.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "score": 16.2,
+  "query": "Sita Ramayana painting",
+  "desc": "Sita in Valmiki's hermitage. Attributed to Chhajju. Chamba, c. 1800. Bhuri Singh Museum",
   "file": "253.jpg"
  },
  "254": {
@@ -2882,14 +2877,14 @@
   "file": "262.jpg"
  },
  "263": {
-  "image": "Ramayana Ballet - Rama vs Ravana, Pentas Ramajana, p30.jpg",
-  "artist": "TIOSO",
+  "image": "Rama launched at his foe a fearsome a bolt.jpg",
+  "artist": "Monro, W. D Illustrations by Evelyn Paul",
   "license": "Public domain",
-  "page": "https://commons.wikimedia.org/wiki/File:Ramayana_Ballet_-_Rama_vs_Ravana,_Pentas_Ramajana,_p30.jpg",
-  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Ramayana_Ballet_-_Rama_vs_Ravana%2C_Pentas_Ramajana%2C_p30.jpg/1280px-Ramayana_Ballet_-_Rama_vs_Ravana%2C_Pentas_Ramajana%2C_p30.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-  "score": 26.6,
-  "query": "Rama Ravana Ramayana",
-  "desc": "Ramayana Ballet - Rama vs Ravana",
+  "page": "https://commons.wikimedia.org/wiki/File:Rama_launched_at_his_foe_a_fearsome_a_bolt.jpg",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/Rama_launched_at_his_foe_a_fearsome_a_bolt.jpg/1280px-Rama_launched_at_his_foe_a_fearsome_a_bolt.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "score": 27.8,
+  "query": "Rama Ravana painting",
+  "desc": "Author: Monro, W. D\nPublisher: New York : Thomas Y. Crowell Company\nPossible copyright status: NOT_IN_COPYRIGHT\nLanguage: English\nCall number: 600940\nDigitizing",
   "file": "263.jpg"
  },
  "264": {
@@ -2948,25 +2943,25 @@
   "file": "268.jpg"
  },
  "269": {
-  "image": "A Ramayana scene at a Golu dolls display, Hanuman, Lakshmana, Rama, Sita.jpg",
-  "artist": "GoDakshin from Bangalore, India",
-  "license": "CC BY-SA 2.0",
-  "page": "https://commons.wikimedia.org/wiki/File:A_Ramayana_scene_at_a_Golu_dolls_display,_Hanuman,_Lakshmana,_Rama,_Sita.jpg",
-  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/A_Ramayana_scene_at_a_Golu_dolls_display%2C_Hanuman%2C_Lakshmana%2C_Rama%2C_Sita.jpg/1280px-A_Ramayana_scene_at_a_Golu_dolls_display%2C_Hanuman%2C_Lakshmana%2C_Rama%2C_Sita.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "image": "Giani Sant Singh's Ramcharitmanas commentary.jpg",
+  "artist": "Unknown authorUnknown author",
+  "license": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Giani_Sant_Singh%27s_Ramcharitmanas_commentary.jpg",
+  "thumb": "https://upload.wikimedia.org/wikipedia/commons/1/14/Giani_Sant_Singh%27s_Ramcharitmanas_commentary.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
   "score": 33.2,
   "query": "Hanuman Sita Rama Ramayana",
-  "desc": "dasara dasarakolu dussehra dassera mysore navaratri dasaragolu bombehabba dasaraphotos dasaradolls mahabalipuram tamil nadu india\n\nKolu, Bombe Habba, Bommai Kol",
+  "desc": "Giani Sant Singh's Ramcharitmanas commentary.\nQuote: \"In the early 1820s, the head Granthi of Sri Harimandar Sahib, Amritsar, composed a commentary on the 17th ",
   "file": "269.jpg"
  },
  "270": {
-  "image": "Sita captive.jpg",
-  "artist": "casey yancey",
-  "license": "CC BY 2.0",
-  "page": "https://commons.wikimedia.org/wiki/File:Sita_captive.jpg",
-  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Sita_captive.jpg/1280px-Sita_captive.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-  "score": 20.8,
-  "query": "Sita Rama Ravana Ramayana",
-  "desc": "Dance performance of the Ramayana on Bali.\n\nOriginal caption: sita is held prisoner in a park and Rahwana's nephew, Trijata tries to convince her to marry Rahwa",
+  "image": "Wedding of Rama and Sita. Wall painting in Bundi palace, 18 century..jpg",
+  "artist": "AnonymousUnknown author",
+  "license": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Wedding_of_Rama_and_Sita._Wall_painting_in_Bundi_palace,_18_century..jpg",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Wedding_of_Rama_and_Sita._Wall_painting_in_Bundi_palace%2C_18_century..jpg/1280px-Wedding_of_Rama_and_Sita._Wall_painting_in_Bundi_palace%2C_18_century..jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "score": 27.6,
+  "query": "Sita Rama painting",
+  "desc": "Wedding_of_Rama_and_Sita._Wall_painting_in_Bundi_palace,_18_century.",
   "file": "270.jpg"
  },
  "271": {
@@ -3058,14 +3053,14 @@
   "file": "278.jpg"
  },
  "279": {
-  "image": "Giani Sant Singh's Ramcharitmanas commentary.jpg",
-  "artist": "Unknown authorUnknown author",
-  "license": "Public domain",
-  "page": "https://commons.wikimedia.org/wiki/File:Giani_Sant_Singh%27s_Ramcharitmanas_commentary.jpg",
-  "thumb": "https://upload.wikimedia.org/wikipedia/commons/1/14/Giani_Sant_Singh%27s_Ramcharitmanas_commentary.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-  "score": 33.2,
+  "image": "Rama gives Ring to Hanuman.jpg",
+  "artist": "Gita Press Gorakhpur",
+  "license": "CC0",
+  "page": "https://commons.wikimedia.org/wiki/File:Rama_gives_Ring_to_Hanuman.jpg",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Rama_gives_Ring_to_Hanuman.jpg/1280px-Rama_gives_Ring_to_Hanuman.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "score": 28.2,
   "query": "Hanuman Rama Sita Ramayana",
-  "desc": "Giani Sant Singh's Ramcharitmanas commentary.\n\nQuote: \"In the early 1820s, the head Granthi of Sri Harimandar Sahib, Amritsar, composed a commentary on the 17th",
+  "desc": "Valmiki Ramayan I Gita Press Gorakhpur\nby MahaMuni\nUsage https://creativecommons.org/publicdomain/zero/1.0/\nTopics Sanskrit, \"महामुनि का संग्रह\", \"Pratiek-Luckn",
   "file": "279.jpg"
  },
  "280": {
@@ -3124,14 +3119,14 @@
   "file": "284.jpg"
  },
  "285": {
-  "image": "COLLECTIE TROPENMUSEUM Reliëf op de aan Shiva gewijde tempel op de Candi Lara Jonggrang oftewel het Prambanan tempelcomplex TMnr 10016184.jpg",
-  "artist": "H. Bongers (Fotograaf/photographer).",
-  "license": "CC BY-SA 3.0",
-  "page": "https://commons.wikimedia.org/wiki/File:COLLECTIE_TROPENMUSEUM_Reli%C3%ABf_op_de_aan_Shiva_gewijde_tempel_op_de_Candi_Lara_Jonggrang_oftewel_het_Prambanan_tempelcomplex_TMnr_10016184.jpg",
-  "thumb": "https://upload.wikimedia.org/wikipedia/commons/e/e2/COLLECTIE_TROPENMUSEUM_Reli%C3%ABf_op_de_aan_Shiva_gewijde_tempel_op_de_Candi_Lara_Jonggrang_oftewel_het_Prambanan_tempelcomplex_TMnr_10016184.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-  "score": 22.2,
-  "query": "Ravana Shiva Ramayana",
-  "desc": "Relief at the temple dedicated to Shiva at the Candi Lara Jonggrang or Prambanan temple complex. Ramayana Panel 1: Five gods approach Vishnu with Garuda (left) ",
+  "image": "Ravana Receiving a Boon from Shiva LACMA M.2009.148.2.jpg",
+  "artist": "",
+  "license": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Ravana_Receiving_a_Boon_from_Shiva_LACMA_M.2009.148.2.jpg",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Ravana_Receiving_a_Boon_from_Shiva_LACMA_M.2009.148.2.jpg/1280px-Ravana_Receiving_a_Boon_from_Shiva_LACMA_M.2009.148.2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "score": 28.6,
+  "query": "Ravana Shiva painting",
+  "desc": "India, Himachal Pradesh, circa 1850-1900\nDrawings; watercolors\nOpaque watercolor and gold on paper\nGift of Robert Shapazian (M.2009.148.2)\nSouth and Southeast A",
   "file": "285.jpg"
  },
  "286": {
@@ -3355,25 +3350,25 @@
   "file": "305.jpg"
  },
  "306": {
-  "image": "COLLECTIE TROPENMUSEUM Houten wajangpop voorstellende Lesmana TMnr 4283-58.jpg",
-  "artist": "Tropenmuseum",
-  "license": "CC BY-SA 3.0",
-  "page": "https://commons.wikimedia.org/wiki/File:COLLECTIE_TROPENMUSEUM_Houten_wajangpop_voorstellende_Lesmana_TMnr_4283-58.jpg",
-  "thumb": "https://upload.wikimedia.org/wikipedia/commons/b/bd/COLLECTIE_TROPENMUSEUM_Houten_wajangpop_voorstellende_Lesmana_TMnr_4283-58.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-  "score": 29.6,
-  "query": "Rama Kausalya Sumitra Ramayana",
-  "desc": "Stokpop. Houten wajangpop voorstellende Lesmana. Lesmana is een personage in de Ramayana verhalen. Hij is de halfbroer van prins Rama. Lesmana is de zoon van ko",
+  "image": "Rama Bestows His Possessions on the Brahmins, His Friends, and Servants, Folio from the \"Shangri\" Ramayana.jpg",
+  "artist": "First Bahu Master (attribution)",
+  "license": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Rama_Bestows_His_Possessions_on_the_Brahmins,_His_Friends,_and_Servants,_Folio_from_the_%22Shangri%22_Ramayana.jpg",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Rama_Bestows_His_Possessions_on_the_Brahmins%2C_His_Friends%2C_and_Servants%2C_Folio_from_the_%22Shangri%22_Ramayana.jpg/1280px-Rama_Bestows_His_Possessions_on_the_Brahmins%2C_His_Friends%2C_and_Servants%2C_Folio_from_the_%22Shangri%22_Ramayana.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "score": 13.6,
+  "query": "Rama Ramayana painting",
+  "desc": "Rama Bestows His Possessions on the Brahmins, His Friends, and Servants, Folio from the \"Shangri\" Ramayana (Adventures of Rama). Attributed to First Bahu Master",
   "file": "306.jpg"
  },
  "307": {
-  "image": "'Asvatthama Fires the Narayana Weapon (Cosmic Fire) at the Pandavas', Folio from a Razmnama, ca. 1616-17, The Metropolitan Museum of Art 1.jpg",
-  "artist": "Patron: 'Abd al-Rahim ibn Muhammad Bairam Khan Khan-i Khanan (Indian, Delhi 1556–1627 Agra)",
-  "license": "CC0",
-  "page": "https://commons.wikimedia.org/wiki/File:%27Asvatthama_Fires_the_Narayana_Weapon_(Cosmic_Fire)_at_the_Pandavas%27,_Folio_from_a_Razmnama,_ca._1616-17,_The_Metropolitan_Museum_of_Art_1.jpg",
-  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/%27Asvatthama_Fires_the_Narayana_Weapon_%28Cosmic_Fire%29_at_the_Pandavas%27%2C_Folio_from_a_Razmnama%2C_ca._1616-17%2C_The_Metropolitan_Museum_of_Art_1.jpg/1280px-%27Asvatthama_Fires_the_Narayana_Weapon_%28Cosmic_Fire%29_at_the_Pandavas%27%2C_Folio_from_a_Razmnama%2C_ca._1616-17%2C_The_Metropolitan_Museum_of_Art_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-  "score": 13.0,
+  "image": "Court Artist Draws the Portraits of Bharata and Shatrughna.jpg",
+  "artist": "Bahu Masters",
+  "license": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Court_Artist_Draws_the_Portraits_of_Bharata_and_Shatrughna.jpg",
+  "thumb": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Court_Artist_Draws_the_Portraits_of_Bharata_and_Shatrughna.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "score": 11.2,
   "query": "Bharata Ramayana painting",
-  "desc": "Part of Akbar's success in creating a stable empire in India was his curiosity about and sympathetic understanding of cultures outside his own. In pursuing his ",
+  "desc": "Court Artist Draws the Portraits of Bharata and Shatrughna\nShangri II Ramayana\n\nBahu, Jammu c. 1695",
   "file": "307.jpg"
  },
  "308": {
