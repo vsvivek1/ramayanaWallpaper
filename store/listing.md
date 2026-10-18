@@ -38,7 +38,16 @@ Ramayanam is the first in a series. Bhagavatham and Mahabharatham are coming nex
 |---|---|
 | icon-512.png | App icon (512 × 512) |
 | feature-graphic-1024x500.png | Feature graphic |
-| screenshot-1 … 6 (1080 × 1920) | Phone screenshots, in this order |
+| screenshot-1-hero … 7-paintings (1080 × 1920) | Phone screenshots, in this order |
+
+Screenshot order and message:
+1. hero: Wake up to the Ramayana, a new painting and story every day
+2. epic: follow the whole epic day by day, day 1 to day 310, seven kandas
+3. story: the story sits under every painting
+4. swipe: swipe to read ahead or look back, set any incident
+5. languages: six languages
+6. settings: home, lock or both; hide the story text
+7. paintings: 310 classical paintings inside the app; no ads, no account, offline, free
 
 ## Data safety form answers
 • Does your app collect or share any of the required user data types? **No.**
