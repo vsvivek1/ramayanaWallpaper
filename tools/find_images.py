@@ -16,7 +16,9 @@ Indrajit Meghanada Mandodari Lanka Ashoka Pushpaka Sushena Lava Kusha Ayodhya Ki
 Panchavati Dandaka Mithila Shiva Vishnu Brahma Indra Varuna Surasa Simhika Lankini Akshaya Prahasta
 Atikaya Kamadhenu Sharabhanga Sutikshna Pampa Rishyamuka Kartavirya Shambuka Ravi Varma""".split()
 ALIAS = {"Meghanada": "Indrajit", "Kamadhenu": "Nandini", "Lakshmana": "Lakshman", "Vishwamitra": "Vishvamitra"}
-BAD = re.compile(r"statue|sculpt|temple|idol|murti|relief|festival|dance|kathakali|yakshagana|perform|ramlila|"
+BAD = re.compile(r"ballet|doll|golu|kecak|puppet|wayang|tropenmuseum|alamy|album-online|\balbum\b|bhishma|draupadi|"
+                 r"shakuntala|damayanti|razmnama|asvatthama|pandava|prambanan|banteay|phnom|kerta.gosa|darbar|"
+                 r"statue|sculpt|temple|idol|murti|relief|festival|dance|kathakali|yakshagana|perform|ramlila|"
                  r"actor|stamp|coin|map|logo|poster|banner|procession|puppet|tattoo|mural_in_progress|photo|"
                  r"\bfilm\b|movie|serial|cosplay|effigy|dussehra|dasara|carving|bronze|stone|terracotta|wood",
                  re.I)
@@ -72,7 +74,8 @@ def search(q):
 def score(c, names):
     text = c["title"] + " " + c["desc"] + " " + c["cats"]
     if c["mime"] not in ("image/jpeg", "image/png") or not FREE.search(c["lic"]): return None
-    if c["w"] < 700 or c["h"] < 500 or BAD.search(c["title"]) : return None
+    if c["w"] < 700 or c["h"] < 500 or BAD.search(c["title"]) or BAD.search(c["desc"]): return None
+    if REDO and not GOOD.search(text): return None
     if not re.search(r"ramayan|rama\b|sita|hanuman|ravana|ravi.?varma", text, re.I): return None
     s = 10 - c["index"] * 0.2
     s += 6 * sum(1 for n in names if re.search(n, text, re.I))
@@ -81,8 +84,17 @@ def score(c, names):
     if BAD.search(c["cats"]): s -= 6
     return s
 
+import os
 incidents = json.load(open("app/src/main/assets/incidents.json"))["incidents"]
+REDO = [int(x) for x in os.environ.get("REDO", "").split(",") if x]
 used, result = {}, {}
+if REDO:
+    result = json.load(open("tools/out/images.json"))
+    for k, v in result.items():
+        if int(k) not in REDO: used[v["image"]] = 1
+    for k in REDO: result.pop(str(k), None)
+    incidents = [i for i in incidents if i["id"] in REDO]
+    result = {int(k): v for k, v in result.items()}
 for inc in incidents:
     words = re.findall(r"[A-Z][a-z]+", inc["title"] + " " + inc["story"][:160])
     names = []
@@ -101,6 +113,7 @@ for inc in incidents:
         for c in search(q):
             s = score(c, names)
             if s is None: continue
+            if REDO and c["title"] in used: continue
             s -= qi * 4 + used.get(c["title"], 0) * 25
             if best is None or s > best[0]: best = (s, c, q)
         if best and best[0] > 20 and qi < 3: break
@@ -113,18 +126,21 @@ for inc in incidents:
     else:
         print(inc["id"], inc["title"], "-> none", flush=True)
 
-import os
 os.makedirs("tools/out/img", exist_ok=True)
+from PIL import ImageStat
 for iid, r in result.items():
+    if REDO and iid not in REDO: continue
     try:
         req = urllib.request.Request(r["thumb"], headers={"User-Agent": UA})
         data = urllib.request.urlopen(req, timeout=60).read()
         im = Image.open(io.BytesIO(data)).convert("RGB")
+        if sum(ImageStat.Stat(im.convert("L")).stddev) < 28:
+            print("too faint", iid, r["image"]); r["faint"] = True
         if im.width > 1080: im = im.resize((1080, round(im.height * 1080 / im.width)), Image.LANCZOS)
         im.save(f"tools/out/img/{iid}.jpg", quality=80, optimize=True, progressive=True)
         r["file"] = f"{iid}.jpg"
         time.sleep(0.2)
     except Exception as e:
         print("download failed", iid, e, file=sys.stderr)
-json.dump(result, open("tools/out/images.json", "w"), indent=1, ensure_ascii=False)
+json.dump({str(k): v for k, v in sorted(result.items())}, open("tools/out/images.json", "w"), indent=1, ensure_ascii=False)
 print("found", len(result), "of", len(incidents), "unique", len(used))

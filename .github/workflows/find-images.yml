@@ -12,6 +12,8 @@ jobs:
       - uses: actions/checkout@v4
       - run: pip install pillow
       - run: python3 tools/find_images.py
+        env:
+          REDO: "8,22,35,59,71,75,76,84,101,114,117,120,140,143,144,145,150,164,174,178,188,196,197,203,204,206,214,220,226,230,231,232,239,253,263,269,270,279,285,306,307"
       - run: |
           git config user.name "image-research-bot"
           git config user.email "actions@github.com"
