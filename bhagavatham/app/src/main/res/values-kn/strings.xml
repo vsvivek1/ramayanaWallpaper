@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ರಾಮಾಯಣ ವಾಲ್‌ಪೇಪರ್‌ಗಳು</string>
+    <string name="today">ಇಂದಿನ ಪ್ರಸಂಗ</string>
+    <string name="set_now">ವಾಲ್‌ಪೇಪರ್ ಆಗಿ ಇಡಿ</string>
+    <string name="previous">‹ ಹಿಂದಿನದು</string>
+    <string name="next">ಮುಂದಿನದು ›</string>
+    <string name="back_to_today">ಇಂದಿಗೆ ಹಿಂತಿರುಗಿ</string>
+    <string name="browse_all">ಎಲ್ಲ ಪ್ರಸಂಗಗಳು</string>
+    <string name="settings">ಸೆಟ್ಟಿಂಗ್‌ಗಳು</string>
+    <string name="daily_change">ಪ್ರತಿದಿನ ವಾಲ್‌ಪೇಪರ್ ಬದಲಿಸಿ</string>
+    <string name="show_text">ಕಥೆಯನ್ನು ವಾಲ್‌ಪೇಪರ್‌ನಲ್ಲಿ ತೋರಿಸಿ</string>
+    <string name="apply_to">ಎಲ್ಲಿ ಇಡಬೇಕು</string>
+    <string name="target_both">ಹೋಮ್ ಮತ್ತು ಲಾಕ್ ಸ್ಕ್ರೀನ್</string>
+    <string name="target_home">ಹೋಮ್ ಸ್ಕ್ರೀನ್ ಮಾತ್ರ</string>
+    <string name="target_lock">ಲಾಕ್ ಸ್ಕ್ರೀನ್ ಮಾತ್ರ</string>
+    <string name="restart">ಮೊದಲ ಪ್ರಸಂಗದಿಂದ ಮತ್ತೆ ಆರಂಭಿಸಿ</string>
+    <string name="about">ಕಾಂಡ ಕಾಂಡವಾಗಿ, ನಾರದರು ಹೇಳಿದ ಉತ್ತಮ ಪುರುಷನ ಕಥೆಯಿಂದ ರಾಮನ ಅಂತಿಮ ಯಾತ್ರೆಯವರೆಗೆ, ದಿನಕ್ಕೊಂದು ಪ್ರಸಂಗದಂತೆ ಕಥೆ ಮುಂದುವರಿಯುತ್ತದೆ; ನಂತರ ಮತ್ತೆ ಆರಂಭವಾಗುತ್ತದೆ. ಪ್ರತಿ ಪ್ರಸಂಗಕ್ಕೂ ಒಂದು ಶಾಸ್ತ್ರೀಯ ಚಿತ್ರ ಆ್ಯಪ್‌ನಲ್ಲೇ ಇದೆ: ರಾಜಾ ರವಿವರ್ಮ, ಮೇವಾಡ ರಾಮಾಯಣ, ಪಹಾಡಿ ಮತ್ತು ಮೊಘಲ್ ಚಿತ್ರಗಳು ಮೊದಲಾದವು, ವಿಕಿಮೀಡಿಯಾ ಕಾಮನ್ಸ್‌ನಿಂದ. ಪ್ರತಿ ಚಿತ್ರದ ಕಲಾವಿದ, ಪರವಾನಗಿ ಮತ್ತು ಮೂಲವನ್ನು ಕಥೆಯ ಕೆಳಗೆ ತೋರಿಸಲಾಗಿದೆ.</string>
+    <string name="today_label">ಇಂದು · %1$s · ಪ್ರಸಂಗ %2$d / %3$d</string>
+    <string name="incident_label">ಪ್ರಸಂಗ %1$d / %2$d</string>
+    <string name="download_failed">ಚಿತ್ರವನ್ನು ಡೌನ್‌ಲೋಡ್ ಮಾಡಲಾಗಲಿಲ್ಲ. ಆ್ಯಪ್‌ನ ಚಿತ್ರವನ್ನು ತೋರಿಸಲಾಗುತ್ತಿದೆ.</string>
+    <string name="wallpaper_set">ವಾಲ್‌ಪೇಪರ್ ಇಡಲಾಗಿದೆ: %1$s</string>
+    <string name="wallpaper_failed">ವಾಲ್‌ಪೇಪರ್ ಇಡಲಾಗಲಿಲ್ಲ</string>
+    <string name="restart_message">ಇಂದು ಮೊದಲ ಪ್ರಸಂಗ ತೋರಿಸಲಾಗುತ್ತದೆ; ಇನ್ನು ಮುಂದೆ ದಿನಕ್ಕೊಂದು ಪ್ರಸಂಗದಂತೆ ಕಥೆ ಮುಂದುವರಿಯುತ್ತದೆ.</string>
+    <string name="restart_confirm">ಮತ್ತೆ ಆರಂಭಿಸಿ</string>
+    <string name="language_title">ಕಥೆಯ ಭಾಷೆ</string>
+    <string name="language_phone">ಫೋನ್‌ನ ಭಾಷೆ</string>
+    <string name="language_auto">ಫೋನ್‌ನ ಭಾಷೆ (%1$s)</string>
+    <string name="language_button">ಭಾಷೆ: %1$s</string>
+    <string name="source">ಮೂಲ</string>
+    <string name="credit_drawn">ಚಿತ್ರ: ಆ್ಯಪ್ ಬಿಡಿಸಿದ್ದು</string>
+    <string name="credit_artist">ಚಿತ್ರ: %1$s · ಸಾರ್ವಜನಿಕ ಸ್ವತ್ತು · ವಿಕಿಮೀಡಿಯಾ ಕಾಮನ್ಸ್</string>
+    <string name="credit_licensed">ಚಿತ್ರ: %1$s · %2$s · ವಿಕಿಮೀಡಿಯಾ ಕಾಮನ್ಸ್</string>
+    <string name="credit_commons">ಚಿತ್ರ: ವಿಕಿಮೀಡಿಯಾ ಕಾಮನ್ಸ್ (ಸಾರ್ವಜನಿಕ ಸ್ವತ್ತು)</string>
+    <string name="link_home">Calecutech ಮುಖಪುಟ</string>
+    <string name="link_privacy">ಗೌಪ್ಯತಾ ನೀತಿ</string>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="maroon">#FF5B1414</color>
+    <color name="maroon_dark">#FF3A0B0B</color>
+    <color name="saffron">#FFF29A2E</color>
+    <color name="gold">#FFE8C27A</color>
+    <color name="parchment">#FFFBF4E6</color>
+    <color name="ink">#FF2B1A12</color>
+    <color name="ink_soft">#FF6E5444</color>
+    <color name="launcher_bg">#FF7A1C12</color>
+</resources>

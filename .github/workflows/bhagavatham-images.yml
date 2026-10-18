@@ -1,0 +1,22 @@
+name: bhagavatham-images
+on:
+  push:
+    branches: [claude/bhagavatham-wallpaper-app-6130kz]
+    paths: [bhagavatham/tools/find_images.py, bhagavatham/tools/run.env, bhagavatham/tools/picks.json, .github/workflows/bhagavatham-images.yml]
+permissions:
+  contents: write
+jobs:
+  find:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+      - run: pip install pillow
+      - run: |
+          set -a; . bhagavatham/tools/run.env; set +a
+          python3 bhagavatham/tools/find_images.py
+      - run: |
+          git config user.name "image-research-bot"
+          git config user.email "actions@github.com"
+          git add bhagavatham/tools/out
+          git commit -m "Bhagavatham image research results" && git pull --rebase && git push

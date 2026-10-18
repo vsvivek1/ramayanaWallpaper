@@ -1,0 +1,4482 @@
+{
+ "series": "Bhagavatham",
+ "imageNote": "Every incident has a painting bundled in app/src/main/assets/paintings/<id>.jpg, chosen from Wikimedia Commons by tools/find_images.py and checked by eye.",
+ "incidents": [
+  {
+   "id": 1,
+   "kanda": "First Skandha",
+   "title": "The Sages of Naimisharanya",
+   "story": "In the sacred forest of Naimisharanya, many sages gathered for a long sacrifice of a thousand years. Seeing the wise storyteller Suta among them, they asked him to tell the stories of Lord Krishna. Pleased, Suta began to recite the Bhagavatam, the purest of all sacred tales.",
+   "names": [
+    "Suta"
+   ],
+   "scene": "sages seated in forest hermitage listening",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 2,
+   "kanda": "First Skandha",
+   "title": "Vyasa's Despondency",
+   "story": "Vyasa had divided the Vedas and written the great Mahabharata for the good of all, yet his heart felt empty. Sitting alone by the river Sarasvati, he wondered what he had missed. Just then Narada arrived playing his vina, and told him that he had not yet fully sung the glories of the Lord.",
+   "names": [
+    "Vyasa",
+    "Narada"
+   ],
+   "scene": "Vyasa seated by river with Narada",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 3,
+   "kanda": "First Skandha",
+   "title": "Narada's Previous Life",
+   "story": "Narada told Vyasa of his own past life as the son of a poor maidservant. As a boy he served wandering sages during the rainy season, ate their leftover food and heard them sing of Hari. Their company slowly washed his heart clean and filled it with love for the Lord.",
+   "names": [
+    "Narada"
+   ],
+   "scene": "young boy serving sages in hermitage",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 4,
+   "kanda": "First Skandha",
+   "title": "Narada Glimpses the Lord",
+   "story": "After his mother died of a snakebite, the boy wandered alone into a deep forest. Meditating beneath a tree, he saw the Lord shining in his heart, but the vision soon vanished. A gentle voice promised he would see Him again in his next life, and so he was reborn as Narada.",
+   "names": [
+    "Narada",
+    "Vishnu"
+   ],
+   "scene": "boy meditating under tree in forest",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 5,
+   "kanda": "First Skandha",
+   "title": "Vyasa Composes the Bhagavatam",
+   "story": "Inspired by Narada's words, Vyasa sat in his hermitage at Shamyaprasa and fixed his mind on the Lord in pure devotion. In that clear vision he composed the Srimad Bhagavatam. He then taught it to his son Shuka, a sage already free from all worldly desire.",
+   "names": [
+    "Vyasa",
+    "Shuka"
+   ],
+   "scene": "Vyasa writing scripture in forest hermitage",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 6,
+   "kanda": "First Skandha",
+   "title": "Ashwatthama's Night Attack",
+   "story": "After the great war, Ashwatthama crept into the Pandava camp at night, hoping to please the fallen Duryodhana. In the darkness he killed the five sleeping sons of Draupadi. When she woke to find her children slain, Draupadi wept with grief.",
+   "names": [
+    "Ashwatthama",
+    "Draupadi"
+   ],
+   "scene": "warrior attacking sleeping camp at night",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 7,
+   "kanda": "First Skandha",
+   "title": "Draupadi Spares Ashwatthama",
+   "story": "Arjuna chased Ashwatthama, defeated his deadly weapon with Krishna's help and dragged him bound before Draupadi. Though he had killed her sons, she pitied him as the son of their teacher Drona and begged that he be spared. Arjuna cut off the jewel from his head and drove him away.",
+   "names": [
+    "Draupadi",
+    "Arjuna",
+    "Ashwatthama"
+   ],
+   "scene": "bound warrior brought before weeping queen",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 8,
+   "kanda": "First Skandha",
+   "title": "Parikshit Saved in the Womb",
+   "story": "Still full of hate, Ashwatthama hurled the Brahmastra at the unborn child of Uttara, the last heir of the Pandavas. Terrified, Uttara ran to Krishna for shelter. Holding His discus, the Lord entered her womb and shielded the baby Parikshit from the blazing weapon.",
+   "names": [
+    "Krishna",
+    "Uttara",
+    "Parikshit"
+   ],
+   "scene": "Krishna protecting frightened queen from weapon",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 9,
+   "kanda": "First Skandha",
+   "title": "Kunti's Prayer",
+   "story": "As Krishna prepared to leave for Dwaraka, Queen Kunti stood before His chariot and prayed to Him with folded hands. She thanked Him for saving her family from every danger. She even asked for more troubles, because in times of trouble she always remembered Him.",
+   "names": [
+    "Kunti",
+    "Krishna"
+   ],
+   "scene": "queen praying before Krishna's chariot",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 10,
+   "kanda": "First Skandha",
+   "title": "Bhishma's Passing",
+   "story": "Grieving for the war, Yudhishthira went with Krishna to Bhishma, who lay on a bed of arrows at Kurukshetra. The old warrior taught him the duties of a king, then gazed lovingly at Krishna standing before him. Praying to the Lord, Bhishma peacefully gave up his body.",
+   "names": [
+    "Bhishma",
+    "Krishna",
+    "Yudhishthira"
+   ],
+   "scene": "Bhishma on bed of arrows",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 11,
+   "kanda": "First Skandha",
+   "title": "Krishna Returns to Dwaraka",
+   "story": "With Yudhishthira settled on the throne, Krishna set out for Dwaraka as the women of Hastinapura sadly watched Him go. When He blew His conch at the city gates, the people of Dwaraka rushed out with gifts and joyful music. He entered the palace and greeted His elders and His queens.",
+   "names": [
+    "Krishna"
+   ],
+   "scene": "Krishna welcomed by citizens at city gates",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 12,
+   "kanda": "First Skandha",
+   "title": "The Birth of Parikshit",
+   "story": "Uttara gave birth to a radiant son, the child the Lord had saved in the womb. The learned priests foretold that he would be a righteous king, as brave and kind as Rama. Because he seemed always to be searching for the Lord he had seen before birth, he was called Parikshit.",
+   "names": [
+    "Parikshit",
+    "Yudhishthira"
+   ],
+   "scene": "royal infant blessed by priests in palace",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 13,
+   "kanda": "First Skandha",
+   "title": "Vidura Counsels Dhritarashtra",
+   "story": "Vidura came back to Hastinapura after a long pilgrimage and was warmly welcomed. Seeing his blind elder brother Dhritarashtra still clinging to palace comforts, he spoke frankly. Death was near, he warned, so Dhritarashtra should leave home at once and seek the Lord.",
+   "names": [
+    "Vidura",
+    "Dhritarashtra"
+   ],
+   "scene": "sage advising blind old king",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 14,
+   "kanda": "First Skandha",
+   "title": "Dhritarashtra Leaves for the Forest",
+   "story": "Moved by Vidura's words, Dhritarashtra slipped away secretly at night with the faithful Gandhari. When Yudhishthira found them gone, he was heartbroken until Narada comforted him. Narada told him they were meditating in the Himalayas and would soon reach peace.",
+   "names": [
+    "Dhritarashtra",
+    "Gandhari",
+    "Narada"
+   ],
+   "scene": "blind king and queen walking into forest",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 15,
+   "kanda": "First Skandha",
+   "title": "Arjuna Brings Sad News",
+   "story": "Yudhishthira noticed dark omens everywhere and grew worried for Krishna. Arjuna returned from Dwaraka pale and weeping, and told him that Krishna had left the world. Remembering all the Lord's kindness, Arjuna found peace again in the teachings of the Gita.",
+   "names": [
+    "Arjuna",
+    "Yudhishthira"
+   ],
+   "scene": "grieving Arjuna before king Yudhishthira",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 16,
+   "kanda": "First Skandha",
+   "title": "The Pandavas Depart",
+   "story": "Knowing that the age of Kali had begun, Yudhishthira crowned young Parikshit king of Hastinapura. Then he gave away his royal robes and walked north with his brothers and Draupadi, their minds fixed on Krishna. In this way the Pandavas reached the Lord's abode.",
+   "names": [
+    "Yudhishthira",
+    "Draupadi",
+    "Parikshit"
+   ],
+   "scene": "Pandavas walking toward Himalayas",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 17,
+   "kanda": "First Skandha",
+   "title": "The Bull and the Cow",
+   "story": "On a royal tour, Parikshit came upon a bull standing on one leg and a weeping cow. The bull was Dharma and the cow was Mother Earth, both mourning the Lord's departure. A cruel man dressed as a king was beating them with a club, and that man was Kali himself.",
+   "names": [
+    "Parikshit"
+   ],
+   "scene": "king finding bull and cow beaten",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 18,
+   "kanda": "First Skandha",
+   "title": "Parikshit Spares Kali",
+   "story": "Parikshit raised his sword to kill Kali, but Kali dropped his royal disguise and fell at his feet. The merciful king spared him and allowed him to live only in places of gambling, drinking, lust, slaughter and greed. He also healed the bull of Dharma, restoring his lost legs.",
+   "names": [
+    "Parikshit"
+   ],
+   "scene": "king with sword over kneeling man",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 19,
+   "kanda": "First Skandha",
+   "title": "The Garland of the Dead Snake",
+   "story": "Hunting one day, Parikshit grew tired and thirsty and entered the hermitage of the sage Shamika. The sage was deep in meditation and did not greet him. In a rare moment of anger, the king placed a dead snake around the sage's neck and returned to his palace.",
+   "names": [
+    "Parikshit",
+    "Shamika"
+   ],
+   "scene": "king placing snake on meditating sage",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 20,
+   "kanda": "First Skandha",
+   "title": "The Curse of Shringi",
+   "story": "Shamika's young son Shringi heard how his father had been insulted. In boyish fury he cursed the king to die in seven days from the bite of the serpent Takshaka. Shamika woke, grieved that his son had cursed a good king, and sent word to Parikshit.",
+   "names": [
+    "Shringi",
+    "Shamika"
+   ],
+   "scene": "angry boy cursing by river",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 21,
+   "kanda": "First Skandha",
+   "title": "Parikshit at the Ganga",
+   "story": "Hearing of the curse, Parikshit felt it was a just reward for his offence. He gave his kingdom to his son Janamejaya and sat on the banks of the Ganga, fasting until death. Great sages from every corner of the land gathered around him there.",
+   "names": [
+    "Parikshit"
+   ],
+   "scene": "king seated by Ganga among sages",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 22,
+   "kanda": "First Skandha",
+   "title": "Shuka Arrives",
+   "story": "Into that great assembly walked young Shuka, son of Vyasa, wandering free and bright as the sun. All the sages rose to honour him, and Parikshit bowed at his feet. The king asked what a dying man should do, and Shuka began to tell him the Bhagavatam.",
+   "names": [
+    "Shuka",
+    "Parikshit"
+   ],
+   "scene": "young sage arriving before seated king",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 23,
+   "kanda": "Second Skandha",
+   "title": "Shuka Begins His Teaching",
+   "story": "Shuka praised Parikshit's question as the best one anyone could ask. He told the story of King Khatvanga, who learned he had only a moment left to live and gave his whole heart to the Lord. Seven days, Shuka said, are more than enough to reach the highest goal.",
+   "names": [
+    "Shuka",
+    "Parikshit"
+   ],
+   "scene": "sage teaching king by riverbank",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 24,
+   "kanda": "Second Skandha",
+   "title": "The Universal Form",
+   "story": "To help the king fix his mind on the Lord, Shuka described the Universal Form. The worlds below are His feet and the heavens are His head. The sun is His eye, the rivers are His veins, the mountains are His bones, and all creation lives within His vast body.",
+   "names": [
+    "Vishnu",
+    "Shuka"
+   ],
+   "scene": "cosmic form of Vishnu containing worlds",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 25,
+   "kanda": "Second Skandha",
+   "title": "The Lord in the Heart",
+   "story": "Shuka then taught a gentler meditation on the Lord dwelling within the heart. He is the size of a thumb, four-armed, holding the conch, discus, mace and lotus, wearing yellow silk and a garland of forest flowers. Seeing Him there, the yogi gives up the body in peace.",
+   "names": [
+    "Vishnu"
+   ],
+   "scene": "four-armed Vishnu in lotus heart",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 26,
+   "kanda": "Second Skandha",
+   "title": "Worship for Every Desire",
+   "story": "Shuka told the king that people worship many gods for their wishes: Indra for strength, the Sun for health, Lakshmi for wealth. Yet the wise person, whether full of desires, free of them, or longing for liberation, should worship Lord Hari alone. A life without hearing His stories, he said, is a life wasted.",
+   "names": [
+    "Shuka",
+    "Parikshit"
+   ],
+   "scene": "sage instructing king among gathered sages",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 27,
+   "kanda": "Second Skandha",
+   "title": "Narada Questions Brahma",
+   "story": "Shuka recalled how Narada once asked his father Brahma who had truly created the world. Brahma humbly replied that it was not he. He was only a servant, he said, and it was Lord Narayana who gave him the power to create all beings and all worlds.",
+   "names": [
+    "Narada",
+    "Brahma"
+   ],
+   "scene": "Narada bowing before four-headed Brahma",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 28,
+   "kanda": "Second Skandha",
+   "title": "The Cosmic Purusha",
+   "story": "Brahma explained how the Lord as the cosmic Purusha lay upon the waters of the causal ocean. From Him came time, nature and all the elements. Entering the egg of the universe, He gave it life, and from His body the worlds, the gods and all beings came forth.",
+   "names": [
+    "Vishnu",
+    "Brahma"
+   ],
+   "scene": "Vishnu reclining on cosmic waters",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 29,
+   "kanda": "Second Skandha",
+   "title": "The Avatars of the Lord",
+   "story": "Brahma told Narada of the Lord's many avatars. He came as Varaha to lift the Earth, Matsya to save the Vedas and Kurma to hold up a mountain. He became Narasimha to protect Prahlada, Vamana to humble Bali, and Rama and Krishna to destroy evil and delight His devotees.",
+   "names": [
+    "Vishnu",
+    "Brahma",
+    "Narada"
+   ],
+   "scene": "ten avatars of Vishnu in panels",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 30,
+   "kanda": "Second Skandha",
+   "title": "Brahma Hears Tapa",
+   "story": "Seated on the lotus that grew from the Lord's navel, Brahma did not know how to begin creation. Then from the waters he heard a voice say two words, tapa, tapa, meaning austerity. Brahma obeyed and meditated with full focus for a thousand divine years.",
+   "names": [
+    "Brahma"
+   ],
+   "scene": "Brahma meditating on lotus over waters",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 31,
+   "kanda": "Second Skandha",
+   "title": "Brahma's Vision of Vaikuntha",
+   "story": "Pleased by his tapas, the Lord showed Brahma His own realm, Vaikuntha. There was no fear, no time and no illusion, and shining devotees flew in beautiful aerial cars. On a throne sat the Lord with Lakshmi, attended by His joyful companions.",
+   "names": [
+    "Vishnu",
+    "Lakshmi",
+    "Brahma"
+   ],
+   "scene": "Vishnu and Lakshmi enthroned in Vaikuntha",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 32,
+   "kanda": "Second Skandha",
+   "title": "The Four Verses",
+   "story": "The Lord then taught Brahma the essence of all wisdom in four short verses. Before creation only He existed, and after it ends only He remains. Whatever seems apart from Him is illusion, and He is present both within and beyond all things.",
+   "names": [
+    "Vishnu",
+    "Brahma"
+   ],
+   "scene": "Vishnu teaching kneeling Brahma",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 33,
+   "kanda": "Third Skandha",
+   "title": "Vidura Leaves Hastinapura",
+   "story": "Vidura begged King Dhritarashtra to return the Pandavas their share of the kingdom and avoid ruin. Duryodhana insulted him and ordered him thrown out of the palace. Calm and without anger, Vidura left his bow at the door and set out on pilgrimage, thinking only of Krishna.",
+   "names": [
+    "Vidura",
+    "Dhritarashtra"
+   ],
+   "scene": "Vidura leaving the Kaurava palace hall",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 34,
+   "kanda": "Third Skandha",
+   "title": "Vidura Meets Uddhava",
+   "story": "Wandering to holy places, Vidura met Uddhava, Krishna's dear friend, on the bank of the Yamuna. He eagerly asked after Krishna and the Yadavas. Overwhelmed by memories of his master, Uddhava could not speak for a long while, and tears of love streamed from his eyes.",
+   "names": [
+    "Vidura",
+    "Uddhava"
+   ],
+   "scene": "Vidura embracing Uddhava by the river",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 35,
+   "kanda": "Third Skandha",
+   "title": "Uddhava Tells of Krishna's Departure",
+   "story": "Uddhava told Vidura that the Yadava clan had perished in a quarrel at Prabhasa and that Krishna had left the world. Before going, Krishna had sat beneath a tree, taught Uddhava the highest wisdom, and sent him to Badarikashrama. He also asked that Vidura be taught by the sage Maitreya.",
+   "names": [
+    "Uddhava",
+    "Krishna"
+   ],
+   "scene": "Krishna seated under tree teaching Uddhava",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 36,
+   "kanda": "Third Skandha",
+   "title": "Vidura Meets Maitreya",
+   "story": "Vidura travelled to Haridwar, where he found the wise sage Maitreya on the bank of the Ganga. Bowing humbly, he asked why people seek happiness yet find sorrow, and how the Lord creates the universe. Pleased by his devotion, Maitreya began to tell him the story of creation.",
+   "names": [
+    "Vidura",
+    "Maitreya"
+   ],
+   "scene": "Vidura bowing to sage by Ganga",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 37,
+   "kanda": "Third Skandha",
+   "title": "Vishnu Sleeps on Ananta",
+   "story": "Before creation, the whole universe lay drowned in the waters of dissolution. Upon them the Lord Narayana rested on the great serpent Ananta, whose thousand hoods spread like a canopy of jewels. He seemed to sleep, yet within Him lay all the worlds and beings waiting to be born again.",
+   "names": [
+    "Vishnu",
+    "Ananta"
+   ],
+   "scene": "Vishnu reclining on serpent over cosmic ocean",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 38,
+   "kanda": "Third Skandha",
+   "title": "Brahma Born on the Lotus",
+   "story": "When the time for creation came, a golden lotus sprang from the navel of Vishnu, shining like the sun. Within it Brahma appeared, the four-headed creator. Looking in all directions with his four faces, he saw only endless water and wondered who he was and where he came from.",
+   "names": [
+    "Brahma",
+    "Vishnu"
+   ],
+   "scene": "Brahma seated on lotus from Vishnu's navel",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 39,
+   "kanda": "Third Skandha",
+   "title": "Brahma Searches the Lotus Stem",
+   "story": "Seeking the source of the lotus, Brahma entered its stem and went down into the dark waters for a hundred celestial years. He found no end and returned weary to his seat. Then he sat in silent meditation, and at last the Lord on Ananta appeared clearly within his heart.",
+   "names": [
+    "Brahma"
+   ],
+   "scene": "Brahma climbing down the lotus stalk",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 40,
+   "kanda": "Third Skandha",
+   "title": "Brahma Prays to Vishnu",
+   "story": "Seeing the radiant Lord reclining on Ananta, Brahma was filled with wonder and offered heartfelt prayers. He asked for the strength to create without pride. Smiling, Vishnu blessed him, told him to perform penance, and promised that devotion would keep him free from the bondage of his work.",
+   "names": [
+    "Brahma",
+    "Vishnu"
+   ],
+   "scene": "Four-headed Brahma praying to Vishnu on Ananta",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 41,
+   "kanda": "Third Skandha",
+   "title": "Brahma Creates the Worlds",
+   "story": "Strengthened by penance, Brahma divided the lotus into the three worlds and began to create. From his own body and mind came the many kinds of beings, from trees and animals to gods and humans. Maitreya explained to Vidura how time, from moments to vast ages, guides this great unfolding.",
+   "names": [
+    "Brahma"
+   ],
+   "scene": "Brahma creating worlds on a lotus",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 42,
+   "kanda": "Third Skandha",
+   "title": "The Four Kumaras Refuse",
+   "story": "Brahma first created four sons from his mind, the sages Sanaka, Sanandana, Sanatana and Sanatkumara. When he asked them to create offspring, they refused, wishing only to be devoted to the Lord. Brahma's anger blazed out from between his brows as Rudra, the blue and red child who wept as he was born.",
+   "names": [
+    "Kumaras",
+    "Brahma",
+    "Shiva"
+   ],
+   "scene": "Four boy sages before Brahma",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 43,
+   "kanda": "Third Skandha",
+   "title": "Manu and Shatarupa Appear",
+   "story": "Still eager to fill the world with life, Brahma divided his own body into two. From one half came Svayambhuva Manu and from the other his queen Shatarupa. They became the first parents of humankind, and they humbly asked Brahma how they could best serve him and the Lord.",
+   "names": [
+    "Manu",
+    "Shatarupa",
+    "Brahma"
+   ],
+   "scene": "First man and woman bowing to Brahma",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 44,
+   "kanda": "Third Skandha",
+   "title": "Varaha Emerges from Brahma",
+   "story": "Manu wished to rule, but the Earth had sunk deep beneath the cosmic waters. As Brahma wondered what to do, a tiny boar no bigger than a thumb sprang from his nostril. Within moments it grew as huge as a mountain and roared, and the sages knew that the Lord Himself had come.",
+   "names": [
+    "Varaha",
+    "Brahma"
+   ],
+   "scene": "Tiny boar growing huge before Brahma",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 45,
+   "kanda": "Third Skandha",
+   "title": "Varaha Lifts the Earth",
+   "story": "The mighty boar Varaha plunged into the ocean, his bristles shaking and his hooves splitting the waters. Deep below he found the Earth, gently lifted her on his gleaming tusks, and rose up with her like the moon. The sages and Brahma sang his praises as he set the Earth upon the waters.",
+   "names": [
+    "Varaha",
+    "Bhudevi"
+   ],
+   "scene": "Boar avatar lifting Earth on tusks",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 46,
+   "kanda": "Third Skandha",
+   "title": "Diti Approaches Kashyapa at Dusk",
+   "story": "Diti, the wife of the sage Kashyapa, longed for a son and came to him one evening. Kashyapa begged her to wait, since dusk was the hour when Shiva and his ghostly followers roam. Overcome by desire, she would not listen, and Kashyapa gave in, though he knew it would bring trouble.",
+   "names": [
+    "Diti",
+    "Kashyapa"
+   ],
+   "scene": "Sage and wife at sunset hermitage",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 47,
+   "kanda": "Third Skandha",
+   "title": "Kashyapa's Prophecy",
+   "story": "Ashamed, Diti prayed that her children would be spared. Kashyapa told her she would bear two fierce sons who would trouble the worlds and be slain by the Lord Himself. Yet because she repented, one of her grandsons, Prahlada, would become a great devotee loved by all.",
+   "names": [
+    "Kashyapa",
+    "Diti"
+   ],
+   "scene": "Sage consoling his sorrowful wife",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 48,
+   "kanda": "Third Skandha",
+   "title": "Darkness Covers the Worlds",
+   "story": "Fearing what her sons would do, Diti held them in her womb for a hundred years. Their power spread darkness everywhere, and the frightened gods went to Brahma for help. Brahma told them the cause lay in a curse given long ago at the gates of Vaikuntha, and he began to tell the story.",
+   "names": [
+    "Brahma",
+    "Diti"
+   ],
+   "scene": "Gods approaching Brahma in darkness",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 49,
+   "kanda": "Third Skandha",
+   "title": "The Kumaras Reach Vaikuntha",
+   "story": "The four Kumaras, eternal sages who look like small boys, travelled to Vaikuntha, the shining realm of Vishnu. They passed through six gates of jewelled palaces and gardens without stopping. At the seventh gate stood two splendid doorkeepers, Jaya and Vijaya, holding maces.",
+   "names": [
+    "Kumaras",
+    "Jaya",
+    "Vijaya"
+   ],
+   "scene": "Four boy sages at jewelled gates",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 50,
+   "kanda": "Third Skandha",
+   "title": "The Curse of Jaya and Vijaya",
+   "story": "Jaya and Vijaya mistook the Kumaras for mere children and barred their way with their staffs. The sages were angered that anyone should be blocked from the Lord, and cursed the guards to be born as demons on Earth. Realising their mistake, the doorkeepers fell at the sages' feet in fear.",
+   "names": [
+    "Kumaras",
+    "Jaya",
+    "Vijaya"
+   ],
+   "scene": "Boy sages cursing two gatekeepers",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 51,
+   "kanda": "Third Skandha",
+   "title": "Vishnu Greets the Kumaras",
+   "story": "Knowing what had happened, Vishnu came to the gate with Lakshmi, riding on Garuda. The scent of tulasi from His feet melted the sages' hearts, and they praised Him with joy. The Lord accepted the curse, and promised Jaya and Vijaya that after three demon births they would return to Him.",
+   "names": [
+    "Vishnu",
+    "Lakshmi",
+    "Kumaras"
+   ],
+   "scene": "Vishnu on Garuda meeting the Kumaras",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 52,
+   "kanda": "Third Skandha",
+   "title": "Birth of the Demon Twins",
+   "story": "At last Diti gave birth to twin sons, and terrible omens shook the worlds. The earth trembled, winds howled and comets blazed in the sky. Kashyapa named them Hiranyakashipu and Hiranyaksha, and they quickly grew into giants whose heads seemed to touch the sky.",
+   "names": [
+    "Hiranyaksha",
+    "Hiranyakashipu",
+    "Diti"
+   ],
+   "scene": "Two giant demon brothers born amid omens",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 53,
+   "kanda": "Third Skandha",
+   "title": "Hiranyaksha Challenges Varuna",
+   "story": "Proud of his strength, Hiranyaksha roamed the worlds with his mace looking for a fight, and the gods hid in fear. He dived into the ocean and challenged Varuna, lord of the waters. Varuna calmly told him that only the Lord could match him, and that He would soon humble his pride.",
+   "names": [
+    "Hiranyaksha",
+    "Varuna"
+   ],
+   "scene": "Demon with mace challenging sea god",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 54,
+   "kanda": "Third Skandha",
+   "title": "Hiranyaksha Meets Varaha",
+   "story": "Hiranyaksha went searching and found Varaha rising from the ocean with the Earth on his tusks. The demon mocked him as a mere forest animal and tried to stop him. Ignoring the insults, Varaha first set the Earth safely upon the waters, then turned to face the demon.",
+   "names": [
+    "Varaha",
+    "Hiranyaksha"
+   ],
+   "scene": "Boar avatar carrying Earth facing demon",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 55,
+   "kanda": "Third Skandha",
+   "title": "Varaha Slays Hiranyaksha",
+   "story": "A fierce battle followed, mace against mace, while Brahma and the gods watched. When the demon used dark magic, the Lord broke it with his discus. At last Varaha struck Hiranyaksha below the ear and he fell like a great tree, and the gods showered flowers in joy.",
+   "names": [
+    "Varaha",
+    "Hiranyaksha"
+   ],
+   "scene": "Varaha battling demon with mace",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 56,
+   "kanda": "Third Skandha",
+   "title": "Kardama's Penance",
+   "story": "Brahma told the sage Kardama to have children, so he performed penance for ten thousand years beside the Sarasvati river. Pleased, Vishnu appeared before him on Garuda and promised him a worthy wife. Tears of joy fell from the Lord's eyes, and the place became the holy lake Bindu Sarovara.",
+   "names": [
+    "Kardama",
+    "Vishnu"
+   ],
+   "scene": "Vishnu on Garuda appearing to meditating sage",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 57,
+   "kanda": "Third Skandha",
+   "title": "Manu Gives Devahuti to Kardama",
+   "story": "Svayambhuva Manu and Shatarupa travelled with their daughter Devahuti to Kardama's hermitage. Manu humbly offered her to the sage, saying she had chosen him in her heart. Kardama was pleased by her beauty and goodness, and the two were married beside the lake.",
+   "names": [
+    "Kardama",
+    "Devahuti",
+    "Manu"
+   ],
+   "scene": "King offering daughter to forest sage",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 58,
+   "kanda": "Third Skandha",
+   "title": "Kardama's Flying Palace",
+   "story": "Devahuti served her husband faithfully until she grew thin and weak. Pleased, Kardama created by yogic power a wondrous flying palace of jewels and gardens. Devahuti bathed in Bindu Sarovara, was attended by a thousand maidens, and travelled the heavens with him in great joy.",
+   "names": [
+    "Kardama",
+    "Devahuti"
+   ],
+   "scene": "Sage and wife in a flying jewelled palace",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 59,
+   "kanda": "Third Skandha",
+   "title": "Birth of Kapila",
+   "story": "Devahuti bore nine daughters, and later Vishnu Himself was born as her son, named Kapila. Brahma came with the sages to honour the divine child and told Kardama who he truly was. Kardama gave his daughters in marriage to great sages, who would fill the world with good families.",
+   "names": [
+    "Kapila",
+    "Kardama",
+    "Devahuti"
+   ],
+   "scene": "Brahma blessing baby Kapila with parents",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 60,
+   "kanda": "Third Skandha",
+   "title": "Kardama Renounces the World",
+   "story": "Knowing his duty was done, Kardama bowed to his son Kapila and asked permission to leave home. Kapila blessed him and told him to fix his mind on the Lord in every being. Kardama went into the forest, free of all desire, and reached the Lord through devotion.",
+   "names": [
+    "Kardama",
+    "Kapila"
+   ],
+   "scene": "Sage bowing to his son before leaving",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 61,
+   "kanda": "Third Skandha",
+   "title": "Kapila Teaches Devahuti",
+   "story": "Devahuti asked her son to free her from the darkness of worldly life. Kapila lovingly taught her how the self differs from matter, how the soul wanders from birth to birth, and how devotion to the Lord is the surest path to freedom. She listened closely, and her doubts melted away.",
+   "names": [
+    "Kapila",
+    "Devahuti"
+   ],
+   "scene": "Young sage teaching his seated mother",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 62,
+   "kanda": "Third Skandha",
+   "title": "Devahuti Attains Liberation",
+   "story": "After Kapila left for the north, Devahuti lived in the hermitage meditating on his form. She gave up all attachment, and her body became thin while her heart filled with peace. She attained the Lord, and the place became the holy Siddhapada, while the ocean itself gave Kapila a home.",
+   "names": [
+    "Devahuti",
+    "Kapila"
+   ],
+   "scene": "Woman meditating in a forest hermitage",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 63,
+   "kanda": "Fourth Skandha",
+   "title": "Daksha Curses Shiva",
+   "story": "At a great sacrifice of the Prajapatis, everyone rose to greet Daksha except Brahma and Shiva, who sat absorbed in meditation. Proud Daksha took this as an insult from his own son-in-law. In anger he cursed Shiva to receive no share of sacrificial offerings, and a bitter feud was born.",
+   "names": [
+    "Daksha",
+    "Shiva"
+   ],
+   "scene": "Daksha cursing Shiva in sacrificial assembly",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 64,
+   "kanda": "Fourth Skandha",
+   "title": "Sati Goes to Her Father",
+   "story": "Seeing her sisters fly in celestial chariots to Daksha's grand sacrifice, Sati longed to go home. Shiva warned her that her father would only insult her, yet her love for her family won out. She set off on Nandi with Shiva's attendants, leaving her lord behind on Kailasa.",
+   "names": [
+    "Sati",
+    "Shiva"
+   ],
+   "scene": "Sati pleading with Shiva on Kailasa",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 65,
+   "kanda": "Fourth Skandha",
+   "title": "Sati Gives Up Her Body",
+   "story": "At the sacrifice, Daksha ignored his daughter and no share was set aside for Shiva. Hurt and furious, Sati rebuked her father before the assembly for hating the most auspicious lord. Refusing to keep a body born of him, she sat in yogic meditation and was consumed by inner fire.",
+   "names": [
+    "Sati",
+    "Daksha"
+   ],
+   "scene": "Sati burning in yogic fire at sacrifice",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 66,
+   "kanda": "Fourth Skandha",
+   "title": "Shiva Creates Virabhadra",
+   "story": "When Narada told Shiva of Sati's death, the lord rose in terrible anger. He tore a matted lock from his head and dashed it to the ground. From it sprang Virabhadra, a towering warrior black as storm clouds, with a thousand arms, burning eyes and a garland of skulls, ready to obey.",
+   "names": [
+    "Shiva",
+    "Virabhadra"
+   ],
+   "scene": "Shiva tearing hair to create Virabhadra",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 67,
+   "kanda": "Fourth Skandha",
+   "title": "Virabhadra Destroys the Sacrifice",
+   "story": "Virabhadra and Shiva's ghostly hosts stormed Daksha's arena like a whirlwind. They smashed the pots, put out the fires and scattered the priests and gods. Virabhadra seized Daksha, cut off his proud head and offered it into the sacrificial fire, while all who had mocked Shiva fled.",
+   "names": [
+    "Virabhadra",
+    "Daksha"
+   ],
+   "scene": "Virabhadra beheading Daksha at sacrifice",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 68,
+   "kanda": "Fourth Skandha",
+   "title": "Brahma Pacifies Shiva",
+   "story": "The shaken gods went with Brahma to Kailasa, where Shiva sat calm beneath a great banyan tree. Brahma praised him as the lord of all sacrifice and begged him to forgive Daksha. Shiva, quickly pleased, explained that Daksha's pride had brought its own punishment and agreed to restore everything.",
+   "names": [
+    "Brahma",
+    "Shiva"
+   ],
+   "scene": "Brahma praying to Shiva under banyan",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 69,
+   "kanda": "Fourth Skandha",
+   "title": "Daksha Receives a Goat's Head",
+   "story": "By Shiva's grace, the head of the sacrificial goat was joined to Daksha's body, and he awoke humbled. He bowed to Shiva with tears of shame and love. As the sacrifice resumed, Lord Vishnu appeared on Garuda, and all praised him. Daksha completed his rite at last, free of envy.",
+   "names": [
+    "Daksha",
+    "Vishnu",
+    "Shiva"
+   ],
+   "scene": "Goat-headed Daksha praying to Vishnu on Garuda",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 70,
+   "kanda": "Fourth Skandha",
+   "title": "Dhruva Is Insulted",
+   "story": "Little Dhruva, son of King Uttanapada and Queen Suniti, tried to climb onto his father's lap beside his half-brother Uttama. Queen Suruchi, the favored wife, pulled him away and said he must worship Vishnu and be born from her to sit there. The king said nothing, and Dhruva left in tears.",
+   "names": [
+    "Dhruva",
+    "Suruchi",
+    "Uttanapada"
+   ],
+   "scene": "Young Dhruva pushed from king's lap",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 71,
+   "kanda": "Fourth Skandha",
+   "title": "Suniti Consoles Dhruva",
+   "story": "Weeping, Dhruva ran to his gentle mother Suniti. She sighed that harsh as Suruchi's words were, they held a truth. She told her son to take shelter of Lord Vishnu, whose lotus feet even Brahma worships, for only the Lord could give him what he sought. The five-year-old resolved to go.",
+   "names": [
+    "Dhruva",
+    "Suniti"
+   ],
+   "scene": "Queen Suniti embracing weeping child Dhruva",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 72,
+   "kanda": "Fourth Skandha",
+   "title": "Narada Meets Dhruva",
+   "story": "On the road, the sage Narada met Dhruva and tested him, urging the small boy to return home and play. Dhruva firmly refused, wanting a place higher than any ancestor. Pleased, Narada taught him to meditate on Vishnu's beautiful form and chant a sacred mantra at Madhuvana by the Yamuna.",
+   "names": [
+    "Narada",
+    "Dhruva"
+   ],
+   "scene": "Narada with veena blessing boy Dhruva",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 73,
+   "kanda": "Fourth Skandha",
+   "title": "Dhruva's Austerity at Madhuvana",
+   "story": "At Madhuvana, Dhruva fasted ever more strictly, living on fruits, then water, then air alone. In the sixth month he stood on one leg, fixing his mind wholly on the Lord. His concentration grew so powerful that the earth tilted and the breath of all beings was choked, and the gods ran to Vishnu.",
+   "names": [
+    "Dhruva"
+   ],
+   "scene": "Dhruva meditating on one leg in forest",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 74,
+   "kanda": "Fourth Skandha",
+   "title": "Vishnu Appears to Dhruva",
+   "story": "Lord Vishnu came to Madhuvana on Garuda, and the vision in Dhruva's heart suddenly stood before his eyes. Speechless with joy, the boy could not praise him. Vishnu gently touched his cheek with his conch, and divine words poured forth. The Lord promised him a kingdom and then the eternal Pole Star.",
+   "names": [
+    "Vishnu",
+    "Dhruva"
+   ],
+   "scene": "Vishnu touching Dhruva's cheek with conch",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 75,
+   "kanda": "Fourth Skandha",
+   "title": "Dhruva Returns Home",
+   "story": "Dhruva returned regretting he had asked the Lord only for a kingdom. Hearing he was coming, King Uttanapada rode out in a golden chariot with both queens, and the city was decorated with banners and flowers. The king embraced his son, Suruchi blessed him, and in time Dhruva was crowned king.",
+   "names": [
+    "Dhruva",
+    "Uttanapada"
+   ],
+   "scene": "King embracing Dhruva in festive procession",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 76,
+   "kanda": "Fourth Skandha",
+   "title": "Dhruva Battles the Yakshas",
+   "story": "When his brother Uttama was killed by a Yaksha while hunting in the Himalayas, Dhruva rode in fury to Alakapuri. Alone on his chariot he faced vast hosts of Yakshas and their magic illusions of fire, rain and monsters. He fixed a weapon of Narayana to his bow and slew them by the thousands.",
+   "names": [
+    "Dhruva"
+   ],
+   "scene": "Dhruva fighting Yakshas from chariot",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 77,
+   "kanda": "Fourth Skandha",
+   "title": "Manu Calms Dhruva",
+   "story": "Seeing his grandson slaughtering innocent Yakshas, Svayambhuva Manu came with the sages. He gently told Dhruva that anger is the enemy of devotion and that the Yakshas were not the real cause of his brother's death. Dhruva bowed to his grandfather and at once laid down his arms.",
+   "names": [
+    "Manu",
+    "Dhruva"
+   ],
+   "scene": "Manu counseling Dhruva on battlefield",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 78,
+   "kanda": "Fourth Skandha",
+   "title": "Kuvera Blesses Dhruva",
+   "story": "Kuvera, lord of riches and king of the Yakshas, was pleased that Dhruva had given up his anger. He came before him and offered any boon he wished. Dhruva asked only for unbroken remembrance of Lord Hari. Kuvera granted it gladly, and Dhruva returned to rule justly for many thousands of years.",
+   "names": [
+    "Kuvera",
+    "Dhruva"
+   ],
+   "scene": "Kuvera granting boon to Dhruva",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 79,
+   "kanda": "Fourth Skandha",
+   "title": "Dhruva Ascends to the Pole Star",
+   "story": "When Dhruva retired to Badarikashrama, a shining airplane descended with two messengers of Vishnu. Dhruva stepped on the head of death itself to climb aboard. Remembering his mother, he saw Suniti flying ahead of him. He rose past all the planets to Dhruvaloka, the Pole Star around which they turn.",
+   "names": [
+    "Dhruva"
+   ],
+   "scene": "Dhruva rising in celestial airplane",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 80,
+   "kanda": "Fourth Skandha",
+   "title": "King Anga Leaves His Kingdom",
+   "story": "Pious King Anga had a cruel son, Vena, who drowned playmates and slew animals for sport. Grieved and unable to correct him, Anga quietly left the palace at night and vanished into the forest. The sages then placed Vena on the throne, hoping power would teach him duty, but he grew worse.",
+   "names": [
+    "Anga",
+    "Vena"
+   ],
+   "scene": "King Anga leaving palace at night",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 81,
+   "kanda": "Fourth Skandha",
+   "title": "The Sages Slay Vena",
+   "story": "Vena declared himself the only god and banned all worship and sacrifice. The sages humbly begged him to honor Vishnu, but he insulted them. In righteous anger they struck him dead with sacred sounds alone. Without a king, robbers soon roamed the land, and the sages saw the world in danger.",
+   "names": [
+    "Vena"
+   ],
+   "scene": "Sages cursing the wicked King Vena",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 82,
+   "kanda": "Fourth Skandha",
+   "title": "Prithu Is Born",
+   "story": "To save the dynasty, the sages churned dead Vena's body. From his thighs came a dark dwarf, Nishada, who took away the king's sins. Then from his arms arose a radiant pair, Prithu and Archi, a partial incarnation of Vishnu and of Lakshmi. Gods and sages showered flowers and crowned Prithu.",
+   "names": [
+    "Prithu",
+    "Archi"
+   ],
+   "scene": "Prithu and Archi emerging from Vena's arms",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 83,
+   "kanda": "Fourth Skandha",
+   "title": "Prithu Pursues the Earth",
+   "story": "Under Vena the earth had hidden her grains and herbs, and people starved. Angry, King Prithu took up his bow to strike her. Trembling, the earth took the form of a cow and fled across the worlds, but found no refuge. At last she turned, bowed, and begged the king to hear her plea.",
+   "names": [
+    "Prithu",
+    "Bhumi"
+   ],
+   "scene": "Prithu with bow chasing earth cow",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 84,
+   "kanda": "Fourth Skandha",
+   "title": "Prithu Milks the Earth",
+   "story": "The earth explained that she had withheld her wealth from wicked men and asked for a calf and level ground. Prithu made Manu the calf and milked her into his own hands, drawing out every grain. Then gods, sages, demons and serpents each milked her in turn, and Prithu leveled the land for towns.",
+   "names": [
+    "Prithu",
+    "Bhumi"
+   ],
+   "scene": "Prithu milking the earth as cow",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 85,
+   "kanda": "Fourth Skandha",
+   "title": "Indra Steals the Horse",
+   "story": "Prithu began a hundred horse sacrifices, and jealous Indra feared losing his fame. Disguised as a holy mendicant, he stole the sacrificial horse. Prithu's son chased him, and Indra dropped the horse and fled, inventing false orders of ascetics as he went. Brahma persuaded Prithu to stop at ninety-nine.",
+   "names": [
+    "Indra",
+    "Prithu"
+   ],
+   "scene": "Indra disguised as ascetic stealing horse",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 86,
+   "kanda": "Fourth Skandha",
+   "title": "Vishnu Blesses Prithu",
+   "story": "Lord Vishnu arrived at Prithu's sacrifice with Indra, who stood ashamed. The Lord praised Prithu's patience and urged him to forgive. Prithu embraced Indra and then worshiped the Lord, asking for no boon but ten thousand ears to hear his glories. Vishnu was delighted and blessed him with devotion.",
+   "names": [
+    "Vishnu",
+    "Prithu"
+   ],
+   "scene": "Vishnu blessing King Prithu with Indra",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 87,
+   "kanda": "Fourth Skandha",
+   "title": "Kumaras Instruct Prithu",
+   "story": "One day the four boy sages, the Kumaras, descended from the sky, glowing like fire. Prithu honored them with water, seats and humble words. Sanat Kumara taught him that the highest goal is love for the Lord's lotus feet, which cuts the knot of false ego. Grateful, Prithu offered them his kingdom.",
+   "names": [
+    "Kumaras",
+    "Prithu"
+   ],
+   "scene": "Four boy sages instructing King Prithu",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 88,
+   "kanda": "Fourth Skandha",
+   "title": "Prithu and Archi Depart",
+   "story": "In old age Prithu gave his kingdom to his sons and went to the forest with his wife Archi. He lived on fruits and air, absorbed in the Lord, and finally gave up his body in yoga. Faithful Archi built his funeral pyre by the river, bathed, and entered the flames to follow her husband.",
+   "names": [
+    "Prithu",
+    "Archi"
+   ],
+   "scene": "Queen Archi at King Prithu's pyre",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 89,
+   "kanda": "Fourth Skandha",
+   "title": "Prachetas Meet Shiva",
+   "story": "The ten sons of King Prachinabarhi, called the Prachetas, set out to perform austerities. Beside a lovely lake they met Lord Shiva with his followers. Pleased with their devotion, Shiva taught them a beautiful prayer to Vishnu. The brothers then entered the ocean and chanted it for ten thousand years.",
+   "names": [
+    "Shiva",
+    "Prachetas"
+   ],
+   "scene": "Shiva teaching prayer to ten princes",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 90,
+   "kanda": "Fourth Skandha",
+   "title": "Puranjana Meets the Queen",
+   "story": "Narada told King Prachinabarhi a parable. King Puranjana wandered until he found a city of nine gates, where a beautiful young woman walked with her ten servants and a five-headed serpent. They married and enjoyed life, and Narada revealed that the city was the body and Puranjana the soul.",
+   "names": [
+    "Puranjana",
+    "Narada"
+   ],
+   "scene": "King Puranjana meeting queen in garden",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 91,
+   "kanda": "Fourth Skandha",
+   "title": "Puranjana Reborn as Vaidarbhi",
+   "story": "In the parable, old age and the soldiers of time besieged Puranjana's city and set it ablaze. Dying with his mind fixed on his wife, he was reborn as Vaidarbhi, a princess. After her husband's death, an old friend appeared and revealed he was her eternal companion, the Lord, waiting all along.",
+   "names": [
+    "Puranjana"
+   ],
+   "scene": "Princess weeping at husband's funeral pyre",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 92,
+   "kanda": "Fourth Skandha",
+   "title": "Prachetas Marry Marisha",
+   "story": "Emerging from the sea, the Prachetas saw trees covering the earth and burned them with fire and wind from their mouths. Soma, king of plants, calmed them and offered the lovely Marisha, raised by the trees, as their bride. From her was born a son, Daksha reborn, who peopled the worlds again.",
+   "names": [
+    "Prachetas",
+    "Marisha"
+   ],
+   "scene": "Ten princes marrying maiden Marisha",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 93,
+   "kanda": "Fifth Skandha",
+   "title": "Priyavrata Accepts the Throne",
+   "story": "Prince Priyavrata, son of Svayambhuva Manu, wanted only to meditate on the Lord under Narada's guidance. Brahma came down on his swan with the sages and gently told him that ruling was also the Lord's will. Priyavrata humbly agreed, and Manu gladly gave him the earth and retired to the forest.",
+   "names": [
+    "Priyavrata",
+    "Brahma"
+   ],
+   "scene": "Brahma on swan advising Prince Priyavrata",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 94,
+   "kanda": "Fifth Skandha",
+   "title": "Priyavrata Makes Seven Seas",
+   "story": "Unhappy that the sun lit only half the world at a time, King Priyavrata drove a blazing chariot seven times around the earth, as bright as the sun itself. The ruts of its wheels became the seven oceans, and the land between them became the seven islands, which he gave to his seven sons.",
+   "names": [
+    "Priyavrata"
+   ],
+   "scene": "Blazing chariot circling the earth",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 95,
+   "kanda": "Fifth Skandha",
+   "title": "Agnidhra and Purvachitti",
+   "story": "Priyavrata's son Agnidhra, king of Jambudvipa, worshiped Brahma on a mountain hoping for a son. Brahma sent the apsara Purvachitti, who wandered nearby, charming him with her beauty and the hum of the bees. Enchanted, Agnidhra praised her and won her as his wife, and she bore him nine sons.",
+   "names": [
+    "Agnidhra",
+    "Purvachitti"
+   ],
+   "scene": "King meeting apsara in flowering garden",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 96,
+   "kanda": "Fifth Skandha",
+   "title": "Lord Appears at Nabhi's Sacrifice",
+   "story": "Agnidhra's son King Nabhi and Queen Merudevi had no child, so they worshiped Lord Vishnu in a great sacrifice. Pleased, the Lord appeared in four-armed golden form. The priests prayed for a son as good as the Lord himself, and since none is equal to him, Vishnu chose to be born as their son.",
+   "names": [
+    "Vishnu",
+    "Nabhi"
+   ],
+   "scene": "Vishnu appearing at King Nabhi's sacrifice",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 97,
+   "kanda": "Fifth Skandha",
+   "title": "Rishabhadeva Instructs His Sons",
+   "story": "Lord Rishabhadeva, born to Nabhi and Merudevi, ruled so wisely that the people wanted no other king. Before leaving the world, he gathered his hundred sons and taught them that human life is not meant for hard labor for sense pleasure, but for austerity, service to saints and love of God.",
+   "names": [
+    "Rishabhadeva"
+   ],
+   "scene": "Rishabhadeva teaching his hundred sons",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 98,
+   "kanda": "Fifth Skandha",
+   "title": "Rishabhadeva the Wandering Sage",
+   "story": "Giving his kingdom to his eldest son Bharata, Rishabhadeva left with nothing but his body, naked and silent like a madman. People mocked and abused him, but he stayed in bliss, his body fragrant with divine scent. At last, wandering in South India, he entered a forest fire and left the world.",
+   "names": [
+    "Rishabhadeva"
+   ],
+   "scene": "Naked ascetic wandering through forest",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 99,
+   "kanda": "Fifth Skandha",
+   "title": "Bharata and the Deer",
+   "story": "Emperor Bharata, after whom India is named, retired to Pulaha ashrama on the Gandaki river. One day a pregnant doe, frightened by a lion's roar, leapt across the river and gave birth, then died. Bharata rescued the orphaned fawn and raised it tenderly, until his love for it eclipsed his meditation.",
+   "names": [
+    "Bharata"
+   ],
+   "scene": "Sage Bharata cradling fawn by river",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 100,
+   "kanda": "Fifth Skandha",
+   "title": "Bharata Reborn as a Deer",
+   "story": "Bharata died gazing at his beloved deer, which stood weeping beside him. As he thought of it at death, he was born as a deer in the Kalanjara mountains. Yet he remembered his past and his mistake. He left his mother, returned alone to Pulaha ashrama, and waited peacefully for his next birth.",
+   "names": [
+    "Bharata"
+   ],
+   "scene": "Lone deer near forest ashrama",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 101,
+   "kanda": "Fifth Skandha",
+   "title": "Jada Bharata Saved by Kali",
+   "story": "Reborn a brahmana, Bharata acted dull and silent to avoid attachment, so people called him Jada, the dullard. Robbers seized him as a human offering to Goddess Bhadrakali. As the knife was raised, the goddess burst from the image in fury, beheaded the robbers, and saved the saintly boy.",
+   "names": [
+    "Jada Bharata",
+    "Kali"
+   ],
+   "scene": "Goddess Kali killing robbers before temple",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 102,
+   "kanda": "Fifth Skandha",
+   "title": "Jada Bharata Carries the Palanquin",
+   "story": "King Rahugana's bearers forced Jada Bharata to carry the royal palanquin. He walked carefully to avoid stepping on ants, making the ride bumpy. The king mocked him, and Jada Bharata calmly replied with deep teachings on body and soul. Stunned, Rahugana leapt down and begged forgiveness.",
+   "names": [
+    "Jada Bharata",
+    "Rahugana"
+   ],
+   "scene": "Sage carrying king's palanquin",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 103,
+   "kanda": "Fifth Skandha",
+   "title": "Mount Meru and Jambudvipa",
+   "story": "Shukadeva describes the earth as a vast lotus. At its center lies Jambudvipa, with golden Mount Meru rising in its midst like the seed pod of the flower. Around it lie nine regions and great mountains, gardens and lakes of milk, honey and nectar, and the realm of Bharata-varsha to the south.",
+   "names": [
+    "Shuka",
+    "Parikshit"
+   ],
+   "scene": "Golden Mount Meru at lotus center",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 104,
+   "kanda": "Fifth Skandha",
+   "title": "Ganga Descends on Meru",
+   "story": "When Lord Vamana raised his foot to measure the worlds, his toenail pierced the shell of the universe, and the Ganga flowed in, washing his lotus feet. She descended to Dhruvaloka, where Dhruva bears her on his head, then fell upon Mount Meru and divided into four rivers.",
+   "names": [
+    "Ganga",
+    "Vamana"
+   ],
+   "scene": "Ganga flowing from Vishnu's foot",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 105,
+   "kanda": "Fifth Skandha",
+   "title": "The Sun's Chariot",
+   "story": "The sun god moves across the sky in a chariot with a single wheel, drawn by seven horses named after the Vedic meters, with Aruna as charioteer. Sixty thousand tiny sages called Valakhilyas walk before him chanting prayers, and his path divides the year into seasons, days and nights.",
+   "names": [
+    "Surya"
+   ],
+   "scene": "Sun god in seven-horse chariot",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 106,
+   "kanda": "Fifth Skandha",
+   "title": "Ananta Holds the Universe",
+   "story": "Far below the lower worlds rests Lord Ananta, also called Sankarshana, the thousand-headed serpent form of Vishnu. The whole universe sits on one of his hoods like a mustard seed. Serpent maidens worship him, and at the end of time his anger brings forth the fire that dissolves creation.",
+   "names": [
+    "Ananta",
+    "Vishnu"
+   ],
+   "scene": "Thousand-headed serpent Ananta holding universe",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 107,
+   "kanda": "Sixth Skandha",
+   "title": "Ajamila Calls Narayana",
+   "story": "Ajamila, once a dutiful brahmana of Kanyakubja, fell into bad company and lived by cheating and theft. In old age he doted on his youngest son, whom he had named Narayana. As he lay dying, three fearsome messengers of Yama came with ropes, and in terror he cried out his son's name, Narayana.",
+   "names": [
+    "Ajamila",
+    "Yamadutas"
+   ],
+   "scene": "dying man terrified by Yama's messengers",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 108,
+   "kanda": "Sixth Skandha",
+   "title": "Vishnudutas Rescue Ajamila",
+   "story": "At that very cry, shining messengers of Vishnu appeared and stopped Yama's servants. When the Yamadutas protested that Ajamila was a great sinner, the Vishnudutas explained that chanting the Lord's name, even unknowingly, wipes away every sin. They freed him and vanished.",
+   "names": [
+    "Vishnudutas",
+    "Yamadutas",
+    "Ajamila"
+   ],
+   "scene": "Vishnu's messengers confronting Yama's servants",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 109,
+   "kanda": "Sixth Skandha",
+   "title": "Ajamila Goes to Haridwar",
+   "story": "Ajamila awoke from death's door, deeply ashamed of his wasted life. Remembering the radiant beings who had saved him, he left home and went to Haridwar on the Ganga. There he fixed his mind on the Lord, and when he left his body, a golden chariot carried him to Vaikuntha.",
+   "names": [
+    "Ajamila",
+    "Vishnudutas"
+   ],
+   "scene": "sage meditating by Ganga, golden chariot",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 110,
+   "kanda": "Sixth Skandha",
+   "title": "Yama Instructs His Messengers",
+   "story": "Puzzled and humbled, the Yamadutas asked their master Yama who could overrule him. Yama explained that Lord Vishnu rules all, and that the chanting of His holy name is the highest dharma. He told them never to go near devotees of the Lord, for even he bows to them.",
+   "names": [
+    "Yama",
+    "Yamadutas"
+   ],
+   "scene": "Yama on throne addressing his servants",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 111,
+   "kanda": "Sixth Skandha",
+   "title": "Daksha's Hamsaguhya Prayers",
+   "story": "To increase creation, Daksha performed great austerities on a mountain near the Vindhyas and offered beautiful prayers called the Hamsaguhya. Pleased, Lord Vishnu appeared before him on Garuda with eight arms, and gave him Asikni, daughter of Panchajana, as his wife.",
+   "names": [
+    "Daksha",
+    "Vishnu",
+    "Garuda"
+   ],
+   "scene": "Vishnu on Garuda appearing to sage",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 112,
+   "kanda": "Sixth Skandha",
+   "title": "Narada Teaches the Haryashvas",
+   "story": "Daksha and Asikni had ten thousand sons, the Haryashvas, whom he sent to perform penance so they might populate the world. At the holy lake Narayana Saras, Narada met them and spoke in riddles about the soul and the world. Understanding his meaning, they gave up worldly life and never returned.",
+   "names": [
+    "Narada",
+    "Haryashvas"
+   ],
+   "scene": "Narada speaking to young ascetics by lake",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 113,
+   "kanda": "Sixth Skandha",
+   "title": "The Shabalashvas Follow",
+   "story": "Undaunted, Daksha fathered a thousand more sons, the Shabalashvas, and sent them to the same holy lake for penance. Narada came again and gently reminded them of their brothers' path. They too turned away from worldly duties and followed their elder brothers in search of the Lord.",
+   "names": [
+    "Narada",
+    "Daksha"
+   ],
+   "scene": "Narada with ascetic youths at sacred lake",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 114,
+   "kanda": "Sixth Skandha",
+   "title": "Daksha Curses Narada",
+   "story": "Hearing that all his sons had become renunciants, Daksha burned with grief and anger. He rebuked Narada harshly and cursed him to wander the worlds forever, never staying long in one place. The saintly Narada calmly accepted the curse, and Daksha went on to father sixty daughters.",
+   "names": [
+    "Daksha",
+    "Narada"
+   ],
+   "scene": "angry king cursing sage with vina",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 115,
+   "kanda": "Sixth Skandha",
+   "title": "Indra Offends Brihaspati",
+   "story": "Proud of his wealth, Indra sat on his throne with Shachi and failed to rise when his guru Brihaspati entered the assembly. Brihaspati silently left and disappeared. Without his guidance the devas were defeated by the asuras, and Brahma advised them to take Vishvarupa as their priest.",
+   "names": [
+    "Indra",
+    "Brihaspati"
+   ],
+   "scene": "Indra enthroned ignoring guru entering hall",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 116,
+   "kanda": "Sixth Skandha",
+   "title": "Vishvarupa Gives the Narayana Kavacha",
+   "story": "Vishvarupa, the learned three headed son of Tvashta, agreed to serve the devas as their priest. He taught Indra the Narayana Kavacha, a sacred armour of prayer calling on Lord Vishnu for protection in every direction. Protected by it, Indra conquered the asuras and regained his kingdom.",
+   "names": [
+    "Vishvarupa",
+    "Indra"
+   ],
+   "scene": "three-headed priest teaching Indra",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 117,
+   "kanda": "Sixth Skandha",
+   "title": "Indra Slays Vishvarupa",
+   "story": "Vishvarupa's mother came from the asuras, and during sacrifices he secretly offered oblations to them too. When Indra learned of this, he cut off Vishvarupa's three heads, which turned into birds. Burdened by the sin of killing a brahmana, Indra shared it out among the earth, water, trees and women.",
+   "names": [
+    "Indra",
+    "Vishvarupa"
+   ],
+   "scene": "Indra beheading three-headed sage, birds flying",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 118,
+   "kanda": "Sixth Skandha",
+   "title": "Vritrasura Rises From the Fire",
+   "story": "Grieving for his son, Tvashta offered a fire sacrifice to create an enemy for Indra. From the flames rose Vritrasura, a dark giant as tall as a mountain, with hair like burnished copper and eyes blazing like the midday sun. He covered the sky, and the devas' weapons were simply swallowed up.",
+   "names": [
+    "Vritrasura",
+    "Tvashta"
+   ],
+   "scene": "giant demon rising from sacrificial fire",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 119,
+   "kanda": "Sixth Skandha",
+   "title": "Dadhichi Gives His Bones",
+   "story": "The terrified devas prayed to Lord Vishnu, who told them to ask the sage Dadhichi for his body. Smiling, Dadhichi said the body is meant to serve others, and gave up his life in meditation. From his strong bones Vishvakarma fashioned the thunderbolt, the vajra, for Indra.",
+   "names": [
+    "Dadhichi",
+    "Indra"
+   ],
+   "scene": "sage giving his body to the gods",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 120,
+   "kanda": "Sixth Skandha",
+   "title": "Vritrasura's Devotion",
+   "story": "Vritrasura met Indra in battle, yet spoke not with hatred but with deep wisdom and longing for the Lord. When Indra's thunderbolt fell from his hand, Vritra told him to pick it up and fight on. Losing an arm, the giant swallowed Indra and his elephant Airavata whole.",
+   "names": [
+    "Vritrasura",
+    "Indra",
+    "Airavata"
+   ],
+   "scene": "giant demon battling Indra on elephant",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 121,
+   "kanda": "Sixth Skandha",
+   "title": "Indra Slays Vritrasura",
+   "story": "Protected by the Narayana Kavacha, Indra cut his way out of Vritra's belly and severed his head with the thunderbolt. A light rose from the demon and merged into the Lord, for Vritra was a true devotee. Haunted by sin, Indra hid in a lotus stem in Manasa lake until purified by a horse sacrifice.",
+   "names": [
+    "Indra",
+    "Vritrasura"
+   ],
+   "scene": "Indra with thunderbolt slaying fallen giant",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 122,
+   "kanda": "Sixth Skandha",
+   "title": "Chitraketu's Son Speaks",
+   "story": "King Chitraketu had many wives but no son, until the sage Angira blessed his eldest queen. Jealous co-wives poisoned the baby, and the king was crushed with grief. Narada called back the child's soul, who said he had had countless parents in countless births, and the king found peace.",
+   "names": [
+    "Chitraketu",
+    "Narada",
+    "Angira"
+   ],
+   "scene": "grieving king, sages and dead child",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 123,
+   "kanda": "Sixth Skandha",
+   "title": "Parvati Curses Chitraketu",
+   "story": "By Narada's teaching Chitraketu became a king of the Vidyadharas and flew through the heavens. Seeing Shiva embracing Parvati before an assembly of sages, he laughed openly. Parvati cursed him to be born a demon, and he calmly accepted it, later becoming Vritrasura.",
+   "names": [
+    "Chitraketu",
+    "Shiva",
+    "Parvati"
+   ],
+   "scene": "Shiva and Parvati in assembly, king laughing",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 124,
+   "kanda": "Sixth Skandha",
+   "title": "Diti and the Maruts",
+   "story": "Diti longed for a son who would kill Indra, and Kashyapa gave her a year long vow. One evening she slept without washing her feet, and Indra entered her womb and cut the child into forty nine pieces. Yet by the vow's power they lived, became the Maruts, and were friends of Indra.",
+   "names": [
+    "Diti",
+    "Indra",
+    "Maruts"
+   ],
+   "scene": "Indra and Diti with storm gods",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 125,
+   "kanda": "Seventh Skandha",
+   "title": "Yudhishthira Asks About Shishupala",
+   "story": "At Yudhishthira's Rajasuya sacrifice, Shishupala insulted Krishna and was slain, yet his soul merged into the Lord. Amazed, Yudhishthira asked Narada how such an enemy could attain liberation. Narada explained that fixing the mind on the Lord, even through hatred, can purify the soul.",
+   "names": [
+    "Yudhishthira",
+    "Narada",
+    "Krishna"
+   ],
+   "scene": "king questioning sage in royal assembly",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 126,
+   "kanda": "Seventh Skandha",
+   "title": "Jaya and Vijaya Are Cursed",
+   "story": "Narada told how the four Kumaras, appearing as small boys, came to see Vishnu in Vaikuntha. The gatekeepers Jaya and Vijaya blocked their way, so the sages cursed them to be born as demons. They were born as Hiranyakashipu and Hiranyaksha, then Ravana and Kumbhakarna, then Shishupala and Dantavakra.",
+   "names": [
+    "Jaya and Vijaya",
+    "Kumaras",
+    "Vishnu"
+   ],
+   "scene": "child sages at Vaikuntha gates",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 127,
+   "kanda": "Seventh Skandha",
+   "title": "Hiranyakashipu Vows Revenge",
+   "story": "When Lord Varaha slew his brother Hiranyaksha, Hiranyakashipu bit his lip in fury and vowed to kill Vishnu. He sent his demons to harass sages and burn villages. Yet he gently consoled his grieving mother and relatives, telling them the soul never dies.",
+   "names": [
+    "Hiranyakashipu"
+   ],
+   "scene": "furious demon king commanding his army",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 128,
+   "kanda": "Seventh Skandha",
+   "title": "Hiranyakashipu's Fierce Tapas",
+   "story": "Wishing to become immortal and unconquerable, Hiranyakashipu went to Mount Mandara and stood on tiptoe with arms raised, for years without moving. Ants and grass covered his body, and the fire of his penance scorched the worlds. The terrified devas ran to Brahma for help.",
+   "names": [
+    "Hiranyakashipu",
+    "Brahma"
+   ],
+   "scene": "demon in penance covered by anthill",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 129,
+   "kanda": "Seventh Skandha",
+   "title": "Brahma Grants the Boon",
+   "story": "Brahma came on his swan and sprinkled water on the anthill, restoring the demon's body. Hiranyakashipu asked that no being Brahma created could kill him, not by day or night, indoors or out, on earth or sky, nor by any weapon, man or beast. Brahma granted every word.",
+   "names": [
+    "Brahma",
+    "Hiranyakashipu"
+   ],
+   "scene": "Brahma on swan blessing kneeling demon",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 130,
+   "kanda": "Seventh Skandha",
+   "title": "Hiranyakashipu Rules the Worlds",
+   "story": "Proud of his boon, Hiranyakashipu conquered the three worlds and sat on Indra's throne, served by gods and sages. He forced all to worship him and ignored the laws of dharma. The devas prayed to Vishnu, who promised to end his tyranny when he harmed his own saintly son.",
+   "names": [
+    "Hiranyakashipu",
+    "Indra"
+   ],
+   "scene": "demon king on heavenly throne",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 131,
+   "kanda": "Seventh Skandha",
+   "title": "Prahlada in School",
+   "story": "Hiranyakashipu's young son Prahlada was taught politics and power by Shanda and Amarka, sons of Shukracharya. But the boy saw everyone as equal and loved only Lord Vishnu. When his father asked what was best, Prahlada said to leave the false home and take shelter of Hari.",
+   "names": [
+    "Prahlada",
+    "Shanda and Amarka"
+   ],
+   "scene": "young prince studying with demon teachers",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 132,
+   "kanda": "Seventh Skandha",
+   "title": "Prahlada Answers His Father",
+   "story": "Later, sitting on his father's lap, Prahlada was asked again what he had learned. He replied that the best learning is devotion to Vishnu, by hearing, chanting, remembering and serving Him. Furious, Hiranyakashipu threw the boy to the ground and ordered him killed.",
+   "names": [
+    "Prahlada",
+    "Hiranyakashipu"
+   ],
+   "scene": "demon king throwing son from lap",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 133,
+   "kanda": "Seventh Skandha",
+   "title": "Attempts to Kill Prahlada",
+   "story": "The demons struck Prahlada with tridents, but the weapons failed, for his mind rested on the Lord. He was trampled by elephants, bitten by snakes, thrown from cliffs, poisoned, starved and cast into fire and water. Through it all he remained calm and unharmed.",
+   "names": [
+    "Prahlada"
+   ],
+   "scene": "boy unharmed among elephants and snakes",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 134,
+   "kanda": "Seventh Skandha",
+   "title": "Prahlada Teaches His Classmates",
+   "story": "While his teachers were away, Prahlada gathered the demon boys and spoke to them with great love. He told them to begin devotion to Vishnu in childhood, since life is short and the Lord lives in every heart. Charmed by his words, the boys turned away from their teachers' lessons.",
+   "names": [
+    "Prahlada"
+   ],
+   "scene": "boy prince teaching circle of children",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 135,
+   "kanda": "Seventh Skandha",
+   "title": "Narada Shelters Kayadhu",
+   "story": "Prahlada told how, while his father was away at penance, Indra seized his mother Kayadhu. Narada stopped Indra, saying her unborn child was a great devotee, and took her to his ashram. There he taught her the path of bhakti, and the child in her womb remembered every word.",
+   "names": [
+    "Narada",
+    "Kayadhu",
+    "Prahlada"
+   ],
+   "scene": "sage sheltering pregnant queen in ashram",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 136,
+   "kanda": "Seventh Skandha",
+   "title": "Narasimha Bursts From the Pillar",
+   "story": "Raging, Hiranyakashipu asked Prahlada where his God was, and the boy said He is everywhere. \"Is He in this pillar?\" roared the king, and struck it with his fist. With a terrible roar the Lord burst out as Narasimha, half man and half lion, proving his devotee's words true.",
+   "names": [
+    "Narasimha",
+    "Hiranyakashipu",
+    "Prahlada"
+   ],
+   "scene": "man-lion emerging from shattered pillar",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 137,
+   "kanda": "Seventh Skandha",
+   "title": "Narasimha Slays Hiranyakashipu",
+   "story": "Narasimha seized the demon and carried him to the doorway at twilight, neither day nor night. Placing him on His thighs, neither earth nor sky, He tore him apart with His claws, which were no weapon. Every condition of Brahma's boon was kept, and the gods showered flowers.",
+   "names": [
+    "Narasimha",
+    "Hiranyakashipu"
+   ],
+   "scene": "Narasimha tearing demon on lap at doorway",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 138,
+   "kanda": "Seventh Skandha",
+   "title": "Prahlada Calms Narasimha",
+   "story": "Narasimha's fury was so fearsome that even Brahma, Shiva and Lakshmi dared not approach Him. Brahma sent little Prahlada, who bowed at His feet. The Lord placed His hand on the boy's head, and Prahlada offered heartfelt prayers that slowly calmed His anger.",
+   "names": [
+    "Prahlada",
+    "Narasimha"
+   ],
+   "scene": "child bowing before seated man-lion",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 139,
+   "kanda": "Seventh Skandha",
+   "title": "Prahlada Asks for No Boon",
+   "story": "Narasimha offered Prahlada any blessing, but the boy said a true servant wants nothing in return. He asked only that his father be forgiven, and the Lord said twenty one generations of his family were purified. Prahlada was then crowned king of the asuras.",
+   "names": [
+    "Prahlada",
+    "Narasimha"
+   ],
+   "scene": "Narasimha blessing boy king",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 140,
+   "kanda": "Seventh Skandha",
+   "title": "Shiva Destroys Tripura",
+   "story": "Narada told how Maya Danava built three flying cities for the asuras, and Maya revived their dead in a well of nectar. Vishnu became a cow and Brahma a calf, and drank the well dry. Then Shiva, on a chariot made by the Lord, burned the three cities with a single arrow.",
+   "names": [
+    "Shiva",
+    "Maya Danava",
+    "Vishnu"
+   ],
+   "scene": "Shiva on chariot shooting arrow at cities",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 141,
+   "kanda": "Seventh Skandha",
+   "title": "Narada on Varnashrama",
+   "story": "Yudhishthira asked Narada about the eternal duties of human life. Narada described the qualities of a good person, such as truth, mercy and self control, and the duties of each class and stage of life. Above all, he said, every duty should be offered to the Lord.",
+   "names": [
+    "Narada",
+    "Yudhishthira"
+   ],
+   "scene": "sage instructing king and brothers",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 142,
+   "kanda": "Seventh Skandha",
+   "title": "Prahlada Meets the Avadhuta",
+   "story": "Narada told how Prahlada, wandering the world, found a saint lying in the dust by the Kaveri river. The saint said he lived like the python, eating whatever came, and like the honeybee, gathering wisdom everywhere. Free of desire, he was full of peace, and Prahlada honoured him.",
+   "names": [
+    "Prahlada",
+    "Avadhuta"
+   ],
+   "scene": "prince bowing to saint lying on ground",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 143,
+   "kanda": "Eighth Skandha",
+   "title": "Yajna Protects Svayambhuva Manu",
+   "story": "Svayambhuva Manu, the first father of mankind, gave up his kingdom and went to the forest to meditate on the Lord. Hungry demons rushed to devour him as he prayed. The Lord appeared as Yajna, slew the demons and ruled the heavens, the first of the protectors who guard each age of the Manus.",
+   "names": [
+    "Manu",
+    "Vishnu"
+   ],
+   "scene": "Sage king meditating in forest hermitage",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 144,
+   "kanda": "Eighth Skandha",
+   "title": "Gajendra Seized by the Crocodile",
+   "story": "On Mount Trikuta lived Gajendra, mighty king of elephants. One hot day he led his herd into a lotus lake to bathe and play. Suddenly a powerful crocodile seized his leg. For a thousand years they struggled, until the great elephant grew weak and his family could not save him.",
+   "names": [
+    "Gajendra"
+   ],
+   "scene": "Elephant in lotus lake seized by crocodile",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 145,
+   "kanda": "Eighth Skandha",
+   "title": "Gajendra Prays to the Lord",
+   "story": "Exhausted and helpless, Gajendra remembered a prayer from his past life. Lifting a lotus in his trunk, he praised the Supreme Lord, the source of all, beyond every form and name. He did not call on any lesser god, but surrendered fully to the one who shelters all who seek refuge.",
+   "names": [
+    "Gajendra"
+   ],
+   "scene": "Elephant raising lotus flower toward sky",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 146,
+   "kanda": "Eighth Skandha",
+   "title": "Vishnu Rescues Gajendra",
+   "story": "Hearing his devotee's cry, Vishnu rushed from Vaikuntha on Garuda, the gods following behind. He pulled Gajendra and the crocodile out of the lake together. With his Sudarshana discus he cut open the crocodile's jaws, freeing the elephant, who was touched by the Lord's own hand.",
+   "names": [
+    "Vishnu",
+    "Gajendra",
+    "Garuda"
+   ],
+   "scene": "Vishnu on Garuda rescuing elephant",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 147,
+   "kanda": "Eighth Skandha",
+   "title": "Indradyumna and Huhu Freed",
+   "story": "The crocodile was really Huhu, a Gandharva cursed by the sage Devala, and he rose freed in his shining form. Gajendra had once been King Indradyumna, cursed by Agastya for failing to greet him. Touched by the Lord, he too was freed, and became an associate of Vishnu in Vaikuntha.",
+   "names": [
+    "Gajendra",
+    "Vishnu"
+   ],
+   "scene": "Elephant transformed into four-armed devotee",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 148,
+   "kanda": "Eighth Skandha",
+   "title": "Vishnu Counsels the Devas",
+   "story": "Defeated by the demons, the gods lost their glory and went with Brahma to pray to the Lord. Vishnu appeared and told them to make a truce with the asuras and churn the ocean of milk for nectar. Together they lifted Mount Mandara, and when it crushed them, Garuda carried it to the shore.",
+   "names": [
+    "Vishnu",
+    "Brahma",
+    "Garuda"
+   ],
+   "scene": "Gods and demons carrying a great mountain",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 149,
+   "kanda": "Eighth Skandha",
+   "title": "Kurma Holds Mount Mandara",
+   "story": "With the serpent Vasuki as the rope, gods and demons began to churn, but the heavy mountain sank into the sea. The Lord took the form of Kurma, a giant tortoise, and held Mandara on his vast back. He also entered the mountain and the churners, giving them strength to keep going.",
+   "names": [
+    "Kurma",
+    "Vasuki"
+   ],
+   "scene": "Giant tortoise holding mountain in ocean",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 150,
+   "kanda": "Eighth Skandha",
+   "title": "The Halahala Poison Arises",
+   "story": "As the churning went on, a terrible poison called Halahala rose from the ocean. Its fumes spread in every direction, burning the worlds, and gods and demons alike fled in fear. With no other shelter, the frightened beings ran to Lord Shiva on Mount Kailasa and begged him to protect them.",
+   "names": [
+    "Shiva",
+    "Parvati"
+   ],
+   "scene": "Dark poison spreading over churning ocean",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 151,
+   "kanda": "Eighth Skandha",
+   "title": "Shiva Drinks the Halahala",
+   "story": "Moved by compassion, Shiva gathered the poison in his palm and drank it, with Parvati's blessing. The poison left a blue mark on his throat, and he became known as Nilakantha, the blue-throated one. The worlds praised him, for great souls take on suffering to relieve the suffering of others.",
+   "names": [
+    "Shiva",
+    "Parvati"
+   ],
+   "scene": "Shiva drinking poison with blue throat",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 152,
+   "kanda": "Eighth Skandha",
+   "title": "Treasures Rise From the Ocean",
+   "story": "The churning went on, and wonders rose from the sea. The wish-fulfilling cow Surabhi came first, then the white horse Ucchaihshrava and the elephant Airavata. The Kaustubha gem, which Vishnu wore on his chest, the Parijata tree and the lovely Apsaras followed, each given to its rightful keeper.",
+   "names": [
+    "Airavata",
+    "Indra"
+   ],
+   "scene": "White elephant and horse rising from sea",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 153,
+   "kanda": "Eighth Skandha",
+   "title": "Lakshmi Chooses Vishnu",
+   "story": "Then Lakshmi, the goddess of fortune, rose from the ocean, radiant on a lotus. Rivers, sages and gods offered her worship and gifts. She looked over all the beings, finding faults in each, and at last placed her garland on Vishnu, the only one free from every flaw, and took her place on his chest.",
+   "names": [
+    "Lakshmi",
+    "Vishnu"
+   ],
+   "scene": "Goddess on lotus garlanding Vishnu",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 154,
+   "kanda": "Eighth Skandha",
+   "title": "Dhanvantari Brings the Nectar",
+   "story": "Varuni, goddess of wine, rose next and went to the demons. Then a dark, handsome youth appeared, wearing earrings and yellow silk and carrying a pot full of nectar. He was Dhanvantari, a part of the Lord and the founder of medicine. At once the demons snatched the pot of nectar from his hands.",
+   "names": [
+    "Dhanvantari"
+   ],
+   "scene": "Divine physician rising with nectar pot",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 155,
+   "kanda": "Eighth Skandha",
+   "title": "Mohini Distributes the Nectar",
+   "story": "As the demons quarrelled over the pot, Vishnu appeared as Mohini, an enchanting woman. Charmed, they handed her the nectar to share. She seated gods and demons in separate rows and, with sweet glances, served the nectar only to the gods, while the bewitched demons waited in silence.",
+   "names": [
+    "Mohini",
+    "Vishnu"
+   ],
+   "scene": "Enchanting woman serving nectar to gods",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 156,
+   "kanda": "Eighth Skandha",
+   "title": "Rahu Loses His Head",
+   "story": "The demon Rahu disguised himself as a god and sat between the Sun and Moon to drink the nectar. When they exposed him, the Lord cut off his head with the discus. But the nectar had touched his lips, so the head lived on, and it still chases the Sun and Moon at the time of eclipses.",
+   "names": [
+    "Rahu",
+    "Vishnu"
+   ],
+   "scene": "Discus beheading demon among seated gods",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 157,
+   "kanda": "Eighth Skandha",
+   "title": "War of the Gods and Demons",
+   "story": "Cheated of the nectar, the demons attacked the gods in a fierce battle by the sea. Bali fought from a magic flying chariot, and the demons used terrible illusions. Vishnu came on Garuda and turned the tide. Indra struck down Bali and slew Namuchi with foam, until Narada asked the gods to stop.",
+   "names": [
+    "Indra",
+    "Bali"
+   ],
+   "scene": "Gods and demons battling by the ocean",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 158,
+   "kanda": "Eighth Skandha",
+   "title": "Shiva Sees Mohini",
+   "story": "Hearing of Mohini, Shiva came with Parvati and asked Vishnu to show him that form. In a garden appeared a beautiful woman playing with a ball. Shiva was so charmed that he ran after her, forgetting himself. When he came to his senses, he praised the Lord's power of illusion, which bewilders even him.",
+   "names": [
+    "Shiva",
+    "Mohini"
+   ],
+   "scene": "Shiva chasing woman playing with ball",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 159,
+   "kanda": "Eighth Skandha",
+   "title": "Bali Conquers Heaven",
+   "story": "Revived by Shukracharya and the Bhrigu sages, Bali performed the Vishvajit sacrifice and received a golden chariot and divine weapons. With a vast army he besieged Indra's city. Seeing his power, the gods fled in disguise, and Bali ruled the three worlds, performing a hundred great sacrifices.",
+   "names": [
+    "Bali",
+    "Shukracharya"
+   ],
+   "scene": "Demon king leading army against heaven",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 160,
+   "kanda": "Eighth Skandha",
+   "title": "Aditi's Payovrata Vow",
+   "story": "Aditi, mother of the gods, grieved to see her sons driven from heaven. Her husband, the sage Kashyapa, taught her the Payovrata, a twelve-day vow of worship living on milk alone. Aditi kept it with great devotion, and the Lord appeared before her and promised to be born as her son.",
+   "names": [
+    "Aditi",
+    "Kashyapa",
+    "Vishnu"
+   ],
+   "scene": "Mother of gods worshipping Vishnu",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 161,
+   "kanda": "Eighth Skandha",
+   "title": "Birth of Vamana",
+   "story": "The Lord was born to Aditi and Kashyapa in his four-armed form, holding conch, discus, club and lotus. Before their eyes he became a small brahmin boy, Vamana. The sages performed his sacred thread ceremony, and the gods gave him gifts: Surya taught him the Gayatri, Brihaspati gave the sacred thread and Kubera a begging bowl.",
+   "names": [
+    "Vamana",
+    "Aditi",
+    "Kashyapa"
+   ],
+   "scene": "Dwarf brahmin boy receiving sacred thread",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 162,
+   "kanda": "Eighth Skandha",
+   "title": "Vamana Asks for Three Steps",
+   "story": "Vamana came to Bali's sacrifice on the Narmada, glowing like the sun. Bali welcomed him and offered any gift he wished. The boy asked only for three steps of land. Shukracharya warned that this was Vishnu himself, but Bali would not break his word, and his angry guru cursed him.",
+   "names": [
+    "Vamana",
+    "Bali",
+    "Shukracharya"
+   ],
+   "scene": "Dwarf boy receiving gift from king",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 163,
+   "kanda": "Eighth Skandha",
+   "title": "Trivikrama Measures the Worlds",
+   "story": "As Bali poured water to seal the gift, Vamana began to grow until he filled the universe. With one step he covered the earth, and with the second the heavens. Brahma washed the Lord's raised foot, and that water became the holy Ganga. No room remained for the third step.",
+   "names": [
+    "Vamana",
+    "Bali",
+    "Brahma"
+   ],
+   "scene": "Giant Vishnu striding across the heavens",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 164,
+   "kanda": "Eighth Skandha",
+   "title": "Bali Offers His Head",
+   "story": "Bound by Garuda for failing his promise, Bali stayed calm and humble. He asked the Lord to place the third step on his head. Prahlada came and praised the Lord's mercy. Pleased, Vishnu gave Bali the realm of Sutala, richer than heaven, and promised to guard his gate himself.",
+   "names": [
+    "Bali",
+    "Vamana",
+    "Prahlada"
+   ],
+   "scene": "Vishnu placing foot on king's head",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 165,
+   "kanda": "Eighth Skandha",
+   "title": "Matsya and the Little Fish",
+   "story": "King Satyavrata was offering water in the river Kritamala when a tiny fish appeared in his palms and begged for protection. He kept it in a pot, but it outgrew the pot, then a pond, then a lake. When it filled the ocean, the king knew it was the Lord himself in the form of a fish.",
+   "names": [
+    "Matsya",
+    "Satyavrata"
+   ],
+   "scene": "King holding tiny fish in cupped hands",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 166,
+   "kanda": "Eighth Skandha",
+   "title": "Matsya Saves Satyavrata's Boat",
+   "story": "As the great flood rose, a boat came to Satyavrata, who boarded it with the sages, plants and seeds. A golden horned fish appeared, and the king tied the boat to its horn with the serpent Vasuki. Matsya taught him divine knowledge and saved the Vedas from the demon Hayagriva.",
+   "names": [
+    "Matsya",
+    "Satyavrata"
+   ],
+   "scene": "Giant fish towing boat through flood",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 167,
+   "kanda": "Ninth Skandha",
+   "title": "Sudyumna Becomes Ila",
+   "story": "Manu longed for a son, but a mistake in the sacrifice gave him a daughter, Ila. The sage Vasishtha turned her into a man, Sudyumna. Later, hunting, Sudyumna entered a forest of Shiva where every man became a woman. As Ila again, she married Budha, son of the Moon, and bore Pururavas.",
+   "names": [
+    "Ila",
+    "Budha",
+    "Vasishtha"
+   ],
+   "scene": "Prince on horseback entering enchanted forest",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 168,
+   "kanda": "Ninth Skandha",
+   "title": "Sukanya and the Glowing Eyes",
+   "story": "Princess Sukanya, daughter of King Sharyati, saw two lights shining in an anthill and pierced them with a thorn. They were the eyes of the sage Chyavana, deep in meditation. Blood flowed, and the king's army fell ill. To make amends, Sharyati gave Sukanya to the old sage as his wife.",
+   "names": [
+    "Sukanya",
+    "Chyavana"
+   ],
+   "scene": "Princess poking thorn into glowing anthill",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 169,
+   "kanda": "Ninth Skandha",
+   "title": "The Ashvins Restore Chyavana",
+   "story": "Sukanya served her old husband faithfully. One day the Ashvins, physicians of the gods, visited, and Chyavana asked them for youth. They bathed with him in a lake and three handsome youths rose alike. Sukanya chose her true husband, and in gratitude Chyavana gave the Ashvins a share of the soma.",
+   "names": [
+    "Chyavana",
+    "Sukanya"
+   ],
+   "scene": "Three identical youths rising from lake",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 170,
+   "kanda": "Ninth Skandha",
+   "title": "Kakudmi Takes Revati to Brahma",
+   "story": "King Kakudmi took his daughter Revati to Brahma's realm to ask whom she should marry. Brahma laughed, for while they waited through a song, ages had passed on earth. He sent them back to marry Revati to Balarama, the Lord's own portion, now born at Dvaraka.",
+   "names": [
+    "Revati",
+    "Balarama",
+    "Brahma"
+   ],
+   "scene": "King and daughter before Brahma",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 171,
+   "kanda": "Ninth Skandha",
+   "title": "Durvasa's Anger at Ambarisha",
+   "story": "King Ambarisha ruled the earth but gave every sense to serving Krishna. Ending a vow, he waited for the sage Durvasa to return for the meal, then sipped a little water to break his fast on time. Furious, Durvasa tore out a lock of hair and created a fiery demon to kill him.",
+   "names": [
+    "Ambarisha",
+    "Durvasa"
+   ],
+   "scene": "Angry sage creating fiery demon",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 172,
+   "kanda": "Ninth Skandha",
+   "title": "Sudarshana Chases Durvasa",
+   "story": "The Lord's Sudarshana discus, guarding Ambarisha, burned up the demon and then chased Durvasa. The sage fled across the worlds to Brahma and Shiva, but neither could help. At last he reached Vishnu, who said he was bound by his devotees' love, and told him to seek Ambarisha's pardon.",
+   "names": [
+    "Durvasa",
+    "Vishnu"
+   ],
+   "scene": "Blazing discus chasing fleeing sage",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 173,
+   "kanda": "Ninth Skandha",
+   "title": "Ambarisha Forgives Durvasa",
+   "story": "Durvasa fell at Ambarisha's feet. The humble king prayed to the Sudarshana, and the blazing discus grew calm. Ambarisha had fasted for a whole year awaiting the sage's return, and now he fed him with honour. Durvasa praised the greatness of devotees who are kind even to those who wrong them.",
+   "names": [
+    "Ambarisha",
+    "Durvasa"
+   ],
+   "scene": "Sage at feet of king with discus",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 174,
+   "kanda": "Ninth Skandha",
+   "title": "Birth of Mandhata",
+   "story": "King Yuvanashva, childless, had sages perform a sacrifice for a son. At night, thirsty, he drank the sacred water meant for his queen, and he himself bore a child. When the baby cried for milk, Indra gave his finger to suck. The boy, Mandhata, grew into an emperor who ruled the whole earth.",
+   "names": [
+    "Mandhata",
+    "Indra"
+   ],
+   "scene": "Indra feeding newborn from his finger",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 175,
+   "kanda": "Ninth Skandha",
+   "title": "Saubhari Muni and the Fish",
+   "story": "The sage Saubhari meditated under the Yamuna, but seeing fish happily mating, he wished for family life. He asked King Mandhata for a daughter, and by his powers became young and handsome, winning all fifty princesses. Later he saw that desire never ends, and returned to the forest.",
+   "names": [
+    "Saubhari",
+    "Mandhata"
+   ],
+   "scene": "Sage meditating underwater among fish",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 176,
+   "kanda": "Ninth Skandha",
+   "title": "Harishchandra's Vow to Varuna",
+   "story": "King Harishchandra, childless, prayed to Varuna and vowed to sacrifice his son to him if one were born. Rohita was born, but the king kept delaying. Rohita fled to the forest, and Varuna struck the king with dropsy. Rohita then bought the boy Shunahshepa as a substitute, and the king was healed.",
+   "names": [
+    "Harishchandra",
+    "Varuna"
+   ],
+   "scene": "King praying to god of waters",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 177,
+   "kanda": "Ninth Skandha",
+   "title": "Kapila and the Sons of Sagara",
+   "story": "King Sagara performed the horse sacrifice, but Indra stole the horse and left it near the sage Kapila. Sagara's sixty thousand sons dug up the earth searching for it. Finding it by the meditating sage, they insulted him, and fire rose from their own bodies and burned them to ashes.",
+   "names": [
+    "Kapila",
+    "Sagara"
+   ],
+   "scene": "Princes burned to ashes before sage",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 178,
+   "kanda": "Ninth Skandha",
+   "title": "Anshuman Finds the Horse",
+   "story": "Sagara's grandson Anshuman followed the path his uncles had dug and found the horse beside Kapila. He bowed and praised the sage with deep humility. Pleased, Kapila returned the horse and told him that only the waters of Ganga could free his uncles, whose ashes lay heaped nearby.",
+   "names": [
+    "Anshuman",
+    "Kapila"
+   ],
+   "scene": "Young prince bowing before meditating sage",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 179,
+   "kanda": "Ninth Skandha",
+   "title": "Bhagiratha's Penance",
+   "story": "Anshuman and his son Dilipa did penance for Ganga but died before success. Then Bhagiratha performed fierce austerities, and Ganga appeared. She asked who would bear the force of her fall and how she would be cleansed of sinners' sins. Bhagiratha said Shiva would hold her, and saints would purify her.",
+   "names": [
+    "Bhagiratha",
+    "Ganga"
+   ],
+   "scene": "Ascetic king praying to river goddess",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 180,
+   "kanda": "Ninth Skandha",
+   "title": "Ganga Descends to Earth",
+   "story": "Pleased by Bhagiratha, Shiva caught the falling Ganga in his matted hair. Then the holy river flowed down to earth behind the king's chariot to where the ashes of Sagara's sons lay. As soon as her waters touched them, they rose to heaven, and Ganga has purified the world ever since.",
+   "names": [
+    "Ganga",
+    "Shiva",
+    "Bhagiratha"
+   ],
+   "scene": "Shiva catching Ganga in matted hair",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 181,
+   "kanda": "Ninth Skandha",
+   "title": "Khatvanga Attains the Lord",
+   "story": "King Khatvanga fought for the gods and won. When they offered a boon, he asked how long he had to live. Told only a single hour remained, he rushed home on a flying chariot, gave up all attachment and fixed his mind on the Lord. In that brief time he reached the Supreme.",
+   "names": [
+    "Khatvanga"
+   ],
+   "scene": "King meditating after descending flying chariot",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 182,
+   "kanda": "Ninth Skandha",
+   "title": "Rama Guards Vishvamitra's Sacrifice",
+   "story": "The Lord was born as Rama, eldest son of King Dasharatha of Ayodhya, with his brothers Lakshmana, Bharata and Shatrughna. The sage Vishvamitra took young Rama and Lakshmana to guard his sacrifice. There Rama slew the demoness Tataka and drove away the demons Maricha and Subahu.",
+   "names": [
+    "Rama",
+    "Lakshmana",
+    "Vishvamitra"
+   ],
+   "scene": "Young princes with bows guarding sacrifice",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 183,
+   "kanda": "Ninth Skandha",
+   "title": "Rama Breaks Shiva's Bow",
+   "story": "At King Janaka's court stood Shiva's mighty bow, which three hundred men could hardly carry. Rama lifted it with ease, strung it and broke it in the middle, like a young elephant snapping a stalk of sugarcane. He won the hand of Sita, and on the way home humbled the proud Parashurama.",
+   "names": [
+    "Rama",
+    "Sita"
+   ],
+   "scene": "Rama breaking great bow in court",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 184,
+   "kanda": "Ninth Skandha",
+   "title": "Exile and the Loss of Sita",
+   "story": "To keep his father's promise to Kaikeyi, Rama left for the forest with Sita and Lakshmana. In the Dandaka forest, Lakshmana cut off the nose of the demoness Shurpanakha. Ravana sent Maricha as a golden deer to lure Rama away, then carried off Sita to Lanka.",
+   "names": [
+    "Rama",
+    "Sita",
+    "Ravana"
+   ],
+   "scene": "Golden deer leading Rama into forest",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 185,
+   "kanda": "Ninth Skandha",
+   "title": "The Ocean Bows to Rama",
+   "story": "With Hanuman, Sugriva and the monkey army, Rama reached the shore. When the ocean would not make way, Rama's angry glance made its creatures tremble, and the ocean god came bearing gifts and bowed. The monkeys built a bridge of mountain peaks and trees across the sea to Lanka.",
+   "names": [
+    "Rama",
+    "Hanuman"
+   ],
+   "scene": "Monkeys building bridge across the ocean",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 186,
+   "kanda": "Ninth Skandha",
+   "title": "Rama Slays Ravana",
+   "story": "In the great battle at Lanka, Rama killed Ravana with one arrow. He rescued Sita and returned to Ayodhya, where the people welcomed him with joy. Crowned king, Rama ruled with righteousness, and in his reign the land was free of sorrow, disease and fear.",
+   "names": [
+    "Rama",
+    "Ravana",
+    "Sita"
+   ],
+   "scene": "Rama shooting arrow at ten-headed Ravana",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 187,
+   "kanda": "Ninth Skandha",
+   "title": "Nimi Lives in the Blink",
+   "story": "King Nimi began a sacrifice without waiting for his guru Vasishtha, who cursed him to lose his body, and Nimi cursed him back. The sages churned Nimi's body and a son, Janaka, was born. Nimi chose not to take a new body, and was given a home in the blinking of every creature's eyes.",
+   "names": [
+    "Nimi",
+    "Vasishtha"
+   ],
+   "scene": "Sages churning body to create child",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 188,
+   "kanda": "Ninth Skandha",
+   "title": "Pururavas and Urvashi",
+   "story": "King Pururavas fell in love with the heavenly nymph Urvashi, and she agreed to live with him on certain conditions. When the Gandharvas tricked him into breaking them, she vanished. Pururavas wandered mad with grief until he found her at Kurukshetra, and later won her through a sacred fire.",
+   "names": [
+    "Pururavas",
+    "Urvashi"
+   ],
+   "scene": "King pleading with celestial nymph by river",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 189,
+   "kanda": "Ninth Skandha",
+   "title": "Parashurama Defeats Kartavirya",
+   "story": "The thousand-armed King Kartavirya Arjuna visited the sage Jamadagni and stole his wish-fulfilling cow. Jamadagni's son Parashurama, an avatar of the Lord, pursued him with his axe. He cut off the king's thousand arms and his head, and brought the cow and her calf back to the hermitage.",
+   "names": [
+    "Parashurama",
+    "Kartavirya Arjuna"
+   ],
+   "scene": "Axe-wielding sage fighting thousand-armed king",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 190,
+   "kanda": "Ninth Skandha",
+   "title": "Parashurama Obeys His Father",
+   "story": "When Renuka was late returning from the river, Jamadagni ordered his sons to kill her. Only Parashurama obeyed, striking down his mother and brothers. Pleased, his father granted a boon, and Parashurama asked that they all live again. They rose as if from sleep, with no memory of death.",
+   "names": [
+    "Parashurama",
+    "Jamadagni",
+    "Renuka"
+   ],
+   "scene": "Sage with axe before his father",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 191,
+   "kanda": "Ninth Skandha",
+   "title": "Vishvamitra Adopts Shunahshepa",
+   "story": "Vishvamitra, a king who became a brahmin sage by fierce austerity, saved the boy Shunahshepa from being sacrificed and adopted him as his eldest son. When fifty of his hundred sons refused to accept this, Vishvamitra cursed them, while the younger fifty agreed and were blessed.",
+   "names": [
+    "Vishvamitra",
+    "Shunahshepa"
+   ],
+   "scene": "Sage protecting boy at sacrificial post",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 192,
+   "kanda": "Ninth Skandha",
+   "title": "Devayani in the Well",
+   "story": "Devayani, daughter of Shukracharya, quarrelled with Princess Sharmishtha after bathing, and Sharmishtha pushed her into a well. King Yayati, out hunting, pulled her out by the hand, and she asked him to marry her. Her father made Sharmishtha her maidservant, and she went with Devayani to Yayati.",
+   "names": [
+    "Devayani",
+    "Yayati",
+    "Sharmishtha"
+   ],
+   "scene": "King pulling maiden out of well",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 193,
+   "kanda": "Ninth Skandha",
+   "title": "Yayati and Puru's Youth",
+   "story": "Yayati secretly fathered sons with Sharmishtha, and Shukracharya cursed him with old age. Still full of desire, he asked his sons to take his old age. Only the youngest, Puru, agreed. After a thousand years Yayati learned that desire is never satisfied, returned Puru's youth and sought the Lord.",
+   "names": [
+    "Yayati",
+    "Puru"
+   ],
+   "scene": "Old king embracing his young son",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 194,
+   "kanda": "Ninth Skandha",
+   "title": "Bharata, Son of Shakuntala",
+   "story": "King Dushyanta married Shakuntala in Kanva's hermitage, then left. She raised their son Bharata, who as a child played with lion cubs. When Dushyanta doubted the boy, a voice from heaven declared him his son. Bharata became a great emperor, and the land is named after him.",
+   "names": [
+    "Bharata",
+    "Shakuntala",
+    "Dushyanta"
+   ],
+   "scene": "Young boy playing with lion cubs",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 195,
+   "kanda": "Ninth Skandha",
+   "title": "Rantideva Gives Away His Food",
+   "story": "King Rantideva gave away all he had and lived in poverty with his family. After fasting forty-eight days, he received a little food and water. He shared it with a brahmin, a shudra, and a man with dogs, and gave his last water to a thirsty outcaste. Then the gods revealed themselves and blessed him.",
+   "names": [
+    "Rantideva"
+   ],
+   "scene": "King offering water to thirsty outcaste",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 196,
+   "kanda": "Ninth Skandha",
+   "title": "The Yadu Line and Krishna's Coming",
+   "story": "From Yayati's son Yadu came the Yadu dynasty, in which Shurasena's son Vasudeva married Devaki. The Lord was born as their son Krishna to relieve the earth of its burden. To protect him from Kamsa, he was raised in Gokula, and his deeds purify all who hear them.",
+   "names": [
+    "Vasudeva",
+    "Devaki",
+    "Krishna"
+   ],
+   "scene": "Vasudeva carrying infant Krishna across river",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 197,
+   "kanda": "Tenth Skandha",
+   "title": "Earth Pleads with Brahma",
+   "story": "Burdened by armies of demon kings, Mother Earth took the form of a cow and went weeping to Brahma. Brahma led the gods to the shore of the Milk Ocean and prayed to Vishnu. The Lord's voice promised that he would soon be born among the Yadus, and the gods should take birth to serve him.",
+   "names": [
+    "Brahma",
+    "Bhumi"
+   ],
+   "scene": "Earth as cow before Brahma and gods",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 198,
+   "kanda": "Tenth Skandha",
+   "title": "A Voice Warns Kamsa",
+   "story": "At Devaki's wedding, her brother Kamsa proudly drove the bridal chariot himself. Suddenly a voice from the sky cried out that Devaki's eighth child would kill him. In a rage Kamsa seized his sister by the hair and raised his sword to cut her down on the spot.",
+   "names": [
+    "Kamsa",
+    "Devaki",
+    "Vasudeva"
+   ],
+   "scene": "Kamsa raising sword at Devaki on chariot",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 199,
+   "kanda": "Tenth Skandha",
+   "title": "Vasudeva's Promise",
+   "story": "Vasudeva calmly reasoned with Kamsa, reminding him that death comes to every living being. Then he made a hard promise: he would hand over every child Devaki bore. Trusting his truthful word, Kamsa spared his sister, and the newlyweds went home in sorrow.",
+   "names": [
+    "Vasudeva",
+    "Kamsa",
+    "Devaki"
+   ],
+   "scene": "Vasudeva pleading with Kamsa for Devaki",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 200,
+   "kanda": "Tenth Skandha",
+   "title": "Kamsa Kills Devaki's Sons",
+   "story": "Faithful to his word, Vasudeva brought his firstborn to Kamsa, who at first returned the child. But Narada warned Kamsa that the gods were being born among the Yadus. Kamsa threw Devaki and Vasudeva into prison and killed each of their newborn sons, one after another.",
+   "names": [
+    "Kamsa",
+    "Devaki",
+    "Vasudeva"
+   ],
+   "scene": "Kamsa killing infant in prison cell",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 201,
+   "kanda": "Tenth Skandha",
+   "title": "Balarama Moves to Rohini",
+   "story": "When Devaki conceived her seventh child, Vishnu sent Yogamaya, his divine power, to move the baby secretly into the womb of Rohini, who lived in Gokula. The people of Mathura believed Devaki had lost the child. So Balarama, the Lord's own expansion, was born safely among the cowherds.",
+   "names": [
+    "Balarama",
+    "Rohini"
+   ],
+   "scene": "Rohini cradling infant Balarama in Gokula",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 202,
+   "kanda": "Tenth Skandha",
+   "title": "The Gods Praise Devaki",
+   "story": "When the Lord entered Devaki's womb, she began to shine like a lamp, and even Kamsa felt afraid of her radiance. Unseen, Brahma, Shiva, Narada and the gods came to the prison and offered prayers to the Lord within her. They comforted Devaki, telling her that her son would remove the burden of the earth.",
+   "names": [
+    "Devaki",
+    "Brahma",
+    "Shiva"
+   ],
+   "scene": "Gods praying before Devaki in prison",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 203,
+   "kanda": "Tenth Skandha",
+   "title": "Krishna Born in Prison",
+   "story": "At midnight under the star Rohini, the Lord appeared before Devaki and Vasudeva in his four-armed form, holding conch, disc, mace and lotus. The parents bowed and praised him in wonder. At Devaki's request, he then became an ordinary newborn baby, lying in her arms.",
+   "names": [
+    "Krishna",
+    "Devaki",
+    "Vasudeva"
+   ],
+   "scene": "Four-armed Vishnu appearing in prison",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 204,
+   "kanda": "Tenth Skandha",
+   "title": "Vasudeva Crosses the Yamuna",
+   "story": "By the Lord's power the guards fell asleep and the prison doors swung open. Vasudeva carried the baby out into a stormy night while the serpent Shesha spread his hoods as an umbrella. The swollen Yamuna parted to let him pass, and he reached Nanda's house in Gokula.",
+   "names": [
+    "Vasudeva",
+    "Krishna",
+    "Shesha"
+   ],
+   "scene": "Vasudeva carrying baby across Yamuna river",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 205,
+   "kanda": "Tenth Skandha",
+   "title": "Yogamaya Escapes Kamsa",
+   "story": "Vasudeva left Krishna beside sleeping Yashoda and carried her newborn daughter back to the prison. Kamsa rushed in and dashed the girl against a stone, but she slipped from his hands and rose into the sky as the eight-armed goddess. She told him his killer was already born elsewhere.",
+   "names": [
+    "Yogamaya",
+    "Kamsa"
+   ],
+   "scene": "Eight-armed goddess rising above Kamsa",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 206,
+   "kanda": "Tenth Skandha",
+   "title": "Nanda's Birth Festival",
+   "story": "Gokula woke to find that Yashoda had a beautiful son. Nanda bathed, gave thousands of cows to the brahmanas, and the whole village burst into celebration. Cowherds sprinkled one another with butter, milk and turmeric water, and the gopis came singing with gifts for the child.",
+   "names": [
+    "Nanda",
+    "Yashoda",
+    "Krishna"
+   ],
+   "scene": "Cowherds celebrating Krishna's birth in Gokula",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 207,
+   "kanda": "Tenth Skandha",
+   "title": "Putana Comes to Gokula",
+   "story": "Kamsa sent the demoness Putana to kill newborn babies. She came to Gokula disguised as a lovely woman, and no one stopped her as she entered Nanda's house. Smiling sweetly, she lifted baby Krishna onto her lap and offered him her breast, which she had smeared with deadly poison.",
+   "names": [
+    "Putana",
+    "Krishna"
+   ],
+   "scene": "Putana disguised as beautiful woman nursing Krishna",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 208,
+   "kanda": "Tenth Skandha",
+   "title": "Krishna Slays Putana",
+   "story": "Krishna drank the poison along with Putana's very life. Screaming, she fell down in her true giant form, crushing trees for miles around, while the tiny baby played fearlessly on her chest. Because she had nursed him, even as an enemy, she attained the place of a mother.",
+   "names": [
+    "Krishna",
+    "Putana"
+   ],
+   "scene": "Baby Krishna on giant fallen demoness",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 209,
+   "kanda": "Tenth Skandha",
+   "title": "Krishna Kicks the Cart",
+   "story": "During a festival, Yashoda laid her sleeping baby under a heavy handcart. Waking hungry, Krishna kicked his little feet and the cart overturned with a crash, its pots and wheels scattered. Some say a demon named Shakata hid in the cart, and the tiny foot ended him.",
+   "names": [
+    "Krishna",
+    "Yashoda"
+   ],
+   "scene": "Baby Krishna overturning cart with foot",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 210,
+   "kanda": "Tenth Skandha",
+   "title": "Trinavarta the Whirlwind",
+   "story": "The demon Trinavarta swept into Gokula as a whirlwind, filling the sky with dust and snatching baby Krishna high into the air. Krishna grew so heavy that the demon could not fly on. Clinging to his throat, the baby choked him, and Trinavarta crashed to earth on a rock.",
+   "names": [
+    "Krishna",
+    "Trinavarta"
+   ],
+   "scene": "Whirlwind demon carrying baby Krishna into sky",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 211,
+   "kanda": "Tenth Skandha",
+   "title": "Garga Names the Boys",
+   "story": "The sage Garga came secretly to Nanda's cowshed to perform the naming ceremony. He named Rohini's son Balarama for his strength, and Yashoda's son Krishna, for his dark color. Garga told Nanda that this child was equal to Narayana and would protect them from every danger.",
+   "names": [
+    "Garga",
+    "Krishna",
+    "Balarama"
+   ],
+   "scene": "Sage Garga naming Krishna in cowshed",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 212,
+   "kanda": "Tenth Skandha",
+   "title": "Krishna and Balarama Crawl",
+   "story": "The two brothers crawled about Gokula on hands and knees, their ankle bells jingling. They followed strangers and then hurried back to their mothers in fright, splashed with mud. Holding calves' tails, they were dragged around the yard as the gopis laughed and forgot their chores.",
+   "names": [
+    "Krishna",
+    "Balarama"
+   ],
+   "scene": "Infant Krishna and Balarama crawling in courtyard",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 213,
+   "kanda": "Tenth Skandha",
+   "title": "The Little Butter Thief",
+   "story": "As he grew, Krishna stole butter and curd from the gopis' homes, feeding the monkeys and sharing with his friends. When pots hung high, he stood on stools and broke them. The gopis came to complain to Yashoda, but seeing his innocent face, they could only smile.",
+   "names": [
+    "Krishna",
+    "Gopis"
+   ],
+   "scene": "Krishna stealing butter from hanging pot",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 214,
+   "kanda": "Tenth Skandha",
+   "title": "The Universe in His Mouth",
+   "story": "The boys told Yashoda that Krishna had eaten dirt. When she scolded him, he denied it and opened his mouth for her to look. Inside she saw the whole universe: stars, mountains, oceans, and even Gokula and herself. Then his maya covered her vision, and she loved him as her son again.",
+   "names": [
+    "Krishna",
+    "Yashoda"
+   ],
+   "scene": "Yashoda seeing universe in Krishna's mouth",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 215,
+   "kanda": "Tenth Skandha",
+   "title": "Krishna Tied to the Mortar",
+   "story": "When Yashoda left her churning to save boiling milk, Krishna broke the butter pot and ran off. She caught him and tried to tie him to a wooden mortar, but every rope was two fingers too short. Seeing her tired and sweating, Krishna let himself be bound, and was called Damodara.",
+   "names": [
+    "Krishna",
+    "Yashoda"
+   ],
+   "scene": "Yashoda tying Krishna to wooden mortar",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 216,
+   "kanda": "Tenth Skandha",
+   "title": "The Curse of Nalakuvara",
+   "story": "Long ago Kubera's proud sons, Nalakuvara and Manigriva, were bathing drunk and naked when Narada passed by. Out of mercy, Narada cursed them to stand as twin arjuna trees in Gokula. There, he said, they would one day see the Lord himself face to face and be set free.",
+   "names": [
+    "Narada",
+    "Nalakuvara",
+    "Manigriva"
+   ],
+   "scene": "Narada cursing Kubera's sons in river",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 217,
+   "kanda": "Tenth Skandha",
+   "title": "The Twin Arjuna Trees Fall",
+   "story": "Dragging the mortar behind him, little Krishna crawled between the twin arjuna trees. The mortar stuck sideways, and with one pull the great trees crashed to the ground. Out stepped the shining sons of Kubera, who praised Krishna and returned home freed from their curse.",
+   "names": [
+    "Krishna",
+    "Nalakuvara",
+    "Manigriva"
+   ],
+   "scene": "Krishna pulling mortar between falling trees",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 218,
+   "kanda": "Tenth Skandha",
+   "title": "The Fruit Seller Blessed",
+   "story": "A fruit seller came crying out her wares in Gokula. Krishna ran to her, carrying a little grain in his tiny hands to trade, though most of it spilled along the way. She filled his hands with fruit, and when she looked down, her basket was overflowing with jewels.",
+   "names": [
+    "Krishna"
+   ],
+   "scene": "Child Krishna buying fruit from woman",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 219,
+   "kanda": "Tenth Skandha",
+   "title": "The Move to Vrindavana",
+   "story": "After so many dangers, the elder Upananda advised that the cowherds leave Gokula. They loaded their carts and drove their herds to Vrindavana, a fresh land of green forests, Govardhana Hill and the sandy banks of the Yamuna. Krishna and Balarama were overjoyed and began herding calves.",
+   "names": [
+    "Krishna",
+    "Balarama",
+    "Nanda"
+   ],
+   "scene": "Cowherds with carts moving to Vrindavana",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 220,
+   "kanda": "Tenth Skandha",
+   "title": "Vatsasura the Calf Demon",
+   "story": "While the boys grazed their calves by the Yamuna, a demon disguised as a calf slipped into the herd. Krishna spotted him and walked up quietly. Seizing him by the hind legs and tail, he whirled him around and hurled him into a wood apple tree, where he fell dead.",
+   "names": [
+    "Krishna",
+    "Vatsasura"
+   ],
+   "scene": "Krishna whirling calf demon into tree",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 221,
+   "kanda": "Tenth Skandha",
+   "title": "Bakasura the Crane",
+   "story": "One day the boys saw a huge crane at the water's edge, as big as a mountain peak. It was the demon Bakasura, and he swallowed Krishna whole. Krishna burned his throat like fire until he spat him out, then grabbed both halves of his beak and tore the bird apart.",
+   "names": [
+    "Krishna",
+    "Bakasura"
+   ],
+   "scene": "Krishna tearing open beak of giant crane",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 222,
+   "kanda": "Tenth Skandha",
+   "title": "Aghasura the Python",
+   "story": "Aghasura, brother of Putana and Baka, stretched himself out as a python miles long, his open mouth like a mountain cave. Thinking it was a sight to explore, the boys and calves walked straight in. Krishna went in after them and grew until the serpent burst, saving them all.",
+   "names": [
+    "Krishna",
+    "Aghasura"
+   ],
+   "scene": "Cowherd boys entering giant python's mouth",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 223,
+   "kanda": "Tenth Skandha",
+   "title": "Lunch on the Yamuna Bank",
+   "story": "Krishna and his friends sat in circles on the riverbank to share their lunch, laughing and teasing. Krishna sat in the middle, his flute tucked in his belt and a lump of rice in his hand, making jokes. The gods in the sky watched in wonder at the Lord eating with cowherd boys.",
+   "names": [
+    "Krishna"
+   ],
+   "scene": "Krishna sharing lunch with cowherd boys",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 224,
+   "kanda": "Tenth Skandha",
+   "title": "Brahma Steals the Boys",
+   "story": "Wishing to test Krishna, Brahma hid the calves and then the cowherd boys in a cave. Krishna simply became every calf and every boy himself, with their same faces, clothes and flutes. For a whole year the mothers and cows loved their children more than ever, without knowing why.",
+   "names": [
+    "Brahma",
+    "Krishna"
+   ],
+   "scene": "Brahma hiding calves and cowherd boys",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 225,
+   "kanda": "Tenth Skandha",
+   "title": "Brahma's Prayers",
+   "story": "When Brahma returned, he saw the boys he had hidden and an identical group playing with Krishna. Then all the copies turned into four-armed forms of Vishnu, each worshipped by a Brahma. Humbled, Brahma fell at Krishna's feet and offered long, heartfelt prayers for forgiveness.",
+   "names": [
+    "Brahma",
+    "Krishna"
+   ],
+   "scene": "Brahma bowing at young Krishna's feet",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 226,
+   "kanda": "Tenth Skandha",
+   "title": "Dhenukasura the Donkey",
+   "story": "The boys longed for the sweet palm fruits of Talavana, but the donkey demon Dhenuka guarded the grove. When Balarama shook the trees, Dhenuka kicked him in the chest. Balarama seized him by the hind legs and flung him onto a palm tree, and Krishna and Balarama killed his whole herd.",
+   "names": [
+    "Balarama",
+    "Krishna",
+    "Dhenukasura"
+   ],
+   "scene": "Balarama hurling donkey demon into palms",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 227,
+   "kanda": "Tenth Skandha",
+   "title": "Krishna Dances on Kaliya",
+   "story": "The serpent Kaliya had poisoned a lake of the Yamuna, killing the cows and boys who drank there. Krishna climbed a kadamba tree and leapt into the water. Caught in Kaliya's coils, he broke free and danced on the serpent's many hoods until Kaliya vomited blood and gave up.",
+   "names": [
+    "Krishna",
+    "Kaliya"
+   ],
+   "scene": "Krishna dancing on hoods of serpent",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 228,
+   "kanda": "Tenth Skandha",
+   "title": "Kaliya's Wives Plead",
+   "story": "As Kaliya lay near death, his wives, the Naga women, came forward with folded hands. They praised Krishna and begged him to spare their husband. Krishna mercifully let Kaliya go and sent him to the island of Ramanaka, promising that Garuda would no longer harm him there.",
+   "names": [
+    "Kaliya",
+    "Krishna"
+   ],
+   "scene": "Naga wives praying to Krishna on Kaliya",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 229,
+   "kanda": "Tenth Skandha",
+   "title": "Krishna Swallows the Fire",
+   "story": "That night the people of Vraja slept by the Yamuna, worn out with worry. Suddenly a forest fire surrounded them on all sides. Terrified, they cried out to Krishna for help. The infinite Lord simply drank up the whole blazing fire and saved them all.",
+   "names": [
+    "Krishna"
+   ],
+   "scene": "Krishna swallowing forest fire to save cowherds",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 230,
+   "kanda": "Tenth Skandha",
+   "title": "Pralambasura Carries Balarama",
+   "story": "The demon Pralamba joined the boys' games disguised as a cowherd. Losing a match, he had to carry Balarama on his back, but instead he ran off and took his huge demon form. Calm and strong, Balarama struck the demon's head with his fist and killed him on the spot.",
+   "names": [
+    "Balarama",
+    "Pralambasura"
+   ],
+   "scene": "Demon carrying Balarama on his back",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 231,
+   "kanda": "Tenth Skandha",
+   "title": "The Song of the Flute",
+   "story": "When autumn came, Krishna entered the forest with the cows, playing his flute. Hearing it, the gopis of Vraja sang of its wonder: the deer stood still, the rivers trembled, and the birds closed their eyes to listen. Their hearts went out to the cowherd boy with the flute.",
+   "names": [
+    "Krishna",
+    "Gopis"
+   ],
+   "scene": "Krishna playing flute among cows and deer",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 232,
+   "kanda": "Tenth Skandha",
+   "title": "The Gopis' Garments",
+   "story": "The young gopis kept a month-long vow, worshipping goddess Katyayani to win Krishna as their husband. One morning, as they bathed in the Yamuna, Krishna took their clothes and climbed a kadamba tree. He returned them with blessings, promising to fulfill their wish in the autumn nights.",
+   "names": [
+    "Krishna",
+    "Gopis"
+   ],
+   "scene": "Krishna in tree with gopis' clothes",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 233,
+   "kanda": "Tenth Skandha",
+   "title": "The Brahmanas' Wives",
+   "story": "Hungry in the forest, the boys asked some brahmanas at a sacrifice for food, but they were ignored. Their wives, however, hurried out with dishes of every kind and served Krishna with love. Later the brahmanas regretted their pride and praised the devotion of their wives.",
+   "names": [
+    "Krishna"
+   ],
+   "scene": "Brahmana wives bringing food to Krishna",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 234,
+   "kanda": "Tenth Skandha",
+   "title": "Krishna Stops Indra's Worship",
+   "story": "Krishna saw the cowherds preparing their yearly sacrifice to Indra, king of the gods. He told Nanda that they should worship the cows, the brahmanas and Govardhana Hill, which fed their herds. The cowherds agreed and joyfully offered their feast to the hill instead.",
+   "names": [
+    "Krishna",
+    "Nanda"
+   ],
+   "scene": "Cowherds worshipping Govardhana with offerings",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 235,
+   "kanda": "Tenth Skandha",
+   "title": "Krishna Lifts Govardhana",
+   "story": "Furious, Indra sent clouds to pour rain and hail on Vraja for seven days. Krishna lifted Govardhana Hill with one hand like an umbrella and called everyone with their cows to shelter beneath it. He held it up for seven days without food or rest, until Indra gave up.",
+   "names": [
+    "Krishna"
+   ],
+   "scene": "Krishna holding hill over cowherds",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 236,
+   "kanda": "Tenth Skandha",
+   "title": "Indra's Surrender",
+   "story": "Ashamed, Indra came to Krishna in secret and bowed at his feet, begging forgiveness for his pride. Then the heavenly cow Surabhi bathed Krishna with her milk, and Indra bathed him with the waters of the Ganga. They crowned him Govinda, the protector of the cows.",
+   "names": [
+    "Indra",
+    "Krishna",
+    "Surabhi"
+   ],
+   "scene": "Indra on elephant bowing to Krishna",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 237,
+   "kanda": "Tenth Skandha",
+   "title": "Nanda Rescued from Varuna",
+   "story": "Nanda once bathed in the Yamuna in the dark hour before dawn, and a servant of Varuna, the lord of the waters, dragged him away. Krishna went to Varuna's realm, where Varuna worshipped him and returned his father. Back home, Krishna showed the cowherds a vision of his own spiritual realm.",
+   "names": [
+    "Krishna",
+    "Nanda",
+    "Varuna"
+   ],
+   "scene": "Krishna visiting Varuna's underwater palace",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 238,
+   "kanda": "Tenth Skandha",
+   "title": "The Call of the Flute",
+   "story": "On a full moon night of autumn, Krishna played his flute in the forest. Hearing it, the gopis left everything, their cooking, children and husbands, and ran to him. Krishna tested them and asked them to go home, but they wept and pleaded, and so he began to dance with them.",
+   "names": [
+    "Krishna",
+    "Gopis"
+   ],
+   "scene": "Gopis running to Krishna on moonlit night",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 239,
+   "kanda": "Tenth Skandha",
+   "title": "The Gopis Search for Krishna",
+   "story": "When the gopis grew proud of his attention, Krishna suddenly vanished. Wild with longing, they wandered the forest asking the trees, vines and deer if they had seen him. They found his footprints beside those of one favored gopi, and then found her too, left alone and weeping.",
+   "names": [
+    "Gopis",
+    "Krishna"
+   ],
+   "scene": "Gopis searching moonlit forest for Krishna",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 240,
+   "kanda": "Tenth Skandha",
+   "title": "The Gopis' Song",
+   "story": "Gathered on the bank of the Yamuna, the gopis sang together of their love for Krishna. They remembered his smile, his walk and his flute, and begged him to come back to them. Their song of separation has been sung by devotees ever since as the purest longing for God.",
+   "names": [
+    "Gopis"
+   ],
+   "scene": "Gopis singing together on river bank",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 241,
+   "kanda": "Tenth Skandha",
+   "title": "Krishna Returns",
+   "story": "Krishna suddenly reappeared among the gopis, smiling, wearing a yellow cloth and a garland. Their joy was like life returning to a body. When they asked about love, he said he hid only to deepen their devotion, and that he could never repay the debt of their love.",
+   "names": [
+    "Krishna",
+    "Gopis"
+   ],
+   "scene": "Krishna reappearing among joyful gopis",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 242,
+   "kanda": "Tenth Skandha",
+   "title": "The Rasa Dance",
+   "story": "On the Yamuna's bank Krishna began the Rasa dance, appearing between every pair of gopis so each felt he was with her alone. Bells and bangles rang, and the gods gathered in the sky to watch. Shuka told Parikshit that hearing this pure divine play frees the heart from desire.",
+   "names": [
+    "Krishna",
+    "Gopis"
+   ],
+   "scene": "Krishna dancing in circle with gopis",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 243,
+   "kanda": "Tenth Skandha",
+   "title": "Sudarshana Freed from Serpent Form",
+   "story": "One night the cowherds camped by the Ambika forest, and a huge serpent seized Nanda by the foot. Krishna touched the snake with His foot, and at once a shining Vidyadhara named Sudarshana rose up. Cursed by sages for mocking them, he was freed by Krishna's touch and returned to his heavenly home.",
+   "names": [
+    "Krishna",
+    "Nanda"
+   ],
+   "scene": "Krishna touching serpent swallowing Nanda",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 244,
+   "kanda": "Tenth Skandha",
+   "title": "Shankhachuda Is Slain",
+   "story": "As Krishna and Balarama sang with the gopis on a moonlit night, Shankhachuda, a servant of Kubera, carried the women away. The brothers ran after him, and Krishna struck off the demon's head with one blow. He took the shining jewel from his crown and lovingly gave it to Balarama.",
+   "names": [
+    "Krishna",
+    "Balarama",
+    "Gopis"
+   ],
+   "scene": "Krishna chasing demon carrying away gopis",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 245,
+   "kanda": "Tenth Skandha",
+   "title": "Krishna Slays Arishtasura",
+   "story": "The demon Arishta came to Vraja as a monstrous bull, shaking the earth and goring the hills. While the cowherds fled in terror, Krishna calmly called him to fight. He seized the bull by the horns, threw him down, and tore out a horn to strike him, and the gods rained flowers.",
+   "names": [
+    "Krishna"
+   ],
+   "scene": "Krishna fighting huge bull by horns",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 246,
+   "kanda": "Tenth Skandha",
+   "title": "Krishna Kills Keshi",
+   "story": "Kamsa sent Keshi, a giant horse demon whose neigh shook the sky. Keshi rushed at Krishna with open jaws, and the Lord thrust His arm into the horse's mouth. His arm swelled until Keshi choked and fell dead, and Narada came to praise Krishna and foretell His coming deeds.",
+   "names": [
+    "Krishna",
+    "Narada"
+   ],
+   "scene": "Krishna thrusting arm into horse's mouth",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 247,
+   "kanda": "Tenth Skandha",
+   "title": "Vyomasura in the Caves",
+   "story": "While the cowherd boys played a game of thieves and shepherds, the demon Vyoma joined in disguised as a boy. One by one he stole the children away and shut them in a mountain cave behind a boulder. Krishna caught him, crushed him like a beast for sacrifice, and freed His friends.",
+   "names": [
+    "Krishna"
+   ],
+   "scene": "Krishna seizing demon among cowherd boys",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 248,
+   "kanda": "Tenth Skandha",
+   "title": "Akrura Comes to Vraja",
+   "story": "Kamsa sent the noble Akrura to bring Krishna and Balarama to Mathura for a festival of the bow. All along the road Akrura longed for the Lord, and on reaching Vraja he rolled in the dust of Krishna's footprints. The brothers welcomed him warmly, and he told them of Kamsa's plot.",
+   "names": [
+    "Akrura",
+    "Krishna",
+    "Balarama"
+   ],
+   "scene": "Akrura bowing before Krishna and Balarama",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 249,
+   "kanda": "Tenth Skandha",
+   "title": "Akrura's Vision in the Yamuna",
+   "story": "On the way Akrura stopped to bathe in the Yamuna. Under the water he saw Krishna and Balarama, yet the brothers were also sitting in the chariot. Then he saw Vishnu resting on the serpent Ananta, praised by sages and gods, and Akrura offered a heartfelt prayer in wonder.",
+   "names": [
+    "Akrura",
+    "Vishnu"
+   ],
+   "scene": "Akrura sees Vishnu on serpent in river",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 250,
+   "kanda": "Tenth Skandha",
+   "title": "The Rude Washerman",
+   "story": "Entering Mathura, Krishna and Balarama met Kamsa's washerman carrying fine clothes and asked him for some. The proud man refused and insulted them, so Krishna struck off his head with His hand. The cowherds dressed in the royal garments, and a weaver came forward to adorn them lovingly.",
+   "names": [
+    "Krishna",
+    "Balarama"
+   ],
+   "scene": "Krishna and Balarama taking royal clothes",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 251,
+   "kanda": "Tenth Skandha",
+   "title": "Sudama the Garland Maker",
+   "story": "The brothers came to the house of Sudama, a humble garland maker of Mathura. He bowed down and joyfully adorned them with beautiful fragrant flowers. Pleased, Krishna blessed him with deep devotion, friendship with His devotees, and lasting prosperity for his family.",
+   "names": [
+    "Krishna",
+    "Balarama",
+    "Sudama"
+   ],
+   "scene": "Garland maker offering flowers to Krishna",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 252,
+   "kanda": "Tenth Skandha",
+   "title": "Kubja Made Beautiful",
+   "story": "On the road a young hunchbacked woman, Kubja, carried fragrant sandal paste for the king. Charmed by Krishna, she gladly anointed Him and Balarama with it. Krishna pressed her feet with His toes, lifted her chin, and straightened her body, and she stood up a lovely woman.",
+   "names": [
+    "Krishna",
+    "Kubja"
+   ],
+   "scene": "Krishna straightening hunchbacked woman",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 253,
+   "kanda": "Tenth Skandha",
+   "title": "Krishna Breaks the Great Bow",
+   "story": "In the sacrificial arena stood a mighty bow, as huge as a rainbow, guarded by many soldiers. Krishna lifted it easily with one hand, strung it, and snapped it in the middle with a crash that filled the sky. When the guards attacked, the brothers drove them off with the broken pieces.",
+   "names": [
+    "Krishna"
+   ],
+   "scene": "Krishna breaking huge bow in arena",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 254,
+   "kanda": "Tenth Skandha",
+   "title": "Kuvalayapida the Elephant",
+   "story": "At the wrestling arena's gate Kamsa had placed the mighty elephant Kuvalayapida to crush the boys. Krishna dodged its trunk, played with it, and pulled it by the tail. At last He knocked it down, pulled out a tusk, and killed the beast and its driver before entering the arena.",
+   "names": [
+    "Krishna",
+    "Balarama"
+   ],
+   "scene": "Krishna pulling tusk from mad elephant",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 255,
+   "kanda": "Tenth Skandha",
+   "title": "The Wrestlers Chanura and Mushtika",
+   "story": "In the arena Krishna faced the giant wrestler Chanura, while Balarama met Mushtika. The women of Mathura cried that it was unfair to match such tender boys with mountains of men. Yet the brothers whirled and struck their foes to the ground, and the other wrestlers fled.",
+   "names": [
+    "Krishna",
+    "Balarama"
+   ],
+   "scene": "Krishna and Balarama wrestling giant men",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 256,
+   "kanda": "Tenth Skandha",
+   "title": "Kamsa Is Slain",
+   "story": "Furious, Kamsa ordered the cowherds driven out and Vasudeva killed. Krishna leapt onto the royal dais, seized Kamsa by the hair, and threw him down into the arena, where he died. Krishna then freed Devaki and Vasudeva from prison and restored old Ugrasena as king.",
+   "names": [
+    "Krishna",
+    "Kamsa",
+    "Devaki"
+   ],
+   "scene": "Krishna dragging Kamsa from his throne",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 257,
+   "kanda": "Tenth Skandha",
+   "title": "Study with Sandipani",
+   "story": "Krishna and Balarama went to Avanti to study with the sage Sandipani, mastering all knowledge in sixty-four days. As His fee, the teacher asked for his son, lost in the sea. Krishna slew the demon Panchajana, took his conch, and brought the boy back from Yama's realm.",
+   "names": [
+    "Krishna",
+    "Balarama",
+    "Sandipani"
+   ],
+   "scene": "Krishna and Balarama studying with guru",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 258,
+   "kanda": "Tenth Skandha",
+   "title": "Uddhava's Message to the Gopis",
+   "story": "Krishna sent His wise friend Uddhava to Vraja to comfort Nanda, Yashoda and the gopis. The gopis poured out their longing and spoke to a bee as though it were Krishna's messenger. Seeing their love, Uddhava prayed to be born as a blade of grass in Vrindavana.",
+   "names": [
+    "Uddhava",
+    "Gopis"
+   ],
+   "scene": "Uddhava speaking with grieving gopis",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 259,
+   "kanda": "Tenth Skandha",
+   "title": "Jarasandha's Attacks and Dwaraka",
+   "story": "Jarasandha, Kamsa's father-in-law, besieged Mathura again and again with vast armies. Seventeen times Krishna and Balarama destroyed his forces and let him go. To protect His people, Krishna had Vishvakarma build the wondrous fortress city of Dwaraka in the sea.",
+   "names": [
+    "Krishna",
+    "Balarama"
+   ],
+   "scene": "Golden city of Dwaraka rising from sea",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 260,
+   "kanda": "Tenth Skandha",
+   "title": "Kalayavana and Muchukunda",
+   "story": "The barbarian king Kalayavana chased Krishna into a mountain cave. There Krishna's cloth lay over the sleeping king Muchukunda, who had been granted long rest by the gods. Kicked awake by Kalayavana, Muchukunda glanced at him, and the attacker burned to ashes.",
+   "names": [
+    "Krishna",
+    "Muchukunda"
+   ],
+   "scene": "Sleeping king in cave burning attacker",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 261,
+   "kanda": "Tenth Skandha",
+   "title": "Krishna Carries Off Rukmini",
+   "story": "Princess Rukmini loved Krishna, but her brother Rukmi wished her to wed Shishupala, so she sent Krishna a letter by a brahmana. On her wedding day, as she left the temple of Ambika, Krishna swept her into His chariot. He defeated Rukmi, and Rukmini was married at Dwaraka.",
+   "names": [
+    "Krishna",
+    "Rukmini"
+   ],
+   "scene": "Krishna lifting Rukmini into chariot",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 262,
+   "kanda": "Tenth Skandha",
+   "title": "Pradyumna and Shambara",
+   "story": "The demon Shambara stole Krishna's newborn son Pradyumna and threw him into the sea. A fish swallowed the baby and was brought to Shambara's kitchen, where Mayavati, who was Rati reborn, raised him. Grown up, Pradyumna slew Shambara and flew home with her to Dwaraka.",
+   "names": [
+    "Pradyumna"
+   ],
+   "scene": "Pradyumna fighting demon Shambara",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 263,
+   "kanda": "Tenth Skandha",
+   "title": "The Syamantaka Jewel",
+   "story": "The Sun god gave King Satrajit the dazzling Syamantaka jewel. His brother Prasena wore it hunting, but a lion killed him, and the people whispered that Krishna had taken it. To clear His name, Krishna followed the trail into the forest with the citizens.",
+   "names": [
+    "Krishna",
+    "Satrajit"
+   ],
+   "scene": "King wearing shining jewel like the sun",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 264,
+   "kanda": "Tenth Skandha",
+   "title": "Krishna Fights Jambavan",
+   "story": "The trail led to a cave where the bear king Jambavan kept the jewel, and they fought for twenty-eight days. Knowing Him as his Lord Rama, Jambavan gave Krishna the jewel and his daughter Jambavati. Back home, ashamed Satrajit gave Krishna his daughter Satyabhama too.",
+   "names": [
+    "Krishna",
+    "Jambavan"
+   ],
+   "scene": "Krishna wrestling bear king in cave",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 265,
+   "kanda": "Tenth Skandha",
+   "title": "Narakasura Is Slain",
+   "story": "The demon Narakasura had stolen Aditi's earrings and imprisoned sixteen thousand princesses. Riding Garuda with Satyabhama, Krishna broke into his fortress and cut off Naraka's head with His disc. The freed princesses all chose Him, and He married them in as many forms.",
+   "names": [
+    "Krishna",
+    "Satyabhama",
+    "Narakasura"
+   ],
+   "scene": "Krishna and Satyabhama on Garuda in battle",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 266,
+   "kanda": "Tenth Skandha",
+   "title": "Krishna Brings the Parijata",
+   "story": "After returning Aditi's earrings in heaven, Krishna, urged by Satyabhama, uprooted the heavenly Parijata tree. Indra and the gods fought to keep it, but Krishna defeated them. He planted the fragrant tree in Satyabhama's garden at Dwaraka, where bees followed it from heaven.",
+   "names": [
+    "Krishna",
+    "Satyabhama",
+    "Indra"
+   ],
+   "scene": "Krishna carrying Parijata tree on Garuda",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 267,
+   "kanda": "Tenth Skandha",
+   "title": "Krishna Teases Rukmini",
+   "story": "One day as Rukmini fanned Krishna, He teased her, asking why she had chosen a poor runaway like Him over great kings. Thinking He would leave her, she fainted with grief. Krishna lifted her tenderly, comforted her, and praised her pure and steady love.",
+   "names": [
+    "Krishna",
+    "Rukmini"
+   ],
+   "scene": "Krishna comforting fainted Rukmini",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 268,
+   "kanda": "Tenth Skandha",
+   "title": "Usha's Dream of Aniruddha",
+   "story": "Usha, daughter of the demon king Bana, saw a handsome prince in a dream and fell in love. Her friend Chitralekha painted many princes until Usha recognized him as Aniruddha, Krishna's grandson. Chitralekha flew by magic to Dwaraka and carried the sleeping prince to Usha.",
+   "names": [
+    "Aniruddha",
+    "Usha"
+   ],
+   "scene": "Chitralekha showing Usha painted portraits",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 269,
+   "kanda": "Tenth Skandha",
+   "title": "Krishna Battles Banasura",
+   "story": "Bana caught Aniruddha in Usha's rooms and bound him with serpent ropes. Krishna marched on Bana's city and fought Shiva himself, who protected Bana. Krishna cut off Bana's thousand arms but four, and at Shiva's plea spared him, and Usha and Aniruddha were married.",
+   "names": [
+    "Krishna",
+    "Shiva",
+    "Banasura"
+   ],
+   "scene": "Krishna fighting Shiva and many-armed Bana",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 270,
+   "kanda": "Tenth Skandha",
+   "title": "King Nriga the Lizard",
+   "story": "Playing in the forest, Krishna's sons found a huge lizard stuck in a dry well. Krishna lifted it out with ease, and it became a shining being, King Nriga. He told how he had once mistakenly given away a brahmana's cow, and warned all kings never to take a brahmana's property.",
+   "names": [
+    "Krishna",
+    "Nriga"
+   ],
+   "scene": "Krishna lifting lizard from well",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 271,
+   "kanda": "Tenth Skandha",
+   "title": "Paundraka the False Vasudeva",
+   "story": "Foolish King Paundraka called himself the true Vasudeva and wore a false conch, disc and crown. He sent word that Krishna must give up His emblems. Krishna came to Kashi, met him in battle, and cut off his head with the Sudarshana disc, ending his pretence.",
+   "names": [
+    "Krishna",
+    "Paundraka"
+   ],
+   "scene": "Krishna facing king with false emblems",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 272,
+   "kanda": "Tenth Skandha",
+   "title": "Balarama Slays Dvivida",
+   "story": "The ape Dvivida, a friend of Naraka, ravaged villages and insulted Balarama on Raivata hill. He mocked Balarama's women and broke his wine pot. Balarama fought him with club and plough, and when the ape attacked with trees and stones, struck him dead with his fists.",
+   "names": [
+    "Balarama",
+    "Dvivida"
+   ],
+   "scene": "Balarama fighting giant ape on hill",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 273,
+   "kanda": "Tenth Skandha",
+   "title": "Balarama Drags Hastinapura",
+   "story": "When the Kauravas captured Krishna's son Samba for carrying off Duryodhana's daughter, Balarama came to make peace. They spoke to him with pride and scorn. Angry, Balarama hooked the city with his plough and began dragging it toward the Ganga, until they begged forgiveness.",
+   "names": [
+    "Balarama",
+    "Samba"
+   ],
+   "scene": "Balarama dragging city with plough",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 274,
+   "kanda": "Tenth Skandha",
+   "title": "Narada Visits Krishna's Palaces",
+   "story": "Curious how Krishna lived with sixteen thousand wives, Narada visited Dwaraka. In every palace he found Krishna, playing dice, bathing, worshipping, caring for children or advising ministers. Amazed by this wonder of the Lord's power, Narada sang His glories.",
+   "names": [
+    "Narada",
+    "Krishna"
+   ],
+   "scene": "Narada seeing Krishna in many palaces",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 275,
+   "kanda": "Tenth Skandha",
+   "title": "Bhima Slays Jarasandha",
+   "story": "Disguised as brahmanas, Krishna, Bhima and Arjuna asked Jarasandha for a duel. He chose Bhima, and they fought with clubs and fists for twenty-seven days. At Krishna's sign, Bhima tore Jarasandha in two, and Krishna freed the many kings held in his prison.",
+   "names": [
+    "Bhima",
+    "Jarasandha",
+    "Krishna"
+   ],
+   "scene": "Bhima tearing Jarasandha in two",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 276,
+   "kanda": "Tenth Skandha",
+   "title": "Shishupala at the Rajasuya",
+   "story": "At Yudhishthira's Rajasuya sacrifice, Sahadeva proposed that Krishna receive the first honour. Shishupala rose and heaped insults on the Lord. Krishna bore his abuse patiently, then cut off his head with the disc, and a light rose from his body and entered Krishna.",
+   "names": [
+    "Krishna",
+    "Shishupala",
+    "Yudhishthira"
+   ],
+   "scene": "Krishna's disc beheading Shishupala at sacrifice",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 277,
+   "kanda": "Tenth Skandha",
+   "title": "Shalva and the Flying City",
+   "story": "Shalva, Shishupala's friend, won from Shiva the flying iron city Saubha and attacked Dwaraka. Pradyumna fought him bravely. Krishna returned, saw through Shalva's magic, smashed Saubha with His club, and slew Shalva, and later He killed Dantavakra as well.",
+   "names": [
+    "Krishna",
+    "Shalva"
+   ],
+   "scene": "Krishna attacking flying iron city",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 278,
+   "kanda": "Tenth Skandha",
+   "title": "Balarama's Pilgrimage",
+   "story": "Not wishing to take sides in the Kurukshetra war, Balarama went on pilgrimage to holy rivers. At Naimisharanya he slew the demon Balvala, who troubled the sages and rained filth on their altars. He bathed at many sacred places before returning home.",
+   "names": [
+    "Balarama"
+   ],
+   "scene": "Balarama with plough slaying demon",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 279,
+   "kanda": "Tenth Skandha",
+   "title": "Sudama Visits Krishna",
+   "story": "Sudama, Krishna's poor brahmana friend from school, came to Dwaraka with only a handful of flattened rice. Krishna ran to embrace him, washed his feet, and joyfully ate the humble gift. Returning home, Sudama found his hut turned into a palace, yet he stayed humble.",
+   "names": [
+    "Sudama",
+    "Krishna"
+   ],
+   "scene": "Krishna washing poor Sudama's feet",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 280,
+   "kanda": "Tenth Skandha",
+   "title": "Reunion at Kurukshetra",
+   "story": "During a solar eclipse, the Yadavas went to bathe at Kurukshetra, and Nanda, Yashoda and the gopis came there too. After long years they saw Krishna again. Krishna embraced them, comforted them with wisdom, and their love for Him only grew deeper.",
+   "names": [
+    "Krishna",
+    "Gopis",
+    "Yashoda"
+   ],
+   "scene": "Krishna meeting gopis at Kurukshetra",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 281,
+   "kanda": "Tenth Skandha",
+   "title": "Vasudeva's Sacrifice",
+   "story": "At Kurukshetra great sages came to see Krishna. Vasudeva asked them how to be free of karma, and they told him to worship the Lord with sacrifice. So Vasudeva performed a grand sacrifice, giving rich gifts, while Krishna and all the kings and gopas looked on.",
+   "names": [
+    "Vasudeva",
+    "Krishna"
+   ],
+   "scene": "Vasudeva performing great fire sacrifice",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 282,
+   "kanda": "Tenth Skandha",
+   "title": "Devaki's Six Sons Returned",
+   "story": "Devaki longed to see the six sons Kamsa had killed. Krishna and Balarama went down to Sutala, where King Bali worshipped them, and brought the boys back. Devaki fed them from her breast, and touched by Krishna, the sons rose to heaven.",
+   "names": [
+    "Devaki",
+    "Krishna",
+    "Balarama"
+   ],
+   "scene": "Devaki embracing her six lost sons",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 283,
+   "kanda": "Tenth Skandha",
+   "title": "Arjuna Carries Off Subhadra",
+   "story": "Arjuna, disguised as an ascetic, stayed in Dwaraka and fell in love with Krishna's sister Subhadra. With Krishna's blessing, he carried her away in a chariot. Balarama was angry at first, but Krishna calmed him and he sent rich wedding gifts.",
+   "names": [
+    "Arjuna",
+    "Subhadra"
+   ],
+   "scene": "Arjuna driving chariot carrying Subhadra",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 284,
+   "kanda": "Tenth Skandha",
+   "title": "Shrutadeva and Bahulashva",
+   "story": "Krishna went with sages to Mithila to bless two devotees, King Bahulashva and the humble brahmana Shrutadeva. Expanding Himself, He stayed in both homes at once. Each served Him with love, and Krishna praised the devotion of the brahmanas.",
+   "names": [
+    "Krishna"
+   ],
+   "scene": "Krishna welcomed by king and poor brahmana",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 285,
+   "kanda": "Tenth Skandha",
+   "title": "Vrikasura and Shiva",
+   "story": "The demon Vrika won a boon from Shiva that anyone whose head he touched would die. At once he chased Shiva himself to test it, and Shiva fled across the worlds. Vishnu appeared as a young brahmana student and tricked Vrika into touching his own head, and the wicked demon fell dead.",
+   "names": [
+    "Shiva",
+    "Vishnu"
+   ],
+   "scene": "Shiva fleeing demon, Vishnu as brahmana",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 286,
+   "kanda": "Tenth Skandha",
+   "title": "Bhrigu Tests the Trimurti",
+   "story": "The sages sent Bhrigu to find which of the three gods was greatest. Brahma grew angry and Shiva rose to kill him, but when Bhrigu kicked sleeping Vishnu, the Lord rose, pressed his foot, and asked pardon. Bhrigu declared Vishnu supreme.",
+   "names": [
+    "Bhrigu",
+    "Vishnu",
+    "Lakshmi"
+   ],
+   "scene": "Sage kicking Vishnu's chest, Lakshmi beside",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 287,
+   "kanda": "Tenth Skandha",
+   "title": "The Brahmana's Sons Brought Back",
+   "story": "A brahmana of Dwaraka lost each of his nine sons at birth. Arjuna vowed to save the tenth but failed and nearly gave up his life. Krishna drove with him beyond the darkness to Mahakala, the abode of Vishnu on Ananta, and brought back all ten sons to the joyful brahmana.",
+   "names": [
+    "Krishna",
+    "Arjuna",
+    "Vishnu"
+   ],
+   "scene": "Krishna and Arjuna before cosmic Vishnu",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 288,
+   "kanda": "Tenth Skandha",
+   "title": "Krishna's Life in Dwaraka",
+   "story": "In Dwaraka Krishna lived as a householder with His queens, sporting in gardens and on lakes. His queens sang of their love for Him. He had countless sons and grandsons, and the Bhagavatam ends the Tenth Skandha praising His glorious deeds.",
+   "names": [
+    "Krishna"
+   ],
+   "scene": "Krishna with queens in Dwaraka gardens",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 289,
+   "kanda": "Eleventh Skandha",
+   "title": "The Sages' Curse and the Iron Club",
+   "story": "Some Yadu boys dressed Samba as a pregnant woman and mockingly asked visiting sages what child she would bear. The angry sages said she would give birth to an iron club that would destroy their whole race. A club did appear, and though it was ground to powder and thrown into the sea, the curse could not be undone.",
+   "names": [
+    "Samba",
+    "Narada"
+   ],
+   "scene": "Yadu boys mocking sages, Samba disguised",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 290,
+   "kanda": "Eleventh Skandha",
+   "title": "Narada Visits Vasudeva",
+   "story": "The sage Narada came to Dwaraka, and Vasudeva welcomed him with honour. Though Krishna was his own son, Vasudeva humbly asked how a person could become free from fear and gain devotion. Narada smiled and answered by telling him an ancient conversation between King Nimi and nine great sages.",
+   "names": [
+    "Narada",
+    "Vasudeva"
+   ],
+   "scene": "Narada seated with Vasudeva in palace",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 291,
+   "kanda": "Eleventh Skandha",
+   "title": "Nimi and the Nine Yogendras",
+   "story": "Nine brothers, sons of Rishabha and wandering sages clad only in the sky, arrived at King Nimi's sacrifice. Nimi rose and worshipped them, then asked about the true devotee, Maya, liberation and the avatars. One by one the nine Yogendras answered him, teaching that loving devotion to Hari is the surest path.",
+   "names": [
+    "Nimi",
+    "Narada"
+   ],
+   "scene": "nine sages before king at sacrifice",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 292,
+   "kanda": "Eleventh Skandha",
+   "title": "The Gods Ask Krishna to Return",
+   "story": "Brahma, Shiva and the gods came to Dwaraka and showered Krishna with flowers and praise. They said that His work on earth was done, the burden of the earth was removed, and over a hundred years had passed. They begged Him to return to His own abode, and Krishna agreed, saying the Yadus too must now depart.",
+   "names": [
+    "Krishna",
+    "Brahma",
+    "Shiva"
+   ],
+   "scene": "gods praising Krishna in Dwaraka",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 293,
+   "kanda": "Eleventh Skandha",
+   "title": "Uddhava's Grief",
+   "story": "Seeing omens of ruin, Krishna told the Yadus to go to Prabhasa. Uddhava understood that his Lord was about to leave the world, and he fell at Krishna's feet in tears. He begged to be taken along, saying he could not bear even a moment without Krishna. Moved by his love, Krishna began to teach him.",
+   "names": [
+    "Uddhava",
+    "Krishna"
+   ],
+   "scene": "Uddhava weeping at Krishna's feet",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 294,
+   "kanda": "Eleventh Skandha",
+   "title": "The Avadhuta and King Yadu",
+   "story": "King Yadu once met a young, carefree Avadhuta wandering in bliss and asked the secret of his joy. The sage said he had learned from twenty four gurus in nature. From the earth he learned patience, for she bears every burden and harm and still serves all creatures without complaint.",
+   "names": [
+    "Avadhuta",
+    "Yadu"
+   ],
+   "scene": "king meeting wandering naked ascetic",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 295,
+   "kanda": "Eleventh Skandha",
+   "title": "The Python's Lesson",
+   "story": "The Avadhuta told how he learned from the python, which lies still and eats whatever food comes to it by chance. If nothing comes, it rests without worry, trusting fate. So a wise person does not struggle anxiously for food or comfort, but stays content and puts his strength into seeking the Lord.",
+   "names": [
+    "Avadhuta"
+   ],
+   "scene": "python lying still in forest",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 296,
+   "kanda": "Eleventh Skandha",
+   "title": "The Lesson of the Bee",
+   "story": "The bee taught the Avadhuta to take a little from many flowers without harming any. So a sage gathers wisdom from every scripture and accepts only a little food from many homes. But the honeybee that hoards honey is robbed and killed, so a seeker should never store up more than he needs.",
+   "names": [
+    "Avadhuta"
+   ],
+   "scene": "bees gathering nectar from flowers",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 297,
+   "kanda": "Eleventh Skandha",
+   "title": "Pingala the Courtesan",
+   "story": "In Videha the courtesan Pingala waited all night at her door for rich lovers who never came. Weary and disappointed, she suddenly felt deep detachment and saw her folly. She turned her heart to the Lord who dwells within, gave up hope in others, and slept in peace. Hope brings misery, said the Avadhuta.",
+   "names": [
+    "Pingala",
+    "Avadhuta"
+   ],
+   "scene": "courtesan waiting at doorway at night",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 298,
+   "kanda": "Eleventh Skandha",
+   "title": "The Kurari Bird",
+   "story": "A kurari bird carried a piece of meat, and stronger birds chased and pecked it without mercy. The moment it dropped the meat, it was left alone and happy. From this the Avadhuta learned that clinging to what others desire brings suffering, while letting go brings peace.",
+   "names": [
+    "Avadhuta"
+   ],
+   "scene": "bird chased by hawks carrying meat",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 299,
+   "kanda": "Eleventh Skandha",
+   "title": "The Girl's Bangles",
+   "story": "A young girl was husking rice alone when guests came to ask for her hand. Not wanting the noise of her bangles to shame her family, she broke them one by one until a single bangle remained on each wrist. The Avadhuta learned that where many live together there is quarrel, so a seeker should live alone.",
+   "names": [
+    "Avadhuta"
+   ],
+   "scene": "girl husking rice wearing bangles",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 300,
+   "kanda": "Eleventh Skandha",
+   "title": "The Arrow-Maker",
+   "story": "An arrow-maker was so absorbed in shaping his arrow that he did not notice the king's grand procession passing right beside him. From him the Avadhuta learned single-pointed concentration. When the mind is fixed firmly on the Self, the world and its distractions fade away.",
+   "names": [
+    "Avadhuta"
+   ],
+   "scene": "craftsman making arrow, royal procession passing",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 301,
+   "kanda": "Eleventh Skandha",
+   "title": "The Miserly Brahmana of Avanti",
+   "story": "A rich brahmana of Avanti was so greedy that he denied comfort to himself and his family. When his wealth was lost, everyone abandoned him and people mocked and beat him as a wandering beggar. Yet he bore it calmly, saying the mind alone causes joy and sorrow, and he found peace in the Lord.",
+   "names": [
+    "Brahmana",
+    "Krishna"
+   ],
+   "scene": "beggar ascetic mocked by villagers",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 302,
+   "kanda": "Eleventh Skandha",
+   "title": "Krishna Teaches Uddhava",
+   "story": "Krishna lovingly taught Uddhava about devotion, knowledge, detachment and seeing the Lord in all beings. Uddhava's doubts vanished and his heart was filled with peace. Krishna gave him His own sandals and sent him to Badarikashrama, where Uddhava lived in meditation on his Lord.",
+   "names": [
+    "Krishna",
+    "Uddhava"
+   ],
+   "scene": "Krishna instructing Uddhava, giving sandals",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 303,
+   "kanda": "Eleventh Skandha",
+   "title": "The Yadus at Prabhasa",
+   "story": "At holy Prabhasa the Yadus bathed and gave gifts, then drank strong wine and lost their senses. Old quarrels flared and they fought one another fiercely. When their weapons broke, they pulled up the eraka reeds that had grown from the iron powder, and these became like iron clubs as the curse came true.",
+   "names": [
+    "Yadavas",
+    "Krishna"
+   ],
+   "scene": "Yadu warriors fighting with reeds by sea",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 304,
+   "kanda": "Eleventh Skandha",
+   "title": "Balarama's Departure",
+   "story": "After the slaughter, Balarama sat in meditation on the shore of the sea. From His mouth a great white serpent emerged, the divine Ananta, and glided into the waters. So Balarama left His human form and returned to His own nature, while the ocean welcomed Him with reverence.",
+   "names": [
+    "Balarama"
+   ],
+   "scene": "white serpent emerging from Balarama by sea",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 305,
+   "kanda": "Eleventh Skandha",
+   "title": "Jara's Arrow",
+   "story": "Krishna sat beneath a pipal tree, resting His foot on His knee, shining in four-armed form. A hunter named Jara, whose arrow was tipped with the last fragment of the iron club, mistook the reddish sole of His foot for a deer and shot. Seeing his mistake, Jara fell at Krishna's feet in terror, but was forgiven.",
+   "names": [
+    "Krishna",
+    "Jara"
+   ],
+   "scene": "hunter shooting arrow at Krishna's foot",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 306,
+   "kanda": "Eleventh Skandha",
+   "title": "Daruka and the Chariot",
+   "story": "Krishna's charioteer Daruka came searching for his master and found Him beneath the tree. Before his eyes Krishna's chariot and divine weapons rose into the sky and vanished. Krishna told the weeping Daruka to go to Dwaraka, tell the family what had happened, and warn them that the city would be flooded.",
+   "names": [
+    "Daruka",
+    "Krishna"
+   ],
+   "scene": "charioteer kneeling before Krishna under tree",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 307,
+   "kanda": "Eleventh Skandha",
+   "title": "Krishna's Departure",
+   "story": "Brahma, Shiva and all the gods gathered in the sky to watch. Closing His eyes, Krishna fixed His mind within Himself and returned to His own abode with His form, like lightning flashing into the clouds. Drums sounded and flowers rained down, and with His going, truth and dharma left the earth.",
+   "names": [
+    "Krishna"
+   ],
+   "scene": "Krishna ascending, gods showering flowers",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 308,
+   "kanda": "Eleventh Skandha",
+   "title": "Arjuna and Dwaraka Sinking",
+   "story": "Arjuna came to Dwaraka, performed the last rites for the departed, and led the women and children away to Indraprastha. As soon as they left, the sea rushed in and swallowed the city, sparing only Krishna's own palace. Grieving deeply for his friend, Arjuna felt that his strength had gone with Krishna.",
+   "names": [
+    "Arjuna"
+   ],
+   "scene": "ocean flooding the golden city Dwaraka",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 309,
+   "kanda": "Twelfth Skandha",
+   "title": "The Kings of Kali Yuga",
+   "story": "Shuka foretold the dynasties of the future, the Nandas, Mauryas and many others, and the rise of Kali Yuga. Kings would grow greedy, people would value wealth over virtue, and life would become short. Yet he said there is one great blessing in this age: simply by chanting the names of Hari, one is freed.",
+   "names": [
+    "Shuka",
+    "Parikshit"
+   ],
+   "scene": "Shuka speaking to king Parikshit",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 310,
+   "kanda": "Twelfth Skandha",
+   "title": "The Four Dissolutions",
+   "story": "Shuka described the four kinds of dissolution. There is the daily dissolution when Brahma sleeps, the great dissolution when all creation returns to its source, and the endless dissolution of beings dying each moment. The fourth is the final one, when a soul is freed by knowledge and never returns.",
+   "names": [
+    "Shuka",
+    "Vishnu"
+   ],
+   "scene": "cosmic deluge, Vishnu resting on serpent",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 311,
+   "kanda": "Twelfth Skandha",
+   "title": "Shuka's Last Teaching",
+   "story": "Shuka gave his final words to Parikshit: give up the idea that you will die, for that belongs to the body alone. You are the eternal Self, one with the supreme Brahman. A snake cannot harm the soul. Having blessed the king, Shuka rose and departed, leaving Parikshit fearless and at peace.",
+   "names": [
+    "Shuka",
+    "Parikshit"
+   ],
+   "scene": "sage blessing king by river Ganga",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 312,
+   "kanda": "Twelfth Skandha",
+   "title": "Parikshit's Liberation",
+   "story": "Parikshit sat facing north by the Ganga and merged his mind in the Lord. Takshaka came disguised as a brahmana, after turning back the healer Kashyapa with wealth, and bit the king. The fire of the poison burned his body to ashes, but Parikshit had already reached the Supreme, and the gods showered flowers.",
+   "names": [
+    "Parikshit",
+    "Takshaka"
+   ],
+   "scene": "serpent biting king seated in meditation",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 313,
+   "kanda": "Twelfth Skandha",
+   "title": "Janamejaya's Snake Sacrifice",
+   "story": "Hearing how his father had died, King Janamejaya was furious and began a great sacrifice to burn all serpents in the fire. Thousands of snakes fell into the flames, and Takshaka fled to Indra for shelter. Brihaspati then calmed the king, saying each being meets the fate of its own deeds, and the sacrifice ended.",
+   "names": [
+    "Janamejaya",
+    "Takshaka"
+   ],
+   "scene": "snakes falling into sacrificial fire",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 314,
+   "kanda": "Twelfth Skandha",
+   "title": "Vyasa Divides the Vedas",
+   "story": "Seeing that people of the coming age would be weak in memory and strength, Vyasa divided the one Veda into four. He taught the Rig to Paila, the Yajur to Vaishampayana, the Sama to Jaimini and the Atharva to Sumantu. Their disciples spread the Vedas far and wide through many branches.",
+   "names": [
+    "Vyasa"
+   ],
+   "scene": "Vyasa teaching four disciples in hermitage",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 315,
+   "kanda": "Twelfth Skandha",
+   "title": "Markandeya's Tapas",
+   "story": "The young sage Markandeya lived for countless years in austerity and worship of the Lord. Indra feared his power and sent Kama, the apsaras and the spring breezes to break his vow, but the sage was unmoved and they withdrew. Then Nara and Narayana appeared before him, and he prayed to see the Lord's Maya.",
+   "names": [
+    "Markandeya",
+    "Nara-Narayana"
+   ],
+   "scene": "sage meditating, apsaras dancing nearby",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 316,
+   "kanda": "Twelfth Skandha",
+   "title": "The Child on the Banyan Leaf",
+   "story": "Suddenly a terrible flood covered the whole world, and Markandeya wandered for ages in the dark waters. Then he saw a banyan tree, and on one leaf lay a radiant baby sucking His toe. Drawn in by the child's breath, he saw the entire universe inside Him, then was breathed out again into the deluge.",
+   "names": [
+    "Markandeya",
+    "Vishnu"
+   ],
+   "scene": "baby Krishna on banyan leaf in flood",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 317,
+   "kanda": "Twelfth Skandha",
+   "title": "Shiva and Parvati Bless Markandeya",
+   "story": "Shiva and Parvati were passing through the sky and saw Markandeya deep in meditation. Parvati asked Shiva to grant him a boon. When the sage opened his eyes, he worshipped them, and Shiva blessed him with endless fame, freedom from old age and death until the end of the age, and steady devotion to Hari.",
+   "names": [
+    "Shiva",
+    "Parvati",
+    "Markandeya"
+   ],
+   "scene": "Shiva and Parvati on Nandi blessing sage",
+   "image": null,
+   "artist": null,
+   "license": null
+  },
+  {
+   "id": 318,
+   "kanda": "Twelfth Skandha",
+   "title": "The Glory of the Bhagavatam",
+   "story": "Suta closed the great tale by praising the Bhagavatam as the essence of all scriptures. Like the Ganga among rivers and Vishnu among gods, it is supreme among the Puranas. Whoever hears or recites it with devotion is purified and finds love for Hari, the Lord who removes all suffering.",
+   "names": [
+    "Suta",
+    "Vishnu"
+   ],
+   "scene": "sage reciting scripture to gathered sages",
+   "image": null,
+   "artist": null,
+   "license": null
+  }
+ ]
+}

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">இராமாயண வால்பேப்பர்கள்</string>
+    <string name="today">இன்றைய நிகழ்வு</string>
+    <string name="set_now">வால்பேப்பராக அமை</string>
+    <string name="previous">‹ முந்தையது</string>
+    <string name="next">அடுத்தது ›</string>
+    <string name="back_to_today">இன்றைக்குத் திரும்பு</string>
+    <string name="browse_all">அனைத்து நிகழ்வுகளும்</string>
+    <string name="settings">அமைப்புகள்</string>
+    <string name="daily_change">தினமும் வால்பேப்பரை மாற்று</string>
+    <string name="show_text">கதையை வால்பேப்பரில் காட்டு</string>
+    <string name="apply_to">எங்கே அமைக்க</string>
+    <string name="target_both">முகப்பு மற்றும் பூட்டுத் திரை</string>
+    <string name="target_home">முகப்புத் திரை மட்டும்</string>
+    <string name="target_lock">பூட்டுத் திரை மட்டும்</string>
+    <string name="restart">முதல் நிகழ்விலிருந்து மீண்டும் தொடங்கு</string>
+    <string name="about">காண்டம் காண்டமாக, நாரதர் சொன்ன உத்தம புருஷனின் கதை முதல் ராமனின் இறுதிப் பயணம் வரை, தினமும் ஒரு நிகழ்வாகக் கதை முன்னேறுகிறது; பிறகு மீண்டும் தொடங்குகிறது. ஒவ்வொரு நிகழ்வுக்கும் ஒரு பாரம்பரிய ஓவியம் செயலியிலேயே உள்ளது: ராஜா ரவி வர்மா, மேவார் ராமாயணம், பஹாடி மற்றும் முகலாய ஓவியங்கள் போன்றவை, விக்கிமீடியா காமன்ஸிலிருந்து. ஒவ்வொரு ஓவியத்தின் ஓவியர், உரிமம், மூலம் ஆகியவை கதையின் கீழே காட்டப்படுகின்றன.</string>
+    <string name="today_label">இன்று · %1$s · நிகழ்வு %2$d / %3$d</string>
+    <string name="incident_label">நிகழ்வு %1$d / %2$d</string>
+    <string name="download_failed">ஓவியத்தைப் பதிவிறக்க முடியவில்லை. செயலியின் ஓவியம் காட்டப்படுகிறது.</string>
+    <string name="wallpaper_set">வால்பேப்பர் அமைக்கப்பட்டது: %1$s</string>
+    <string name="wallpaper_failed">வால்பேப்பரை அமைக்க முடியவில்லை</string>
+    <string name="restart_message">இன்று முதல் நிகழ்வு காட்டப்படும்; இனி தினமும் ஒரு நிகழ்வாகக் கதை முன்னேறும்.</string>
+    <string name="restart_confirm">மீண்டும் தொடங்கு</string>
+    <string name="language_title">கதையின் மொழி</string>
+    <string name="language_phone">தொலைபேசியின் மொழி</string>
+    <string name="language_auto">தொலைபேசியின் மொழி (%1$s)</string>
+    <string name="language_button">மொழி: %1$s</string>
+    <string name="source">மூலம்</string>
+    <string name="credit_drawn">ஓவியம்: செயலி வரைந்தது</string>
+    <string name="credit_artist">ஓவியம்: %1$s · பொதுக் களம் · விக்கிமீடியா காமன்ஸ்</string>
+    <string name="credit_licensed">ஓவியம்: %1$s · %2$s · விக்கிமீடியா காமன்ஸ்</string>
+    <string name="credit_commons">படம்: விக்கிமீடியா காமன்ஸ் (பொதுக் களம்)</string>
+    <string name="link_home">Calecutech முகப்புப் பக்கம்</string>
+    <string name="link_privacy">தனியுரிமைக் கொள்கை</string>
+</resources>
