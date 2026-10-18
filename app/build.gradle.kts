@@ -11,8 +11,8 @@ android {
         applicationId = "com.calecutech.ramayanam"
         minSdk = 26
         targetSdk = 36
-        versionCode = 6
-        versionName = "1.5"
+        versionCode = 7
+        versionName = "1.6"
     }
 
     buildTypes {
