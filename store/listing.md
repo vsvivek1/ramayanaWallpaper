@@ -29,9 +29,9 @@ Ramayanam is the first in a series. Bhagavatham and Mahabharatham are coming nex
 
 **Category:** Personalization (alternative: Books & Reference)
 **Tags:** wallpaper, Ramayana, Hindu, mythology, daily
-**Contact email:** support@calecutech.com
+**Contact email:** info@calecutech.com
 **Website:** https://calecutech.com/ramayanam/
-**Privacy policy:** https://github.com/vsvivek1/ramayanaWallpaper/blob/main/PRIVACY.md
+**Privacy policy:** https://calecutech.com/ramayanam/privacy.html
 
 ## Graphics in this folder
 | File | Play Console field |

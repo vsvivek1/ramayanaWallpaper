@@ -317,6 +317,6 @@ class MainActivity : Activity() {
 
     companion object {
         const val HOME_URL = "https://calecutech.com"
-        const val PRIVACY_URL = "https://github.com/vsvivek1/ramayanaWallpaper/blob/main/PRIVACY.md"
+        const val PRIVACY_URL = "https://calecutech.com/ramayanam/privacy.html"
     }
 }

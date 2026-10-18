@@ -38,4 +38,4 @@ If this policy changes, the new version will be posted on this page with a new d
 
 ## Contact
 
-Calecutech · [support@calecutech.com](mailto:support@calecutech.com)
+Calecutech · [info@calecutech.com](mailto:info@calecutech.com)
