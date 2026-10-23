@@ -34,4 +34,23 @@
     <string name="credit_commons">ചിത്രം: വിക്കിമീഡിയ കോമൺസ് (പൊതുസഞ്ചയം)</string>
     <string name="link_home">Calecutech ഹോം പേജ്</string>
     <string name="link_privacy">സ്വകാര്യതാ നയം</string>
+    <string name="home_screen">ഹോം സ്ക്രീൻ</string>
+    <string name="story_page_off">ഹോം സ്ക്രീനിന്റെ താഴെ ഉറപ്പിച്ച ആപ്പുകൾ കഥ മറച്ചേക്കാം. സ്റ്റോറി പേജ് ഓണാക്കിയാൽ ഒരു ഹോം സ്ക്രീൻ പേജിൽ ചിത്രവും കഥയും ഡോക്കിന് മുകളിൽ വ്യക്തമായി കാണാം. മറ്റ് പേജുകളിൽ ചിത്രം മാത്രം.</string>
+    <string name="story_page_on">സ്റ്റോറി പേജ് ഓണാണ്. ഒരു ഹോം സ്ക്രീൻ പേജിൽ ചിത്രവും കഥയും; മറ്റ് പേജുകളിൽ ചിത്രം മാത്രം.</string>
+    <string name="story_page_turn_on">സ്റ്റോറി പേജ് ഓണാക്കുക</string>
+    <string name="story_page_turn_off">സ്റ്റോറി പേജ് ഓഫാക്കുക</string>
+    <string name="story_page_title">സ്റ്റോറി പേജ്</string>
+    <string name="story_page_button">സ്റ്റോറി പേജ്: %1$s</string>
+    <string name="page_first">ആദ്യ പേജ്</string>
+    <string name="page_second">രണ്ടാം പേജ്</string>
+    <string name="page_third">മൂന്നാം പേജ്</string>
+    <string name="page_last">അവസാന പേജ്</string>
+    <string name="dock_space_title">ഡോക്ക് ആപ്പുകൾക്കുള്ള ഇടം</string>
+    <string name="dock_space_button">ഡോക്ക് ആപ്പുകൾക്കുള്ള ഇടം: %1$s</string>
+    <string name="dock_small">ചെറുത്</string>
+    <string name="dock_medium">ഇടത്തരം</string>
+    <string name="dock_large">വലുത്</string>
+    <string name="story_page_hint">കഥ വായിക്കാൻ ആ പേജിലേക്ക് സ്വൈപ്പ് ചെയ്യുക. പേജുകൾക്കൊപ്പം വാൾപേപ്പർ നീങ്ങുന്നില്ലെങ്കിൽ, ഹോം സ്ക്രീനിലെ ഒഴിഞ്ഞ ഇടത്ത് രണ്ടുതവണ തൊട്ട് ചിത്രവും കഥയും മാറ്റാം.</string>
+    <string name="live_wallpaper_description">ഇന്നത്തെ ചിത്രവും കഥയും ഒരു ഹോം സ്ക്രീൻ പേജിൽ, ഡോക്കിന് മുകളിൽ.</string>
+    <string name="story_page_failed">വാൾപേപ്പർ തിരഞ്ഞെടുക്കൽ തുറക്കാനായില്ല. വാൾപേപ്പറുകൾ, ലൈവ് വാൾപേപ്പറുകൾ എന്നതിൽ ഈ ആപ്പ് തിരഞ്ഞെടുക്കുക.</string>
 </resources>

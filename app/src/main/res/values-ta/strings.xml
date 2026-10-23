@@ -34,4 +34,23 @@
     <string name="credit_commons">படம்: விக்கிமீடியா காமன்ஸ் (பொதுக் களம்)</string>
     <string name="link_home">Calecutech முகப்புப் பக்கம்</string>
     <string name="link_privacy">தனியுரிமைக் கொள்கை</string>
+    <string name="home_screen">முகப்புத் திரை</string>
+    <string name="story_page_off">முகப்புத் திரையின் கீழே நிலையாக உள்ள ஆப்ஸ் கதையை மறைக்கலாம். கதைப் பக்கத்தை இயக்கினால், ஒரு முகப்புப் பக்கத்தில் படமும் கதையும் டாக்கிற்கு மேலே தெளிவாகத் தெரியும். மற்ற பக்கங்களில் படம் மட்டும்.</string>
+    <string name="story_page_on">கதைப் பக்கம் இயங்குகிறது. ஒரு முகப்புப் பக்கத்தில் படமும் கதையும்; மற்ற பக்கங்களில் படம் மட்டும்.</string>
+    <string name="story_page_turn_on">கதைப் பக்கத்தை இயக்கு</string>
+    <string name="story_page_turn_off">கதைப் பக்கத்தை நிறுத்து</string>
+    <string name="story_page_title">கதைப் பக்கம்</string>
+    <string name="story_page_button">கதைப் பக்கம்: %1$s</string>
+    <string name="page_first">முதல் பக்கம்</string>
+    <string name="page_second">இரண்டாம் பக்கம்</string>
+    <string name="page_third">மூன்றாம் பக்கம்</string>
+    <string name="page_last">கடைசிப் பக்கம்</string>
+    <string name="dock_space_title">டாக் ஆப்ஸுக்கான இடம்</string>
+    <string name="dock_space_button">டாக் ஆப்ஸுக்கான இடம்: %1$s</string>
+    <string name="dock_small">சிறியது</string>
+    <string name="dock_medium">நடுத்தரம்</string>
+    <string name="dock_large">பெரியது</string>
+    <string name="story_page_hint">கதையைப் படிக்க அந்தப் பக்கத்திற்கு ஸ்வைப் செய்யவும். பக்கங்களுடன் வால்பேப்பர் நகரவில்லை என்றால், முகப்புத் திரையின் வெற்று இடத்தில் இருமுறை தட்டி படம், கதை இடையே மாற்றலாம்.</string>
+    <string name="live_wallpaper_description">இன்றைய படமும் கதையும் ஒரு முகப்புப் பக்கத்தில், டாக்கிற்கு மேலே.</string>
+    <string name="story_page_failed">வால்பேப்பர் தேர்வைத் திறக்க முடியவில்லை. வால்பேப்பர்கள், லைவ் வால்பேப்பர்கள் என்பதில் இந்த ஆப்பைத் தேர்வு செய்யவும்.</string>
 </resources>

@@ -189,6 +189,86 @@
             android:textColor="@color/maroon"
             android:visibility="gone" />
 
+        <!-- Story page: picture and story on one home screen page, clear of the dock -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="24dp"
+            android:fontFamily="serif"
+            android:text="@string/home_screen"
+            android:textColor="@color/ink"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/card_bg"
+            android:orientation="vertical"
+            android:padding="14dp">
+
+            <TextView
+                android:id="@+id/storyPageStatus"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingMultiplier="1.2"
+                android:textColor="@color/ink"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/storyPageToggle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/btn_outline"
+                android:minHeight="48dp"
+                android:paddingStart="12dp"
+                android:paddingEnd="12dp"
+                android:stateListAnimator="@null"
+                android:textAllCaps="false"
+                android:textColor="@color/maroon"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/storyPageWhich"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:gravity="start|center_vertical"
+                android:minHeight="44dp"
+                android:paddingStart="0dp"
+                android:textAllCaps="false"
+                android:textColor="@color/maroon"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/dockSpace"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="start|center_vertical"
+                android:minHeight="44dp"
+                android:paddingStart="0dp"
+                android:textAllCaps="false"
+                android:textColor="@color/maroon"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/storyPageHint"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:lineSpacingMultiplier="1.2"
+                android:text="@string/story_page_hint"
+                android:textColor="@color/ink_soft"
+                android:textSize="13sp" />
+        </LinearLayout>
+
         <!-- Settings -->
         <TextView
             android:layout_width="wrap_content"
