@@ -43,10 +43,12 @@ object WallpaperRenderer {
 
     /**
      * @param centreText the words written in the middle of the drawn artwork ("Sri Rama" in the chosen script).
+     * @param bottomSpace fraction of the height kept clear at the bottom for the dock and gesture bar.
      */
     fun render(
         width: Int, height: Int, incident: Incident, painting: Bitmap?, showText: Boolean,
         centreText: String = "श्री राम",
+        bottomSpace: Float = DockSpace.SMALL.fraction,
     ): Bitmap {
         val out = Bitmap.createBitmap(width, height, Bitmap.Config.ARGB_8888)
         val canvas = Canvas(out)
@@ -54,11 +56,13 @@ object WallpaperRenderer {
         val h = height.toFloat()
 
         // Text sits just above the dock and gesture bar; the picture gets the space above it.
-        val maxBottom = h * 0.87f
-        val block = if (showText) measureText(incident, w, maxBottom - h * 0.46f) else null
+        // With more room kept for the dock, the picture gives up some height to the text.
+        val maxBottom = h * (1f - bottomSpace)
+        val minPicture = if (bottomSpace <= DockSpace.SMALL.fraction) 0.46f else 0.40f
+        val block = if (showText) measureText(incident, w, maxBottom - h * minPicture) else null
         val textTop = block?.let { maxBottom - it.height } ?: h
         val box = if (block != null) RectF(w * 0.05f, h * 0.07f, w * 0.95f, minOf(h * 0.62f, textTop - h * 0.04f))
-        else RectF(w * 0.04f, h * 0.08f, w * 0.96f, h * 0.90f)
+        else RectF(w * 0.04f, h * 0.08f, w * 0.96f, h * minOf(0.90f, 1.03f - bottomSpace))
 
         if (painting != null) {
             drawSoftBackground(canvas, painting, w, h)

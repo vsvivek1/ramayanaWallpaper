@@ -34,4 +34,23 @@
     <string name="credit_commons">చిత్రం: వికీమీడియా కామన్స్ (పబ్లిక్ డొమైన్)</string>
     <string name="link_home">Calecutech హోమ్ పేజీ</string>
     <string name="link_privacy">గోప్యతా విధానం</string>
+    <string name="home_screen">హోమ్ స్క్రీన్</string>
+    <string name="story_page_off">హోమ్ స్క్రీన్ కింద స్థిరంగా ఉన్న యాప్‌లు కథను కప్పివేయవచ్చు. కథ పేజీని ఆన్ చేస్తే, ఒక హోమ్ స్క్రీన్ పేజీలో చిత్రం, కథ డాక్ పైన స్పష్టంగా కనిపిస్తాయి. ఇతర పేజీల్లో చిత్రం మాత్రమే.</string>
+    <string name="story_page_on">కథ పేజీ ఆన్‌లో ఉంది. ఒక హోమ్ స్క్రీన్ పేజీలో చిత్రం, కథ; ఇతర పేజీల్లో చిత్రం మాత్రమే.</string>
+    <string name="story_page_turn_on">కథ పేజీని ఆన్ చేయండి</string>
+    <string name="story_page_turn_off">కథ పేజీని ఆఫ్ చేయండి</string>
+    <string name="story_page_title">కథ పేజీ</string>
+    <string name="story_page_button">కథ పేజీ: %1$s</string>
+    <string name="page_first">మొదటి పేజీ</string>
+    <string name="page_second">రెండవ పేజీ</string>
+    <string name="page_third">మూడవ పేజీ</string>
+    <string name="page_last">చివరి పేజీ</string>
+    <string name="dock_space_title">డాక్ యాప్‌లకు స్థలం</string>
+    <string name="dock_space_button">డాక్ యాప్‌లకు స్థలం: %1$s</string>
+    <string name="dock_small">చిన్నది</string>
+    <string name="dock_medium">మధ్యస్థం</string>
+    <string name="dock_large">పెద్దది</string>
+    <string name="story_page_hint">కథ చదవడానికి ఆ పేజీకి స్వైప్ చేయండి. పేజీలతో వాల్‌పేపర్ కదలకపోతే, హోమ్ స్క్రీన్‌లో ఖాళీ చోట రెండుసార్లు తట్టి చిత్రం, కథ మధ్య మార్చండి.</string>
+    <string name="live_wallpaper_description">నేటి చిత్రం, కథ ఒక హోమ్ స్క్రీన్ పేజీలో, డాక్ పైన.</string>
+    <string name="story_page_failed">వాల్‌పేపర్ ఎంపికను తెరవలేకపోయాము. వాల్‌పేపర్‌లు, లైవ్ వాల్‌పేపర్‌లు లో ఈ యాప్‌ను ఎంచుకోండి.</string>
 </resources>

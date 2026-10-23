@@ -34,4 +34,23 @@
     <string name="credit_commons">Image: Wikimedia Commons (public domain)</string>
     <string name="link_home">Calecutech home page</string>
     <string name="link_privacy">Privacy policy</string>
+    <string name="home_screen">Home screen</string>
+    <string name="story_page_off">Apps fixed at the bottom of the home screen can hide the story. Turn on the story page to show the picture and story on one home screen page, kept clear of the dock. Your other pages show the picture only.</string>
+    <string name="story_page_on">Story page is on. One home screen page shows the picture and story; the other pages show the picture only.</string>
+    <string name="story_page_turn_on">Turn on story page</string>
+    <string name="story_page_turn_off">Turn off story page</string>
+    <string name="story_page_title">Story page</string>
+    <string name="story_page_button">Story page: %1$s</string>
+    <string name="page_first">First page</string>
+    <string name="page_second">Second page</string>
+    <string name="page_third">Third page</string>
+    <string name="page_last">Last page</string>
+    <string name="dock_space_title">Space for docked apps</string>
+    <string name="dock_space_button">Space for docked apps: %1$s</string>
+    <string name="dock_small">Small</string>
+    <string name="dock_medium">Medium</string>
+    <string name="dock_large">Large</string>
+    <string name="story_page_hint">Swipe to that page to read the story. If your launcher does not move the wallpaper with the pages, double-tap an empty spot on the home screen to switch between picture and story.</string>
+    <string name="live_wallpaper_description">Today\'s picture and story on one home screen page, clear of the dock.</string>
+    <string name="story_page_failed">Could not open the wallpaper picker. Choose this app under Wallpapers, Live wallpapers.</string>
 </resources>

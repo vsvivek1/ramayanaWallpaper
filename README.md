@@ -15,6 +15,7 @@ Release builds run R8 (`app/proguard-rules.pro`; in build-local.sh it comes from
 - **Day one is incident one.** The story starts on the day you install it and moves forward one incident a day. "Start again from the first incident" in Settings resets it.
 - **Daily change.** A background job runs every couple of hours and changes the wallpaper on its first run after midnight. It survives reboots. Opening the app also applies today's wallpaper straight away.
 - **The wallpaper** shows the painting in a thin gold frame over a softened copy of itself, with the kanda, title and story in a dark band at the bottom. You can turn the story text off, and choose home screen, lock screen or both.
+- **Story page (1.9).** Apps fixed in the dock can hide the story. Settings > Home screen > "Turn on story page" sets a live wallpaper (`StoryWallpaperService`): one home screen page (first, second, third or last) shows the painting and story laid out above the dock, and the other pages show the painting only. It follows the launcher's page scroll (`onOffsetsChanged`); launchers that don't report pages, or a single-page home screen, show the story layout and switch to picture-only on a double tap. "Space for docked apps" (small, medium, large) moves the story up on both the story page and the normal wallpaper. With the story page on, the daily job only tells it which incident to show; the lock screen still gets a normal picture.
 - **Languages.** The stories and screens follow the phone's language when it is one of English, Malayalam, Tamil, Telugu, Kannada or Hindi, and English otherwise. Settings > Language lets you pick one.
 - **Browse.** Previous / Next / All incidents let you read ahead or back and set any incident as the wallpaper.
 - **Offline.** Each painting is downloaded once and kept on the phone. Tomorrow's painting is fetched a day early. If a painting can't be downloaded, or the incident has none, the app draws its own artwork: a gold lotus mandala with "Sri Rama" in the chosen script, with its own colours for each kanda.
@@ -37,6 +38,7 @@ app/src/main/
     MainActivity.kt          the screen: preview, story, browse, settings
     WallpaperRenderer.kt     draws the wallpaper bitmap
     WallpaperSetter.kt       applies it, once per day
+    StoryWallpaperService.kt the story page live wallpaper
     DailyWallpaperJob.kt     background job + reboot receiver
     ImageStore.kt            loads bundled paintings (downloads any missing one)
     Incidents.kt, Prefs.kt   data and settings

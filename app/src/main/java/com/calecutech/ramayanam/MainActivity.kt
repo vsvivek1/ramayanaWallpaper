@@ -2,7 +2,10 @@ package com.calecutech.ramayanam
 
 import android.app.Activity
 import android.app.AlertDialog
+import android.app.WallpaperManager
+import android.content.ComponentName
 import android.content.Context
+import android.content.Intent
 import android.graphics.Bitmap
 import android.os.Bundle
 import android.os.Handler
@@ -41,6 +44,7 @@ class MainActivity : Activity() {
     private lateinit var credit: TextView
     private lateinit var dayLabel: TextView
     private lateinit var todayButton: Button
+    private var storyPageShown: Boolean? = null
 
     override fun attachBaseContext(newBase: Context) {
         super.attachBaseContext(Lang.wrap(newBase))
@@ -75,6 +79,7 @@ class MainActivity : Activity() {
         findViewById<Button>(R.id.language).setOnClickListener { pickLanguage() }
 
         setupSettings()
+        setupStoryPage()
         setupLinks()
 
         if (Prefs.dailyEnabled(this)) {
@@ -84,6 +89,16 @@ class MainActivity : Activity() {
         }
 
         show(todayIndex)
+    }
+
+    override fun onResume() {
+        super.onResume()
+        // The person may be coming back from the wallpaper picker.
+        val active = WallpaperSetter.isStoryPageActive(this)
+        if (active != storyPageShown) {
+            updateStoryPageViews()
+            renderPreview()
+        }
     }
 
     override fun onDestroy() {
@@ -158,6 +173,100 @@ class MainActivity : Activity() {
         }
     }
 
+    /** The story page (live wallpaper) switch, which page it is on, and the dock space. */
+    private fun setupStoryPage() {
+        findViewById<Button>(R.id.storyPageToggle).setOnClickListener {
+            if (WallpaperSetter.isStoryPageActive(this)) turnOffStoryPage() else turnOnStoryPage()
+        }
+        findViewById<Button>(R.id.storyPageWhich).setOnClickListener {
+            val values = StoryPage.values()
+            val labels = values.map { storyPageLabel(it) }.toTypedArray()
+            AlertDialog.Builder(this)
+                .setTitle(R.string.story_page_title)
+                .setSingleChoiceItems(labels, values.indexOf(Prefs.storyPage(this))) { d, which ->
+                    d.dismiss()
+                    Prefs.setStoryPage(this, values[which])
+                    updateStoryPageViews()
+                }
+                .show()
+        }
+        findViewById<Button>(R.id.dockSpace).setOnClickListener {
+            val values = DockSpace.values()
+            val labels = values.map { dockSpaceLabel(it) }.toTypedArray()
+            AlertDialog.Builder(this)
+                .setTitle(R.string.dock_space_title)
+                .setSingleChoiceItems(labels, values.indexOf(Prefs.dockSpace(this))) { d, which ->
+                    d.dismiss()
+                    if (values[which] == Prefs.dockSpace(this)) return@setSingleChoiceItems
+                    Prefs.setDockSpace(this, values[which])
+                    updateStoryPageViews()
+                    renderPreview()
+                    // Redraw today's wallpaper with the new spacing (the story page redraws itself).
+                    worker.execute { runCatching { WallpaperSetter.applyTodayIfNeeded(applicationContext, force = Prefs.dailyEnabled(applicationContext)) } }
+                }
+                .show()
+        }
+        updateStoryPageViews()
+    }
+
+    private fun updateStoryPageViews() {
+        val active = WallpaperSetter.isStoryPageActive(this)
+        storyPageShown = active
+        findViewById<TextView>(R.id.storyPageStatus).setText(if (active) R.string.story_page_on else R.string.story_page_off)
+        findViewById<Button>(R.id.storyPageToggle).setText(if (active) R.string.story_page_turn_off else R.string.story_page_turn_on)
+        findViewById<Button>(R.id.storyPageWhich).apply {
+            visibility = if (active) View.VISIBLE else View.GONE
+            text = getString(R.string.story_page_button, storyPageLabel(Prefs.storyPage(this@MainActivity)))
+        }
+        findViewById<TextView>(R.id.storyPageHint).visibility = if (active) View.VISIBLE else View.GONE
+        findViewById<Button>(R.id.dockSpace).text =
+            getString(R.string.dock_space_button, dockSpaceLabel(Prefs.dockSpace(this)))
+    }
+
+    private fun storyPageLabel(p: StoryPage) = getString(
+        when (p) {
+            StoryPage.FIRST -> R.string.page_first
+            StoryPage.SECOND -> R.string.page_second
+            StoryPage.THIRD -> R.string.page_third
+            StoryPage.LAST -> R.string.page_last
+        }
+    )
+
+    private fun dockSpaceLabel(d: DockSpace) = getString(
+        when (d) {
+            DockSpace.SMALL -> R.string.dock_small
+            DockSpace.MEDIUM -> R.string.dock_medium
+            DockSpace.LARGE -> R.string.dock_large
+        }
+    )
+
+    /** Opens the system screen that sets the story page as the home screen wallpaper. */
+    private fun turnOnStoryPage() {
+        // Show the incident on screen if it was picked by hand, otherwise today's.
+        if (shownIndex != todayIndex) Prefs.setLiveIncident(this, incidents[shownIndex].id)
+        val component = ComponentName(this, StoryWallpaperService::class.java)
+        val direct = Intent(WallpaperManager.ACTION_CHANGE_LIVE_WALLPAPER)
+            .putExtra(WallpaperManager.EXTRA_LIVE_WALLPAPER_COMPONENT, component)
+        val chooser = Intent(WallpaperManager.ACTION_LIVE_WALLPAPER_CHOOSER)
+        val ok = runCatching { startActivity(direct) }.isSuccess || runCatching { startActivity(chooser) }.isSuccess
+        if (!ok) Toast.makeText(this, R.string.story_page_failed, Toast.LENGTH_LONG).show()
+    }
+
+    private fun turnOffStoryPage() {
+        val incident = incidents[todayIndex]
+        progress.visibility = View.VISIBLE
+        worker.execute {
+            val result = runCatching { WallpaperSetter.turnOffStoryPage(applicationContext, incident) }
+            main.post {
+                if (isDestroyed) return@post
+                progress.visibility = View.GONE
+                if (result.isFailure) Toast.makeText(this, R.string.wallpaper_failed, Toast.LENGTH_SHORT).show()
+                updateStoryPageViews()
+                renderPreview()
+            }
+        }
+    }
+
     /** Swipe left for the next incident and right for the previous one, on the picture or the story. */
     private fun setupSwipe(vararg views: View) {
         val detector = GestureDetector(this, object : GestureDetector.SimpleOnGestureListener() {
@@ -224,14 +333,16 @@ class MainActivity : Activity() {
         val incident = incidents[shownIndex]
         val token = ++renderToken
         progress.visibility = View.VISIBLE
-        val showText = Prefs.showText(this)
+        // With the story page on, the preview shows the story page itself.
+        val showText = Prefs.showText(this) || storyPageShown == true
         val centreText = Lang.info(Lang.current(this)).sriRama
+        val space = Prefs.dockSpace(this).fraction
         worker.execute {
             val (sw, sh) = WallpaperSetter.screenSize(applicationContext)
             val w = 720
             val h = (w.toLong() * sh / sw).toInt()
             val painting = runCatching { ImageStore.load(applicationContext, incident) }.getOrNull()
-            val bmp = WallpaperRenderer.render(w, h, incident, painting, showText, centreText)
+            val bmp = WallpaperRenderer.render(w, h, incident, painting, showText, centreText, space)
             painting?.recycle()
             main.post {
                 if (isDestroyed || token != renderToken) {

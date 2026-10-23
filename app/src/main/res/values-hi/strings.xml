@@ -34,4 +34,23 @@
     <string name="credit_commons">चित्र: विकिमीडिया कॉमन्स (सार्वजनिक क्षेत्र)</string>
     <string name="link_home">Calecutech होम पेज</string>
     <string name="link_privacy">गोपनीयता नीति</string>
+    <string name="home_screen">होम स्क्रीन</string>
+    <string name="story_page_off">होम स्क्रीन के नीचे लगे ऐप कहानी को ढक सकते हैं। कहानी पेज चालू करने पर एक होम स्क्रीन पेज पर चित्र और कहानी डॉक के ऊपर साफ़ दिखेंगे। बाकी पेजों पर केवल चित्र।</string>
+    <string name="story_page_on">कहानी पेज चालू है। एक होम स्क्रीन पेज पर चित्र और कहानी; बाकी पेजों पर केवल चित्र।</string>
+    <string name="story_page_turn_on">कहानी पेज चालू करें</string>
+    <string name="story_page_turn_off">कहानी पेज बंद करें</string>
+    <string name="story_page_title">कहानी पेज</string>
+    <string name="story_page_button">कहानी पेज: %1$s</string>
+    <string name="page_first">पहला पेज</string>
+    <string name="page_second">दूसरा पेज</string>
+    <string name="page_third">तीसरा पेज</string>
+    <string name="page_last">आखिरी पेज</string>
+    <string name="dock_space_title">डॉक ऐप्स के लिए जगह</string>
+    <string name="dock_space_button">डॉक ऐप्स के लिए जगह: %1$s</string>
+    <string name="dock_small">कम</string>
+    <string name="dock_medium">मध्यम</string>
+    <string name="dock_large">ज़्यादा</string>
+    <string name="story_page_hint">कहानी पढ़ने के लिए उस पेज पर स्वाइप करें। अगर पेजों के साथ वॉलपेपर नहीं हिलता, तो होम स्क्रीन की खाली जगह पर दो बार टैप करके चित्र और कहानी के बीच बदलें।</string>
+    <string name="live_wallpaper_description">आज का चित्र और कहानी एक होम स्क्रीन पेज पर, डॉक के ऊपर।</string>
+    <string name="story_page_failed">वॉलपेपर चुनने की स्क्रीन नहीं खुली। वॉलपेपर, लाइव वॉलपेपर में यह ऐप चुनें।</string>
 </resources>

@@ -34,4 +34,23 @@
     <string name="credit_commons">ಚಿತ್ರ: ವಿಕಿಮೀಡಿಯಾ ಕಾಮನ್ಸ್ (ಸಾರ್ವಜನಿಕ ಸ್ವತ್ತು)</string>
     <string name="link_home">Calecutech ಮುಖಪುಟ</string>
     <string name="link_privacy">ಗೌಪ್ಯತಾ ನೀತಿ</string>
+    <string name="home_screen">ಹೋಮ್ ಸ್ಕ್ರೀನ್</string>
+    <string name="story_page_off">ಹೋಮ್ ಸ್ಕ್ರೀನ್‌ನ ಕೆಳಗೆ ಸ್ಥಿರವಾಗಿರುವ ಆ್ಯಪ್‌ಗಳು ಕಥೆಯನ್ನು ಮುಚ್ಚಬಹುದು. ಕಥೆ ಪುಟವನ್ನು ಆನ್ ಮಾಡಿದರೆ, ಒಂದು ಹೋಮ್ ಸ್ಕ್ರೀನ್ ಪುಟದಲ್ಲಿ ಚಿತ್ರ ಮತ್ತು ಕಥೆ ಡಾಕ್‌ನ ಮೇಲೆ ಸ್ಪಷ್ಟವಾಗಿ ಕಾಣುತ್ತವೆ. ಇತರ ಪುಟಗಳಲ್ಲಿ ಚಿತ್ರ ಮಾತ್ರ.</string>
+    <string name="story_page_on">ಕಥೆ ಪುಟ ಆನ್ ಆಗಿದೆ. ಒಂದು ಹೋಮ್ ಸ್ಕ್ರೀನ್ ಪುಟದಲ್ಲಿ ಚಿತ್ರ ಮತ್ತು ಕಥೆ; ಇತರ ಪುಟಗಳಲ್ಲಿ ಚಿತ್ರ ಮಾತ್ರ.</string>
+    <string name="story_page_turn_on">ಕಥೆ ಪುಟ ಆನ್ ಮಾಡಿ</string>
+    <string name="story_page_turn_off">ಕಥೆ ಪುಟ ಆಫ್ ಮಾಡಿ</string>
+    <string name="story_page_title">ಕಥೆ ಪುಟ</string>
+    <string name="story_page_button">ಕಥೆ ಪುಟ: %1$s</string>
+    <string name="page_first">ಮೊದಲ ಪುಟ</string>
+    <string name="page_second">ಎರಡನೇ ಪುಟ</string>
+    <string name="page_third">ಮೂರನೇ ಪುಟ</string>
+    <string name="page_last">ಕೊನೆಯ ಪುಟ</string>
+    <string name="dock_space_title">ಡಾಕ್ ಆ್ಯಪ್‌ಗಳಿಗೆ ಜಾಗ</string>
+    <string name="dock_space_button">ಡಾಕ್ ಆ್ಯಪ್‌ಗಳಿಗೆ ಜಾಗ: %1$s</string>
+    <string name="dock_small">ಸಣ್ಣ</string>
+    <string name="dock_medium">ಮಧ್ಯಮ</string>
+    <string name="dock_large">ದೊಡ್ಡ</string>
+    <string name="story_page_hint">ಕಥೆ ಓದಲು ಆ ಪುಟಕ್ಕೆ ಸ್ವೈಪ್ ಮಾಡಿ. ಪುಟಗಳ ಜೊತೆ ವಾಲ್‌ಪೇಪರ್ ಚಲಿಸದಿದ್ದರೆ, ಹೋಮ್ ಸ್ಕ್ರೀನ್‌ನ ಖಾಲಿ ಜಾಗದಲ್ಲಿ ಎರಡು ಬಾರಿ ತಟ್ಟಿ ಚಿತ್ರ ಮತ್ತು ಕಥೆಯ ನಡುವೆ ಬದಲಿಸಿ.</string>
+    <string name="live_wallpaper_description">ಇಂದಿನ ಚಿತ್ರ ಮತ್ತು ಕಥೆ ಒಂದು ಹೋಮ್ ಸ್ಕ್ರೀನ್ ಪುಟದಲ್ಲಿ, ಡಾಕ್‌ನ ಮೇಲೆ.</string>
+    <string name="story_page_failed">ವಾಲ್‌ಪೇಪರ್ ಆಯ್ಕೆ ತೆರೆಯಲಾಗಲಿಲ್ಲ. ವಾಲ್‌ಪೇಪರ್‌ಗಳು, ಲೈವ್ ವಾಲ್‌ಪೇಪರ್‌ಗಳಲ್ಲಿ ಈ ಆ್ಯಪ್ ಆಯ್ಕೆಮಾಡಿ.</string>
 </resources>

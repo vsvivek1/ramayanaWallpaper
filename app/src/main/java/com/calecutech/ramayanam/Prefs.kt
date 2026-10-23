@@ -7,6 +7,12 @@ import java.time.LocalDate
 /** Wallpaper targets, matching WallpaperManager.FLAG_SYSTEM / FLAG_LOCK. */
 enum class Target { BOTH, HOME, LOCK }
 
+/** How much room to leave at the bottom of the wallpaper for the dock (fixed apps) and gesture bar. */
+enum class DockSpace(val fraction: Float) { SMALL(0.13f), MEDIUM(0.20f), LARGE(0.27f) }
+
+/** Which home screen page shows the picture and story when the story page is on. */
+enum class StoryPage { FIRST, SECOND, THIRD, LAST }
+
 object Prefs {
     private fun p(c: Context): SharedPreferences =
         c.getSharedPreferences("settings", Context.MODE_PRIVATE)
@@ -52,4 +58,39 @@ object Prefs {
     fun lastAppliedWithImage(c: Context) = p(c).getBoolean("last_with_image", true)
     fun setLastAppliedWithImage(c: Context, v: Boolean) =
         p(c).edit().putBoolean("last_with_image", v).apply()
+
+    fun dockSpace(c: Context): DockSpace =
+        runCatching { DockSpace.valueOf(p(c).getString("dock_space", DockSpace.MEDIUM.name)!!) }
+            .getOrDefault(DockSpace.MEDIUM)
+
+    fun setDockSpace(c: Context, v: DockSpace) = p(c).edit().putString("dock_space", v.name).apply()
+
+    fun storyPage(c: Context): StoryPage =
+        runCatching { StoryPage.valueOf(p(c).getString("story_page", StoryPage.FIRST.name)!!) }
+            .getOrDefault(StoryPage.FIRST)
+
+    fun setStoryPage(c: Context, v: StoryPage) = p(c).edit().putString("story_page", v.name).apply()
+
+    /**
+     * The incident the story page shows, when it was picked by hand today ("Set as wallpaper"
+     * on another incident). Returns null when the story page should show today's incident.
+     */
+    fun liveIncidentId(c: Context): Int? {
+        val prefs = p(c)
+        if (prefs.getLong("live_day", -1) != LocalDate.now().toEpochDay()) return null
+        return prefs.getInt("live_incident", -1).takeIf { it >= 0 }
+    }
+
+    /** Stores the story page's incident and tells the running story page to redraw. */
+    fun setLiveIncident(c: Context, id: Int) = p(c).edit()
+        .putInt("live_incident", id)
+        .putLong("live_day", LocalDate.now().toEpochDay())
+        .putLong("live_version", System.currentTimeMillis())
+        .apply()
+
+    fun registerListener(c: Context, l: SharedPreferences.OnSharedPreferenceChangeListener) =
+        p(c).registerOnSharedPreferenceChangeListener(l)
+
+    fun unregisterListener(c: Context, l: SharedPreferences.OnSharedPreferenceChangeListener) =
+        p(c).unregisterOnSharedPreferenceChangeListener(l)
 }
